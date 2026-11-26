@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <path transform="translate(125,50) scale(1.5)" d="M50 0 C78 0 100 45 100 80 C100 110 78 130 50 130 C22 130 0 110 0 80 C0 45 22 0 50 0 Z" fill="none" stroke="#4A5D23" stroke-width="4"/>
+  <text x="201.5" y="110" text-anchor="middle" font-family="Manrope, sans-serif" font-size="10" font-weight="700" fill="#4A5D23" letter-spacing="3">ES · 2026</text>
+  <line x1="170" y1="122" x2="230" y2="122" stroke="#4A5D23" stroke-width="1.5"/>
+  <text x="200.5" y="162" text-anchor="middle" font-family="Manrope, sans-serif" font-size="32" font-weight="800" fill="#4A5D23" letter-spacing="1">PRIME</text>
+  <text x="200.5" y="198" text-anchor="middle" font-family="Manrope, sans-serif" font-size="32" font-weight="800" fill="#4A5D23" letter-spacing="1">EGG</text>
+  <line x1="170" y1="210" x2="230" y2="210" stroke="#4A5D23" stroke-width="1.5"/>
+  <text x="200.75" y="224" text-anchor="middle" font-family="Manrope, sans-serif" font-size="8.5" font-weight="700" fill="#4A5D23" letter-spacing="1.5">DISTRIBUTION</text>
+</svg>

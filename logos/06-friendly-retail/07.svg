@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<circle cx="200" cy="102" r="36" fill="#FFC530"/>
+<circle cx="188" cy="98" r="4.5" fill="#22304D"/><circle cx="212" cy="98" r="4.5" fill="#22304D"/>
+<path d="M194 108 L206 108 L200 117 Z" fill="#FF8A3D" stroke="#FF8A3D" stroke-width="3" stroke-linejoin="round"/>
+<g transform="rotate(-14 200 66)"><path d="M172 70 C174 52 186 42 200 42 C214 42 226 52 228 70 L219 63 L210 71 L200 62 L190 71 L181 63 Z" fill="#FFFFFF" stroke="#1F8FD0" stroke-width="4" stroke-linejoin="round"/></g>
+<path d="M150 120 L162 110 L174 122 L187 108 L200 121 L213 108 L226 122 L238 110 L250 120 C251 152 228 176 200 176 C172 176 149 152 150 120 Z" fill="#FFFFFF" stroke="#1F8FD0" stroke-width="5" stroke-linejoin="round"/>
+<text x="200" y="228" text-anchor="middle" font-family="'Baloo 2', sans-serif" font-weight="700" font-size="44" fill="#1F8FD0">Prime<tspan fill="#3FAE5A">egg</tspan></text>
+<text x="200" y="254" text-anchor="middle" font-family="'Baloo 2', sans-serif" font-weight="600" font-size="13" letter-spacing="5" fill="#22304D">DISTRIBUTION</text>
+</svg>

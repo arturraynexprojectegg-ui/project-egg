@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <g fill="none" stroke="#E3A23A" stroke-width="2.5" stroke-linecap="round">
+    <line x1="200" y1="52" x2="200" y2="42"/><line x1="176" y1="60" x2="170" y2="52"/><line x1="224" y1="60" x2="230" y2="52"/>
+  </g>
+  <path d="M200.0 62.0 C214.0 62.0 225.0 84.1 225.0 101.4 C225.0 116.1 214.0 126.0 200.0 126.0 C186.0 126.0 175.0 116.1 175.0 101.4 C175.0 84.1 186.0 62.0 200.0 62.0 Z" fill="none" stroke="#E3A23A" stroke-width="3.5"/>
+  <g fill="none" stroke="#2F5D3A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M200 166 C172 166 148 148 144 112 C143 104 152 100 156 108 C160 118 166 130 176 136 M156 108 C152 96 160 90 166 98 C170 106 172 116 178 124 M200 150 C186 150 176 144 170 134"/>
+    <path d="M200 166 C172 166 148 148 144 112 C143 104 152 100 156 108 C160 118 166 130 176 136 M156 108 C152 96 160 90 166 98 C170 106 172 116 178 124 M200 150 C186 150 176 144 170 134" transform="translate(400 0) scale(-1 1)"/>
+  </g>
+  <text x="200" y="218" text-anchor="middle" font-family="Cormorant Garamond, serif" font-weight="600" font-size="50" fill="#2F5D3A">Primeegg</text>
+  <text x="200" y="245" text-anchor="middle" font-family="Cormorant Garamond, serif" font-weight="600" font-size="13" letter-spacing="4" fill="#8A9A5B">CUIDADO NATURAL · ESPAÑA</text>
+</svg>

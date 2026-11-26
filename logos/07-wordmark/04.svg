@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <title>Primeegg — P с яйцом</title>
+  <path fill-rule="evenodd" fill="#7A1E2B" d="M160 50 H205 C228 50 243 64 243 81 C243 98 228 112 205 112 H188 V145 H198 V151 H160 V145 H170 V56 H160 Z M188 64 H203 C217 64 226 71 226 81 C226 91 217 98 203 98 H188 Z"/>
+  <path d="M206.5 67 C212.4 67 217 76.7 217 84.2 C217 90.7 212.4 95 206.5 95 C200.6 95 196 90.7 196 84.2 C196 76.7 200.6 67 206.5 67 Z" fill="#C8902E"/>
+  <text x="108" y="208" textLength="118" lengthAdjust="spacingAndGlyphs" font-family="Playfair Display, serif" font-weight="700" font-size="44" fill="#7A1E2B">Prime</text>
+  <text x="229" y="208" textLength="62" lengthAdjust="spacingAndGlyphs" font-family="Playfair Display, serif" font-style="italic" font-weight="700" font-size="44" fill="#C8902E">egg</text>
+  <text x="200" y="240" text-anchor="middle" font-family="Playfair Display, serif" font-weight="400" font-size="12" letter-spacing="6" fill="#7A1E2B">DISTRIBUTION</text>
+</svg>

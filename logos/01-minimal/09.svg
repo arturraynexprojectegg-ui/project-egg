@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <g fill="#E8A600">
+    <rect x="36" y="122" width="52" height="7" rx="3.5"/>
+    <rect x="50" y="137" width="38" height="7" rx="3.5"/>
+    <rect x="64" y="152" width="24" height="7" rx="3.5"/>
+    <path transform="translate(100,96) scale(0.65)" d="M50 0 C78 0 100 45 100 80 C100 110 78 130 50 130 C22 130 0 110 0 80 C0 45 22 0 50 0 Z"/>
+  </g>
+  <text x="185" y="147" font-family="Montserrat, sans-serif" font-size="28" font-weight="800" fill="#3B2A1A" letter-spacing="1">PRIMEEGG</text>
+  <text x="186" y="170" font-family="Montserrat, sans-serif" font-size="11" font-weight="500" fill="#3B2A1A" letter-spacing="5.3">DISTRIBUTION</text>
+</svg>

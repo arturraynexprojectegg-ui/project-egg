@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect x="40" y="98" width="320" height="104" rx="52" fill="#FF6B5B"/>
+<text x="200" y="168" text-anchor="middle" font-family="Fredoka, sans-serif" font-weight="700" font-size="56" fill="#FFFFFF">primeegg</text>
+<path d="M338.0 70.0 C349.2 70.0 358.0 88.0 358.0 102.0 C358.0 114.0 349.2 122.0 338.0 122.0 C326.8 122.0 318.0 114.0 318.0 102.0 C318.0 88.0 326.8 70.0 338.0 70.0 Z" fill="#FFC530" stroke="#FFFFFF" stroke-width="5" transform="rotate(18 338 96)"/>
+<text x="200" y="236" text-anchor="middle" font-family="Fredoka, sans-serif" font-weight="600" font-size="14" letter-spacing="6" fill="#22304D">DISTRIBUTION</text>
+</svg>

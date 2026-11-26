@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <ellipse cx="79" cy="190" rx="18" ry="4" fill="#0B3C5D" opacity="0.25"/>
+  <path d="M50 0 C78 0 100 45 100 80 C100 110 78 130 50 130 C22 130 0 110 0 80 C0 45 22 0 50 0 Z" transform="translate(48,178) scale(0.62,-0.62)" fill="#0B3C5D"/>
+  <circle cx="79" cy="128" r="15" fill="#F2B705"/>
+  <circle cx="79" cy="128" r="5" fill="#0B3C5D"/>
+  <rect x="142" y="114" width="36" height="5" fill="#F2B705"/>
+  <text x="140" y="156" font-family="Montserrat, sans-serif" font-weight="800" font-size="38" fill="#0B3C5D">PRIME<tspan fill="#D9A000">EGG</tspan></text>
+  <text x="142" y="180" font-family="Montserrat, sans-serif" font-weight="600" font-size="12" letter-spacing="4" fill="#0B3C5D">DISTRIBUTION</text>
+</svg>

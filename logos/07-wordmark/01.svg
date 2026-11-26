@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <title>Primeegg — Яйцо-g</title>
+  <text x="40" y="150" textLength="262" lengthAdjust="spacingAndGlyphs" font-family="Bricolage Grotesque, sans-serif" font-weight="800" font-size="68" fill="#2A1A10">Primeeg</text>
+  <path d="M327 106 C337.6 106 346 121.6 346 133.7 C346 144.1 337.6 151 327 151 C316.4 151 308 144.1 308 133.7 C308 121.6 316.4 106 327 106 Z" fill="#2A1A10"/>
+  <circle cx="327" cy="133" r="10" fill="#F5B21B"/>
+  <path d="M342 138 V164 C342 180 331 188 317 188 C308 188 301 185 296 180" fill="none" stroke="#2A1A10" stroke-width="9" stroke-linecap="round"/>
+  <text x="200" y="222" text-anchor="middle" font-family="Bricolage Grotesque, sans-serif" font-weight="600" font-size="14" letter-spacing="7" fill="#2A1A10">DISTRIBUTION</text>
+</svg>

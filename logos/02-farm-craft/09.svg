@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 300">
+  <path d="M64 86 C50 70 40 56 44 36" fill="none" stroke="#8B5E34" stroke-width="1.6" stroke-linecap="round"/>
+  <path fill-rule="evenodd" d="M78 82 L352 82 Q358 82 358 88 L358 212 Q358 218 352 218 L78 218 L44 150 Z M64 150 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0 Z" fill="none" stroke="#8B5E34" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M82 92 L348 92 L348 208 L82 208 L56 150 Z" fill="none" stroke="#8B5E34" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <circle cx="71" cy="150" r="7" fill="none" stroke="#8B5E34" stroke-width="2"/>
+  <path fill-rule="evenodd" d="M120 106 a17 17 0 1 0 0.01 0 Z M124 117 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0 Z" fill="#9E2B25"/>
+  <path d="M136 120 L146 124 L136 128 Z" fill="#9E2B25"/>
+  <path d="M116 104 C114 98 118 96 120 100 C121 95 126 96 124 103 Z" fill="#9E2B25"/>
+  <path d="M96 144 L104 136 L111 146 L119 134 L127 146 L135 136 L143 144 C143 172 134 188 119.5 188 C105 188 96 172 96 144 Z" fill="#8B5E34"/>
+  <text x="254" y="158" font-family="Caveat, cursive" font-size="50" font-weight="700" fill="#8B5E34" text-anchor="middle">Primeegg</text>
+  <text x="254" y="188" font-family="Oswald, sans-serif" font-size="11" font-weight="500" fill="#9E2B25" letter-spacing="2.5" text-anchor="middle">HUEVOS DE GRANJA · 2026</text>
+</svg>

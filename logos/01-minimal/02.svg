@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <text x="124" y="180" text-anchor="end" font-family="Outfit, sans-serif" font-size="62" font-weight="600" fill="#1B4332">pr</text>
+  <rect x="130" y="150" width="8" height="30" fill="#1B4332"/>
+  <path transform="translate(128,127) scale(0.12)" d="M50 0 C78 0 100 45 100 80 C100 110 78 130 50 130 C22 130 0 110 0 80 C0 45 22 0 50 0 Z" fill="#F4A300"/>
+  <text x="142" y="180" font-family="Outfit, sans-serif" font-size="62" font-weight="600" fill="#1B4332">meegg</text>
+  <text x="202" y="226" text-anchor="middle" font-family="Outfit, sans-serif" font-size="11" font-weight="500" fill="#1B4332" letter-spacing="4">DISTRIBUTION · ESPAÑA</text>
+</svg>

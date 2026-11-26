@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <title>Primeegg — Два яйца в лотке</title>
+  <text x="36" y="165" textLength="138" lengthAdjust="spacingAndGlyphs" font-family="Bebas Neue, sans-serif" font-weight="400" font-size="92" fill="#1D3557">PRIM</text>
+  <path d="M206 101 C218.9 101 229 122.5 229 139.1 C229 153.5 218.9 163 206 163 C193.1 163 183 153.5 183 139.1 C183 122.5 193.1 101 206 101 Z" fill="#F1A63B"/>
+  <path d="M258 101 C270.9 101 281 122.5 281 139.1 C281 153.5 270.9 163 258 163 C245.1 163 235 153.5 235 139.1 C235 122.5 245.1 101 258 101 Z" fill="#F1A63B"/>
+  <path d="M178 151 C192 163 220 163 232 151 C244 163 272 163 286 151 V173 H178 Z" fill="#1D3557"/>
+  <text x="294" y="165" textLength="70" lengthAdjust="spacingAndGlyphs" font-family="Bebas Neue, sans-serif" font-weight="400" font-size="92" fill="#1D3557">GG</text>
+  <text x="200" y="211" text-anchor="middle" font-family="Bebas Neue, sans-serif" font-weight="400" font-size="21" letter-spacing="4" fill="#1D3557">FARM EGGS &amp; EGG PRODUCTS</text>
+</svg>

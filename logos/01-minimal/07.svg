@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <path transform="translate(85,58) scale(0.8)" d="M50 0 C78 0 100 45 100 80 C100 110 78 130 50 130 C22 130 0 110 0 80 C0 45 22 0 50 0 Z" fill="#F2B705"/>
+  <polygon points="178,56 196,56 181,100 168,100" fill="#C1121F"/>
+  <text x="85" y="215" font-family="Syne, sans-serif" font-size="40" font-weight="800" fill="#C1121F" textLength="230" lengthAdjust="spacingAndGlyphs">Primeegg</text>
+  <text x="87" y="242" font-family="Syne, sans-serif" font-size="13" font-weight="500" fill="#C1121F">Huevos · Ovoproductos</text>
+</svg>

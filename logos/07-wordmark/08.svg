@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <title>Primeegg — G-яйцо</title>
+  <defs>
+    <mask id="g08">
+      <rect x="0" y="0" width="400" height="300" fill="#FFFFFF"/>
+      <rect x="252" y="157" width="30" height="16" fill="#000000"/>
+    </mask>
+  </defs>
+  <text x="72" y="122" textLength="256" lengthAdjust="spacingAndGlyphs" font-family="Syne, sans-serif" font-weight="800" font-size="64" fill="#4E5B2A">PRIME</text>
+  <text x="120" y="196" textLength="104" lengthAdjust="spacingAndGlyphs" font-family="Syne, sans-serif" font-weight="800" font-size="64" fill="#4E5B2A">EG</text>
+  <g fill="#E9A23B">
+    <path fill-rule="evenodd" mask="url(#g08)" d="M249 146 C260.2 146 269 163.3 269 176.8 C269 188.3 260.2 196 249 196 C237.8 196 229 188.3 229 176.8 C229 163.3 237.8 146 249 146 Z M249 155 C255.2 155 260 166.8 260 175.9 C260 183.8 255.2 189 249 189 C242.8 189 238 183.8 238 175.9 C238 166.8 242.8 155 249 155 Z"/>
+    <rect x="250" y="173" width="19" height="8"/>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="Syne, sans-serif" font-weight="600" font-size="11" letter-spacing="3" fill="#4E5B2A">FARM EGGS &amp; EGG PRODUCTS</text>
+</svg>

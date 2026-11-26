@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <path d="M50 0 C78 0 100 45 100 80 C100 110 78 130 50 130 C22 130 0 110 0 80 C0 45 22 0 50 0 Z" transform="translate(160,36) scale(0.8)" fill="#1F4D3A"/>
+  <polyline points="176,78 196,98 176,118" fill="none" stroke="#F3E9D2" stroke-width="10" stroke-linecap="square" stroke-linejoin="miter"/>
+  <polyline points="200,78 220,98 200,118" fill="none" stroke="#E8A317" stroke-width="10" stroke-linecap="square" stroke-linejoin="miter"/>
+  <text x="200" y="196" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-weight="700" font-size="40" letter-spacing="2" fill="#1F4D3A">PRIMEEGG</text>
+  <rect x="120" y="207" width="160" height="2" fill="#E8A317"/>
+  <text x="200" y="228" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-weight="500" font-size="11" letter-spacing="2.5" fill="#1F4D3A">FARM EGGS &amp; EGG PRODUCTS</text>
+</svg>

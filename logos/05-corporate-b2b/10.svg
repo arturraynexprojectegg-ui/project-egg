@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <text x="200" y="145" text-anchor="middle" font-family="Manrope, sans-serif" font-weight="800" font-size="50" fill="#2F5D3A">Prime<tspan fill="#C99400">egg</tspan></text>
+  <circle cx="88" cy="172" r="6" fill="#2F5D3A"/>
+  <path d="M100 176 Q200 204 290 176" fill="none" stroke="#2F5D3A" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 7"/>
+  <path d="M50 0 C78 0 100 45 100 80 C100 110 78 130 50 130 C22 130 0 110 0 80 C0 45 22 0 50 0 Z" transform="translate(296,160) scale(0.16)" fill="#F2B705" stroke="#2F5D3A" stroke-width="18"/>
+  <text x="200" y="226" text-anchor="middle" font-family="Manrope, sans-serif" font-weight="700" font-size="12" letter-spacing="6" fill="#2F5D3A">DISTRIBUTION</text>
+</svg>

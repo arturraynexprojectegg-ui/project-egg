@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <clipPath id="z4"><path d="M40 150 L55 140 L68 152 L80 138 L92 150 L104 137 L116 150 L128 140 L140 150 L140 210 L40 210 Z"/></clipPath>
+    <clipPath id="e4"><path d="M90.0 105.0 C109.6 105.0 125.0 136.5 125.0 161.0 C125.0 182.0 109.6 196.0 90.0 196.0 C70.4 196.0 55.0 182.0 55.0 161.0 C55.0 136.5 70.4 105.0 90.0 105.0 Z"/></clipPath>
+  </defs>
+  <path d="M90 176 C90 150 92 130 90 108" fill="none" stroke="#2F5D3A" stroke-width="3" stroke-linecap="round"/>
+  <path d="M90 120 C78 114 66 102 64 88 C78 88 88 100 90 120 Z" fill="none" stroke="#8A9A5B" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M90 110 C96 94 110 82 126 80 C124 96 110 108 90 110 Z" fill="none" stroke="#8A9A5B" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M90.0 105.0 C109.6 105.0 125.0 136.5 125.0 161.0 C125.0 182.0 109.6 196.0 90.0 196.0 C70.4 196.0 55.0 182.0 55.0 161.0 C55.0 136.5 70.4 105.0 90.0 105.0 Z" fill="none" stroke="#2F5D3A" stroke-width="3.5" clip-path="url(#z4)"/>
+  <path d="M40 150 L55 140 L68 152 L80 138 L92 150 L104 137 L116 150 L128 140 L140 150" fill="none" stroke="#2F5D3A" stroke-width="3.5" stroke-linejoin="round" clip-path="url(#e4)"/>
+  <text x="160" y="152" font-family="Quicksand, sans-serif" font-weight="700" font-size="46"><tspan fill="#2F5D3A">prime</tspan><tspan fill="#8A9A5B">egg</tspan></text>
+  <text x="162" y="180" font-family="Quicksand, sans-serif" font-weight="600" font-size="15" letter-spacing="2" fill="#8A9A5B">ecológico · bio</text>
+</svg>

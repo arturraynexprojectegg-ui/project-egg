@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <title>Primeegg — e-яйцо с желтком</title>
+  <defs>
+    <clipPath id="c09"><rect x="108" y="145" width="36" height="21"/></clipPath>
+    <mask id="m09">
+      <rect x="0" y="0" width="400" height="300" fill="#FFFFFF"/>
+      <rect x="128" y="170.2" width="30" height="10.1" fill="#000000"/>
+    </mask>
+  </defs>
+  <rect x="88" y="72" width="6" height="118" fill="#F2C14E"/>
+  <text x="106" y="120" textLength="192" lengthAdjust="spacingAndGlyphs" font-family="Space Grotesk, sans-serif" font-weight="700" font-size="70" fill="#2E4A62">prime</text>
+  <path clip-path="url(#c09)" d="M126 153 C131.6 153 136 162 136 169 C136 175 131.6 179 126 179 C120.4 179 116 175 116 169 C116 162 120.4 153 126 153 Z" fill="#F2C14E"/>
+  <path fill-rule="evenodd" mask="url(#m09)" fill="#2E4A62" d="M126 145 C136.1 145 144 159.5 144 170.8 C144 180.5 136.1 187 126 187 C115.9 187 108 180.5 108 170.8 C108 159.5 115.9 145 126 145 Z M126 153 C131.6 153 136 162 136 169 C136 175 131.6 179 126 179 C120.4 179 116 175 116 169 C116 162 120.4 153 126 153 Z"/>
+  <rect x="112" y="166" width="28" height="7" fill="#2E4A62"/>
+  <text x="150" y="187" textLength="82" lengthAdjust="spacingAndGlyphs" font-family="Space Grotesk, sans-serif" font-weight="700" font-size="70" fill="#2E4A62">gg</text>
+  <text x="108" y="236" font-family="Space Grotesk, sans-serif" font-weight="500" font-size="12" letter-spacing="4" fill="#2E4A62">DISTRIBUTION · ESPAÑA</text>
+</svg>

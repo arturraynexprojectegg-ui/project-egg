@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <g fill="none" stroke-width="20" stroke-linecap="round">
+    <path transform="translate(164,64) scale(0.6)" d="M50 0 C22 0 0 45 0 80 C0 110 22 130 50 130" stroke="#14213D"/>
+    <path transform="translate(176,64) scale(0.6)" d="M50 0 C78 0 100 45 100 80 C100 110 78 130 50 130" stroke="#FCA311"/>
+  </g>
+  <text x="203" y="200" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="36" font-weight="700" fill="#14213D" letter-spacing="6">PRIMEEGG</text>
+  <text x="201.5" y="228" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="500" fill="#14213D" letter-spacing="3">FARM EGGS &amp; EGG PRODUCTS</text>
+</svg>

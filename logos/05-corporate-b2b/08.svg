@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <clipPath id="g08"><path d="M50 0 C78 0 100 45 100 80 C100 110 78 130 50 130 C22 130 0 110 0 80 C0 45 22 0 50 0 Z" transform="translate(268,99) scale(0.78)"/></clipPath>
+  </defs>
+  <text x="32" y="148" font-family="Inter, sans-serif" font-weight="800" font-size="34" fill="#0B3C5D">PRIMEEGG</text>
+  <text x="33" y="172" font-family="Inter, sans-serif" font-weight="500" font-size="12" fill="#0B3C5D">Farm Eggs &amp; Egg Products</text>
+  <rect x="33" y="184" width="40" height="3" fill="#F2B705"/>
+  <path d="M50 0 C78 0 100 45 100 80 C100 110 78 130 50 130 C22 130 0 110 0 80 C0 45 22 0 50 0 Z" transform="translate(268,99) scale(0.78)" fill="#0B3C5D"/>
+  <g clip-path="url(#g08)" fill="none" stroke="#5FA8D3" stroke-width="2.5">
+    <line x1="260" y1="125" x2="360" y2="125"/><line x1="260" y1="152" x2="360" y2="152"/><line x1="260" y1="178" x2="360" y2="178"/>
+    <line x1="307" y1="90" x2="307" y2="210"/>
+    <ellipse cx="307" cy="150" rx="18" ry="60"/>
+  </g>
+  <g transform="translate(307,152) rotate(-20)">
+    <path d="M -50.2 8 A 58 16 0 1 0 -57.1 -2.8" fill="none" stroke="#F2B705" stroke-width="4" stroke-linecap="round"/>
+    <polygon points="-60.9,3.1 -52.9,-0.1 -61.3,-5.5" fill="#F2B705"/>
+  </g>
+</svg>

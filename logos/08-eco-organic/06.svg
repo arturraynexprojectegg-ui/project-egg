@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs><clipPath id="c6"><circle cx="200" cy="100" r="54"/></clipPath></defs>
+  <circle cx="200" cy="100" r="62" fill="none" stroke="#2F5D3A" stroke-width="3"/>
+  <circle cx="200" cy="100" r="54" fill="none" stroke="#2F5D3A" stroke-width="1.5"/>
+  <g clip-path="url(#c6)" fill="none" stroke-linecap="round">
+    <circle cx="224" cy="80" r="11" fill="#F2B84B" stroke="none"/>
+    <path d="M140 112 C162 96 186 98 206 110 C222 100 244 98 262 108" stroke="#8A9A5B" stroke-width="3"/>
+    <path d="M140 130 C170 116 214 118 262 132" stroke="#2F5D3A" stroke-width="3"/>
+    <path d="M166 122 v-16 M182 120 v-16 M198 120 v-16 M214 121 v-16 M230 123 v-16 M160 112 H236 M160 118 H236" stroke="#2F5D3A" stroke-width="2.5"/>
+    <path d="M176 146 l-3 -8 M182 147 l1 -9 M218 146 l3 -8 M224 147 l-1 -8 M200 150 v-8" stroke="#8A9A5B" stroke-width="2.5"/>
+  </g>
+  <text x="200" y="216" text-anchor="middle" font-family="Outfit, sans-serif" font-weight="600" font-size="34" letter-spacing="6" fill="#2F5D3A">PRIMEEGG</text>
+  <text x="200" y="242" text-anchor="middle" font-family="Outfit, sans-serif" font-weight="400" font-size="12" letter-spacing="5" fill="#8A9A5B">HUEVOS CAMPERAS</text>
+</svg>

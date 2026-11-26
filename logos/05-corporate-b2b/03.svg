@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect x="34" y="105" width="90" height="90" rx="10" fill="#2B2D31"/>
+  <rect x="34" y="143" width="90" height="4" fill="#F5F1EA" opacity="0.15"/>
+  <circle cx="60" cy="131" r="14" fill="#F5F1EA"/>
+  <circle cx="98" cy="131" r="14" fill="#F26B1D"/>
+  <circle cx="60" cy="169" r="14" fill="#F5F1EA"/>
+  <circle cx="98" cy="169" r="14" fill="#F5F1EA"/>
+  <text x="142" y="156" font-family="Archivo Black, sans-serif" font-weight="400" font-size="33" fill="#2B2D31">PRIMEEGG</text>
+  <rect x="143" y="168" width="14" height="14" fill="#F26B1D"/>
+  <text x="165" y="180" font-family="Inter, sans-serif" font-weight="600" font-size="12" letter-spacing="3.5" fill="#2B2D31">EGG DISTRIBUTION</text>
+</svg>

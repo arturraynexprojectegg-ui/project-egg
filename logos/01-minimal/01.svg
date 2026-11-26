@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <mask id="m01" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="300">
+      <rect x="0" y="0" width="400" height="300" fill="#fff"/>
+      <path transform="translate(70,101) scale(0.46)" d="M50 0 C78 0 100 45 100 80 C100 110 78 130 50 130 C22 130 0 110 0 80 C0 45 22 0 50 0 Z" fill="#000"/>
+    </mask>
+  </defs>
+  <path d="M40 85 H95 C122 85 140 105 140 130 C140 155 122 175 95 175 H66 V215 H40 Z" fill="#2B2B2B" mask="url(#m01)"/>
+  <circle cx="93" cy="138" r="10" fill="#F2B705"/>
+  <text x="165" y="160" font-family="Manrope, sans-serif" font-size="38" font-weight="800" fill="#2B2B2B" letter-spacing="-0.5">Prime<tspan font-weight="500">egg</tspan></text>
+  <text x="167" y="186" font-family="Manrope, sans-serif" font-size="11" font-weight="600" fill="#2B2B2B" letter-spacing="5">DISTRIBUTION</text>
+</svg>

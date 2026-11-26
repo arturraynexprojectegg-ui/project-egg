@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <title>Primeegg — Хвосты «gg»</title>
+  <text x="40" y="140" textLength="240" lengthAdjust="spacingAndGlyphs" font-family="Fraunces, serif" font-weight="600" font-size="72" fill="#A4452C">Primee</text>
+  <circle cx="300" cy="178" r="7" fill="#F0B429"/>
+  <circle cx="336" cy="178" r="7" fill="#F0B429"/>
+  <g fill="none" stroke="#A4452C" stroke-width="7" stroke-linecap="round">
+    <circle cx="300" cy="122.5" r="13"/>
+    <path d="M313 106.5 H319 M313 106.5 V152 C313 156 308 158 300 158"/>
+    <path d="M300 158 C308.4 158 315 169.8 315 178.9 C315 186.8 308.4 192 300 192 C291.6 192 285 186.8 285 178.9 C285 169.8 291.6 158 300 158 Z"/>
+    <circle cx="336" cy="122.5" r="13"/>
+    <path d="M349 106.5 H355 M349 106.5 V152 C349 156 344 158 336 158"/>
+    <path d="M336 158 C344.4 158 351 169.8 351 178.9 C351 186.8 344.4 192 336 192 C327.6 192 321 186.8 321 178.9 C321 169.8 327.6 158 336 158 Z"/>
+  </g>
+  <text x="200" y="236" text-anchor="middle" font-family="Fraunces, serif" font-style="italic" font-weight="400" font-size="16" fill="#A4452C">Huevos · Ovoproductos</text>
+</svg>

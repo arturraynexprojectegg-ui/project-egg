@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 300">
+  <path d="M120 40 L280 40 L280 150 C280 210 240 245 200 266 C160 245 120 210 120 150 Z" fill="#2E4A2C"/>
+  <path d="M128 48 L272 48 L272 150 C272 205 236 237 200 257 C164 237 128 205 128 150 Z" fill="none" stroke="#F3E9D2" stroke-width="2"/>
+  <g transform="translate(157.5 58) scale(0.85)"><path fill-rule="evenodd" d="M10 80 L10 36 L22 18 L50 6 L78 18 L90 36 L90 80 Z M36 80 L36 50 L64 50 L64 80 Z M44 22 L56 22 L56 34 L44 34 Z" fill="#F3E9D2"/><path d="M36 50 L64 80 M64 50 L36 80" stroke="#F3E9D2" stroke-width="4"/><path d="M6 38 L22 16 L50 3 L78 16 L94 38" fill="none" stroke="#F3E9D2" stroke-width="3" stroke-linejoin="round"/></g>
+  <path d="M58 158 L100 158 L100 194 L58 194 L72 176 Z" fill="#9B2D20"/>
+  <path d="M342 158 L300 158 L300 194 L342 194 L328 176 Z" fill="#9B2D20"/>
+  <path d="M88 194 L100 194 L100 182 Z" fill="#6E1E15"/>
+  <path d="M312 194 L300 194 L300 182 Z" fill="#6E1E15"/>
+  <rect x="88" y="144" width="224" height="40" fill="#9B2D20"/>
+  <line x1="92" y1="149" x2="308" y2="149" stroke="#F3E9D2" stroke-width="1"/>
+  <line x1="92" y1="179" x2="308" y2="179" stroke="#F3E9D2" stroke-width="1"/>
+  <text x="200" y="174" font-family="Rye, serif" font-size="25" font-weight="400" fill="#F3E9D2" letter-spacing="3" text-anchor="middle">PRIMEEGG</text>
+  <text x="200" y="214" font-family="Oswald, sans-serif" font-size="13" font-weight="500" fill="#F3E9D2" letter-spacing="3" text-anchor="middle">EST. 2026</text>
+  <polygon points="200.00,227.00 201.23,230.30 204.76,230.45 202.00,232.65 202.94,236.05 200.00,234.10 197.06,236.05 198.00,232.65 195.24,230.45 198.77,230.30" fill="#F3E9D2"/>
+</svg>

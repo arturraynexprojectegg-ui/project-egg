@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <path d="M85 186 C65.4 186 50 172 50 151 C50 126.5 65.4 95 85 95 C104.6 95 120 126.5 120 151 C120 172 104.6 186 85 186 H350" fill="none" stroke="#111111" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="85" cy="151" r="10" fill="#111111"/>
+  <text x="145" y="172" font-family="Inter, sans-serif" font-size="38" font-weight="600" fill="#111111" letter-spacing="-0.5">Primeegg</text>
+  <text x="145" y="208" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#111111" letter-spacing="3.5">DISTRIBUTION · ESPAÑA</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect x="40" y="90" width="120" height="120" rx="36" fill="#3FAE5A"/>
+<rect x="66" y="110" width="26" height="80" rx="13" fill="#FFFFFF"/>
+<circle cx="106" cy="138" r="30" fill="#FFFFFF"/>
+<rect x="66" y="108" width="40" height="60" rx="13" fill="#FFFFFF"/>
+<circle cx="108" cy="138" r="13" fill="#FFC530"/>
+<text x="182" y="158" font-family="'Bricolage Grotesque', sans-serif" font-weight="800" font-size="40" fill="#1F3B2A">Prime<tspan fill="#3FAE5A">egg</tspan></text>
+<text x="184" y="184" font-family="'Bricolage Grotesque', sans-serif" font-weight="600" font-size="12" letter-spacing="4" fill="#FF6B5B">DISTRIBUTION</text>
+</svg>

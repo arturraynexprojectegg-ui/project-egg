@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <g fill="#26313B">
+    <circle cx="166" cy="66" r="11"/><circle cx="200" cy="66" r="11"/><circle cx="234" cy="66" r="11"/>
+    <circle cx="166" cy="100" r="11"/><circle cx="234" cy="100" r="11"/>
+    <circle cx="166" cy="134" r="11"/><circle cx="200" cy="134" r="11"/><circle cx="234" cy="134" r="11"/>
+  </g>
+  <path transform="translate(187,83) scale(0.26)" d="M50 0 C78 0 100 45 100 80 C100 110 78 130 50 130 C22 130 0 110 0 80 C0 45 22 0 50 0 Z" fill="#D9653B"/>
+  <text x="202" y="196" text-anchor="middle" font-family="Manrope, sans-serif" font-size="34" font-weight="700" fill="#26313B" letter-spacing="4">PRIMEEGG</text>
+  <text x="203" y="224" text-anchor="middle" font-family="Manrope, sans-serif" font-size="11" font-weight="700" fill="#D9653B" letter-spacing="6">DISTRIBUTION</text>
+</svg>

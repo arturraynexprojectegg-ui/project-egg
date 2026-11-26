@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <title>Primeegg — Prime / egg: вес</title>
+  <text x="36" y="150" textLength="171" lengthAdjust="spacingAndGlyphs" font-family="Archivo Black, sans-serif" font-weight="400" font-size="64" fill="#121212">PRIM</text>
+  <path fill="#121212" d="M212 104 H248 V116 H227 V138 H248 V150 H212 Z"/>
+  <path d="M238.5 118 C242.7 118 246 124.2 246 129.1 C246 133.2 242.7 136 238.5 136 C234.3 136 231 133.2 231 129.1 C231 124.2 234.3 118 238.5 118 Z" fill="#E8891C"/>
+  <text x="256" y="150" textLength="108" lengthAdjust="spacingAndGlyphs" font-family="Space Grotesk, sans-serif" font-weight="400" font-size="64" fill="#E8891C">egg</text>
+  <text x="38" y="196" font-family="Space Grotesk, sans-serif" font-weight="500" font-size="13" letter-spacing="8" fill="#121212">DISTRIBUTION · ESPAÑA</text>
+</svg>

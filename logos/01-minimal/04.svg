@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect x="40" y="90" width="120" height="120" rx="16" fill="#111111"/>
+  <path transform="translate(100,159)" d="M-30 0 A60 60 0 0 1 -12.43 -42.43 A17.57 17.57 0 0 1 12.43 -42.43 A60 60 0 0 1 30 0 A30 30 0 0 1 -30 0 Z" fill="#F3E9D2"/>
+  <rect x="40" y="157" width="120" height="4" fill="#111111"/>
+  <rect x="98" y="100" width="4" height="100" fill="#111111"/>
+  <text x="184" y="146" font-family="Montserrat, sans-serif" font-size="40" font-weight="800" fill="#111111" letter-spacing="2">PRIME</text>
+  <text x="184" y="190" font-family="Montserrat, sans-serif" font-size="40" font-weight="300" fill="#111111" letter-spacing="2">EGG</text>
+  <text x="185" y="210" font-family="Montserrat, sans-serif" font-size="9.5" font-weight="600" fill="#111111" letter-spacing="2">HUEVOS · OVOPRODUCTOS</text>
+</svg>

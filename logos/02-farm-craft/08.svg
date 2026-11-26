@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 300">
+  <defs>
+  <path id="t08" d="M123 150 A77 77 0 0 1 277 150" fill="none"/>
+  </defs>
+  <path d="M100 250 L100 150 A100 100 0 0 1 300 150 L300 250 Z" fill="none" stroke="#2E4A2C" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M108 250 L108 150 A92 92 0 0 1 292 150 L292 250" fill="none" stroke="#2E4A2C" stroke-width="1.2"/>
+  <text font-family="Oswald, sans-serif" font-size="22" font-weight="600" fill="#2E4A2C" letter-spacing="5" text-anchor="middle"><textPath href="#t08" xlink:href="#t08" startOffset="50%">PRIMEEGG</textPath></text>
+  <path d="M169.9 135.1 L158.7 131.0 M174.8 126.3 L165.3 118.9 M182.1 119.5 L175.4 109.5 M191.2 115.2 L187.9 103.7 M201.1 114.0 L201.5 102.0 M210.9 115.9 L215.0 104.7 M219.7 120.8 L227.1 111.3 M226.5 128.1 L236.5 121.4 M230.8 137.2 L242.3 133.9" stroke="#C8862F" stroke-width="3" stroke-linecap="round"/>
+  <path transform="translate(180.00 118.00) scale(0.4000)" d="M50 0 C78 0 100 45 100 80 C100 110 78 130 50 130 C22 130 0 110 0 80 C0 45 22 0 50 0 Z" fill="#C8862F"/>
+  <path d="M108 172 L292 172 L292 250 L108 250 Z" fill="#2E4A2C"/>
+  <path d="M200 172 Q142.8 215 112 248 M200 172 Q164.9 215 146 248 M200 172 Q187.0 215 180 248 M200 172 Q213.0 215 220 248 M200 172 Q235.1 215 254 248 M200 172 Q257.2 215 288 248" fill="none" stroke="#FAF7F2" stroke-width="2.4"/>
+  <text x="200" y="272" font-family="Oswald, sans-serif" font-size="11" font-weight="500" fill="#2E4A2C" letter-spacing="3" text-anchor="middle">DISTRIBUTION · EST. 2026</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <title>Primeegg — Лигатура «ee»</title>
+  <g transform="translate(7,0)"><text x="40" y="160" textLength="170" lengthAdjust="spacingAndGlyphs" font-family="Fraunces, serif" font-weight="700" font-size="72" fill="#23432F">Prim</text>
+  <path transform="translate(-12,0)" d="M224 142.5 H280 M252 142.5 A14 14 0 1 0 247.9 152.4 M280 142.5 A14 14 0 1 0 275.9 152.4" fill="none" stroke="#E9A21B" stroke-width="7" stroke-linecap="round"/>
+  <text x="273" y="160" textLength="76" lengthAdjust="spacingAndGlyphs" font-family="Fraunces, serif" font-weight="700" font-size="72" fill="#23432F">gg</text></g>
+  <text x="200" y="206" text-anchor="middle" font-family="Fraunces, serif" font-style="italic" font-weight="400" font-size="17" fill="#23432F">Farm Eggs &amp; Egg Products</text>
+</svg>
