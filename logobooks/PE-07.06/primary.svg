@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <title>Primeegg — Яичница-солнце</title>
+  <g transform="translate(-2 4)">
+    <path d="M82 96 C104 94 124 106 128 126 C132 144 122 156 126 170 C129 184 112 196 94 192 C80 189 70 198 54 192 C36 185 30 168 33 152 C35 140 28 128 34 116 C42 100 62 97 82 96 Z" fill="#FFFFFF" stroke="#C8102E" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="84" cy="142" r="23" fill="#F6B21A"/>
+    <path d="M72 134 C74 128 79 124 85 123" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="148" y="158" textLength="218" lengthAdjust="spacingAndGlyphs" font-family="Yellowtail, cursive" font-weight="400" font-size="66" fill="#C8102E">Primeegg</text>
+  <text x="158" y="190" textLength="212" lengthAdjust="spacing" font-family="Montserrat, sans-serif" font-weight="600" font-size="12" letter-spacing="2" fill="#C8102E">HUEVOS · OVOPRODUCTOS</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <title>Primeegg — Яйцо-точка (знак)</title>
+  <circle cx="100" cy="100" r="80" fill="#0F6E6E"/>
+  <text x="43.4" y="142.6" font-family="Lobster, cursive" font-weight="400" font-size="112.0" fill="#F7EFDF">P</text>
+  <path transform="translate(116.8 142.6) scale(1.4000)" d="M13.5 -35 C21.1 -35 27 -22.9 27 -13.5 C27 -5.4 21.1 0 13.5 0 C5.9 0 0 -5.4 0 -13.5 C0 -22.9 5.9 -35 13.5 -35 Z" fill="#E39B2D"/>
+</svg>

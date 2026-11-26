@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<defs>
+  <mask id="pe0807-veins-mono" maskUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="170">
+    <rect x="-10" y="-10" width="120" height="170" fill="#fff"/>
+    <path d="M50 122 C46.5 92 53.5 52 50 11" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round"/>
+    <path d="M49.2 101 Q37 95 24 83 M50.2 80 Q64 74 78 60 M51 61 Q38 55 27 42 M51.2 43 Q62 37 72 26 M50.6 27 Q43 23 36 16" fill="none" stroke="#000" stroke-width="3.3" stroke-linecap="round"/>
+  </mask>
+</defs>
+<text x="46.4" y="150" font-family="Nunito, sans-serif" font-weight="800" font-size="46" fill="currentColor" text-anchor="start">primeegg</text>
+<text x="48.4" y="176.0" font-family="Nunito, sans-serif" font-weight="600" font-size="13.0" letter-spacing="2.0" fill="currentColor" text-anchor="start">bio · natural · local</text>
+<g transform="translate(277.6 96.6) scale(0.76)">
+  <path d="M50 0 C78 0 100 45 100 80 C100 110 78 130 50 130 C22 130 0 110 0 80 C0 45 22 0 50 0 Z" fill="currentColor" mask="url(#pe0807-veins-mono)"/>
+  <path d="M50 129 C51.5 139 56 146 64 150" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+</g>
+</svg>

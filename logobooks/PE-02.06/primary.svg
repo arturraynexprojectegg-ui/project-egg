@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect x="48" y="62" width="304" height="176" rx="4" fill="none" stroke="#24402A" stroke-width="5"/>
+<rect x="57" y="71" width="286" height="158" fill="none" stroke="#24402A" stroke-width="1.4"/>
+<path d="M48 76 L62 62 M352 76 L338 62 M48 224 L62 238 M352 224 L338 238" fill="none" stroke="#24402A" stroke-width="2"/>
+<path transform="translate(77.8 82.7) scale(0.1200)" d="M50 0 C78 0 100 45 100 80 C100 110 78 130 50 130 C22 130 0 110 0 80 C0 45 22 0 50 0 Z" fill="#24402A"/>
+<path transform="translate(310.2 82.7) scale(0.1200)" d="M50 0 C78 0 100 45 100 80 C100 110 78 130 50 130 C22 130 0 110 0 80 C0 45 22 0 50 0 Z" fill="#24402A"/>
+<text x="201.5" y="95.8" font-family="Oswald, sans-serif" font-size="13" font-weight="600" letter-spacing="3" fill="#24402A" text-anchor="middle">GRADE A · FARM FRESH</text>
+<path d="M57 110 H343 M57 190 H343" fill="none" stroke="#24402A" stroke-width="1.4"/>
+<text x="202.75" y="173.8" font-family="Bebas Neue, sans-serif" font-size="68" font-weight="400" letter-spacing="5.5" fill="#24402A" text-anchor="middle">PRIMEEGG</text>
+<text x="201.25" y="214.4" font-family="Oswald, sans-serif" font-size="12" font-weight="500" letter-spacing="2.5" fill="#24402A" text-anchor="middle">DISTRIBUTION · ESPAÑA · EST. 2026</text>
+</svg>

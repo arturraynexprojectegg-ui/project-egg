@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 300">
+  <defs>
+    <path id="pe0210pt" d="M124 150 A76 76 0 0 1 276 150" fill="none"/>
+    <path id="pe0210pb" d="M111.6 150 A88.4 88.4 0 0 0 288.4 150" fill="none"/>
+  </defs>
+  <polygon points="322,150 313.57,159.94 320.15,171.19 310.12,179.51 314.64,191.73 303.32,198.18 305.66,211 293.38,215.39 293.46,228.42 280.61,230.61 278.42,243.46 265.39,243.38 261,255.66 248.18,253.32 241.73,264.64 229.51,260.12 221.19,270.15 209.94,263.57 200,272 190.06,263.57 178.81,270.15 170.49,260.12 158.27,264.64 151.82,253.32 139,255.66 134.61,243.38 121.58,243.46 119.39,230.61 106.54,228.42 106.62,215.39 94.34,211 96.68,198.18 85.36,191.73 89.88,179.51 79.85,171.19 86.43,159.94 78,150 86.43,140.06 79.85,128.81 89.88,120.49 85.36,108.27 96.68,101.82 94.34,89 106.62,84.61 106.54,71.58 119.39,69.39 121.58,56.54 134.61,56.62 139,44.34 151.82,46.68 158.27,35.36 170.49,39.88 178.81,29.85 190.06,36.43 200,28 209.94,36.43 221.19,29.85 229.51,39.88 241.73,35.36 248.18,46.68 261,44.34 265.39,56.62 278.42,56.54 280.61,69.39 293.46,71.58 293.38,84.61 305.66,89 303.32,101.82 314.64,108.27 310.12,120.49 320.15,128.81 313.57,140.06" fill="#9E2B25"/>
+  <circle cx="200" cy="150" r="105" fill="none" stroke="#F6EEDC" stroke-width="2"/>
+  <text font-family="Rye, serif" font-size="22" font-weight="400" fill="#F6EEDC" letter-spacing="4" text-anchor="middle"><textPath href="#pe0210pt" xlink:href="#pe0210pt" startOffset="121.38">PRIMEEGG</textPath></text>
+  <text font-family="Oswald, sans-serif" font-size="12" font-weight="500" fill="#F6EEDC" letter-spacing="2.5" text-anchor="middle"><textPath href="#pe0210pb" xlink:href="#pe0210pb" startOffset="140.11">HUEVOS · OVOPRODUCTOS</textPath></text>
+  <polygon points="116,145 117.38,148.7 121.33,148.87 118.24,151.33 119.29,155.13 116,152.95 112.71,155.13 113.76,151.33 110.67,148.87 114.62,148.7" fill="#F6EEDC"/>
+  <polygon points="284,145 285.38,148.7 289.33,148.87 286.24,151.33 287.29,155.13 284,152.95 280.71,155.13 281.76,151.33 278.67,148.87 282.62,148.7" fill="#F6EEDC"/>
+  <circle cx="200" cy="150" r="63" fill="#F6EEDC"/>
+  <path transform="translate(172 111.6) scale(0.56)" d="M50 0 C78 0 100 45 100 80 C100 110 78 130 50 130 C22 130 0 110 0 80 C0 45 22 0 50 0 Z" fill="#9E2B25"/>
+  <text x="200" y="166" font-family="Fraunces, serif" font-size="44" font-weight="900" fill="#F6EEDC" text-anchor="middle">P</text>
+  <text x="155.5" y="154" font-family="Oswald, sans-serif" font-size="10" font-weight="600" fill="#9E2B25" letter-spacing="1" text-anchor="middle">EST.</text>
+  <text x="245.5" y="154" font-family="Oswald, sans-serif" font-size="10" font-weight="600" fill="#9E2B25" letter-spacing="1" text-anchor="middle">2026</text>
+</svg>

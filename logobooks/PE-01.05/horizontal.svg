@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200">
+  <text x="269.29" y="103.35" font-family="Inter, sans-serif" font-size="54" font-weight="800" fill="#0D2B4E" letter-spacing="-1.35">Prime<tspan fill="#1D5FA8">egg</tspan></text>
+  <text x="272.43" y="135.75" font-family="Inter, sans-serif" font-size="14.18" font-weight="600" fill="#1D5FA8" letter-spacing="2.9">ESPAÑA · DISTRIBUTION</text>
+  <defs>
+    <clipPath id="pe0105h"><path d="M50 0 C78 0 100 45 100 80 C100 110 78 130 50 130 C22 130 0 110 0 80 C0 45 22 0 50 0 Z"/></clipPath>
+  </defs>
+  <g transform="translate(137.58 35) scale(1)" clip-path="url(#pe0105h)">
+    <rect x="-1" y="-1" width="102" height="91" fill="#1D5FA8"/>
+    <path fill="#F6BD3B" d="M28.35 90 A25 25 0 1 1 71.65 90 Z"/>
+    <rect x="-1" y="95" width="102" height="7.5" fill="#1D5FA8"/>
+    <rect x="-1" y="107.5" width="102" height="7.5" fill="#1D5FA8"/>
+    <rect x="-1" y="120" width="102" height="11" fill="#1D5FA8"/>
+  </g>
+</svg>

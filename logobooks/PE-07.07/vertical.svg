@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <title>Primeegg — Яйцо-точка (вертикальная)</title>
+  <circle cx="200" cy="118" r="78" fill="#0F6E6E"/>
+  <text x="144.8" y="159.5" font-family="Lobster, cursive" font-weight="400" font-size="109.2" fill="#F7EFDF">P</text>
+  <path transform="translate(216.4 159.5) scale(1.3650)" d="M13.5 -35 C21.1 -35 27 -22.9 27 -13.5 C27 -5.4 21.1 0 13.5 0 C5.9 0 0 -5.4 0 -13.5 C0 -22.9 5.9 -35 13.5 -35 Z" fill="#E39B2D"/>
+  <text x="41" y="284" font-family="Lobster, cursive" font-weight="400" font-size="76" fill="#0F6E6E">Prime<tspan fill="#E39B2D">egg</tspan></text>
+  <path transform="translate(331.95 284) scale(1.0000)" d="M13.5 -35 C21.1 -35 27 -22.9 27 -13.5 C27 -5.4 21.1 0 13.5 0 C5.9 0 0 -5.4 0 -13.5 C0 -22.9 5.9 -35 13.5 -35 Z" fill="#E39B2D"/>
+  <path d="M56.0 328.0 C129.7 314.0 252.5 312.0 356.9 322.0" fill="none" stroke="#0F6E6E" stroke-width="4.00" stroke-linecap="round"/>
+  <text x="200.0" y="360.0" text-anchor="middle" font-family="Montserrat, sans-serif" font-weight="600" font-size="12.00" letter-spacing="4.00" fill="#0F6E6E">SINCE 2026 · ESPAÑA</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200">
+<circle cx="142.49" cy="100" r="80" fill="#1F4E9C"/>
+<circle cx="214.87" cy="100" r="2.29" fill="#F4ECDC"/>
+<circle cx="213.06" cy="116.11" r="2.29" fill="#F4ECDC"/>
+<circle cx="207.7" cy="131.4" r="2.29" fill="#F4ECDC"/>
+<circle cx="199.08" cy="145.13" r="2.29" fill="#F4ECDC"/>
+<circle cx="187.62" cy="156.59" r="2.29" fill="#F4ECDC"/>
+<circle cx="173.9" cy="165.21" r="2.29" fill="#F4ECDC"/>
+<circle cx="158.6" cy="170.57" r="2.29" fill="#F4ECDC"/>
+<circle cx="142.49" cy="172.38" r="2.29" fill="#F4ECDC"/>
+<circle cx="126.39" cy="170.57" r="2.29" fill="#F4ECDC"/>
+<circle cx="111.09" cy="165.21" r="2.29" fill="#F4ECDC"/>
+<circle cx="97.36" cy="156.59" r="2.29" fill="#F4ECDC"/>
+<circle cx="85.9" cy="145.13" r="2.29" fill="#F4ECDC"/>
+<circle cx="77.28" cy="131.4" r="2.29" fill="#F4ECDC"/>
+<circle cx="71.93" cy="116.11" r="2.29" fill="#F4ECDC"/>
+<circle cx="70.11" cy="100" r="2.29" fill="#F4ECDC"/>
+<circle cx="71.93" cy="83.89" r="2.29" fill="#F4ECDC"/>
+<circle cx="77.28" cy="68.6" r="2.29" fill="#F4ECDC"/>
+<circle cx="85.9" cy="54.87" r="2.29" fill="#F4ECDC"/>
+<circle cx="97.36" cy="43.41" r="2.29" fill="#F4ECDC"/>
+<circle cx="111.09" cy="34.79" r="2.29" fill="#F4ECDC"/>
+<circle cx="126.39" cy="29.43" r="2.29" fill="#F4ECDC"/>
+<circle cx="142.49" cy="27.62" r="2.29" fill="#F4ECDC"/>
+<circle cx="158.6" cy="29.43" r="2.29" fill="#F4ECDC"/>
+<circle cx="173.9" cy="34.79" r="2.29" fill="#F4ECDC"/>
+<circle cx="187.62" cy="43.41" r="2.29" fill="#F4ECDC"/>
+<circle cx="199.08" cy="54.87" r="2.29" fill="#F4ECDC"/>
+<circle cx="207.7" cy="68.6" r="2.29" fill="#F4ECDC"/>
+<circle cx="213.06" cy="83.89" r="2.29" fill="#F4ECDC"/>
+<circle cx="142.49" cy="100" r="64.76" fill="#F4ECDC"/>
+<path d="M 142.49 56.19 C 161.36 56.19 176.19 86.52 176.19 110.11 C 176.19 130.33 161.36 143.81 142.49 143.81 C 123.62 143.81 108.79 130.33 108.79 110.11 C 108.79 86.52 123.62 56.19 142.49 56.19 Z" fill="#C8553D"/>
+<circle cx="142.49" cy="114.02" r="11.9" fill="#F2A541"/>
+<path d="M250.49 72 H577.51 L562.51 100 L577.51 128 H250.49 L265.49 100 Z" fill="#C8553D"/>
+<text x="416.5" y="115.18" font-family="DM Serif Display, serif" font-size="46" font-weight="400" letter-spacing="5" fill="#F4ECDC" text-anchor="middle">PRIMEEGG</text>
+<text x="415.5" y="59" font-family="Josefin Sans, sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#1F4E9C" text-anchor="middle">HUEVOS DE GRANJA</text>
+<text x="416" y="150.96" font-family="Josefin Sans, sans-serif" font-size="13" font-weight="700" letter-spacing="4" fill="#1F4E9C" text-anchor="middle">ESPAÑA · 2026</text>
+</svg>
