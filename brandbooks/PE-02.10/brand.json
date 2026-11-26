@@ -1,0 +1,86 @@
+{
+  "code": "PE-02.10",
+  "essence": "Фермерская печать качества",
+  "mission": "Отбирать на фермах лучшие яйца и ставить на них свою печать только тогда, когда готовы отвечать за каждую коробку.",
+  "vision": "Сделать печать Primeegg в Испании таким же знаком доверия, каким когда-то были клейма старых фермерских хозяйств.",
+  "positioning": "Для ресторанов, кондитерских, гастрономов и оптовиков, которым важна гарантия происхождения. Primeegg — дистрибьютор с ремесленным подходом: каждая партия проходит отбор и получает печать качества.",
+  "values": [
+    {"name": "Гарантия", "text": "Наша печать на коробке — личное обязательство за качество партии."},
+    {"name": "Отбор", "text": "Мы работаем только с проверенными фермами и регулярно контролируем каждую."},
+    {"name": "Ремесло", "text": "Ценим традиционный фермерский уклад и бережное отношение к продукту."},
+    {"name": "Преемственность", "text": "С 2026 года строим историю, которой будет приятно гордиться через десятилетия."}
+  ],
+  "audience": [
+    {"segment": "Оптовые покупатели", "need": "Подтверждённое качество и документы о происхождении каждой партии.", "message": "Каждая партия — с печатью и сертификатом фермы."},
+    {"segment": "HoReCa", "need": "Продукт, которым шеф может гордиться и который можно назвать в меню.", "message": "Яйца, которые не стыдно указать в меню."},
+    {"segment": "Ретейл и покупатель", "need": "Понятный знак качества и тёплая история продукта на полке.", "message": "Печать фермы, которой можно доверять."}
+  ],
+  "personality": ["основательный", "тёплый", "ремесленный", "уверенный", "гостеприимный"],
+  "tone": {
+    "principles": [
+      {"name": "С достоинством", "text": "Говорим неторопливо и весомо, как мастер о своём деле."},
+      {"name": "С историей", "text": "За каждым утверждением — ферма, человек или традиция, которые можно назвать."},
+      {"name": "С гарантией", "text": "Обещаем только то, под чем готовы поставить свою печать."}
+    ],
+    "do": [
+      "Seleccionados en granja, sellados con nuestro nombre.",
+      "Cada caja lleva el sello de quien responde por ella.",
+      "Huevos de granja, como se han hecho siempre."
+    ],
+    "dont": [
+      "Huevos low cost para todos los bolsillos.",
+      "Ofertón: llévate 3 y paga 2.",
+      "Producto industrial optimizado para máxima rotación."
+    ]
+  },
+  "taglines": {
+    "es": "Calidad con sello de granja.",
+    "en": "Quality sealed at the farm.",
+    "ru": "Качество с печатью фермы."
+  },
+  "headlines_es": [
+    "Nuestro sello, nuestra palabra",
+    "Seleccionados uno a uno en granja",
+    "La calidad se firma"
+  ],
+  "web": {
+    "hero_title": "Huevos con sello de granja",
+    "hero_text": "Seleccionamos huevos y ovoproductos en granjas verificadas para hostelería, obradores y tiendas de toda España.",
+    "cta": "Ver productos",
+    "nav": ["Productos", "HoReCa", "Distribución", "Nosotros", "Contacto"]
+  },
+  "pattern": {
+    "name": "Поле печатей",
+    "text": "Малые зубчатые розетки с яйцом в центре, как оттиски печати, чередуются с четырёхлучевыми звёздочками «prime». Применяется на обёрточной бумаге, крышках коробок, этикетках, фоне сайта и фирменной ленте."
+  },
+  "color_proportions": [
+    {"hex": "#F6EEDC", "pct": 40},
+    {"hex": "#9E2B25", "pct": 30},
+    {"hex": "#2B1D19", "pct": 15},
+    {"hex": "#C4A27A", "pct": 10},
+    {"hex": "#B8392F", "pct": 5}
+  ],
+  "photo": {
+    "principles": [
+      "Тёплый, чуть приглушённый свет, как в старой фермерской кухне или кладовой.",
+      "Натуральные материалы в кадре: дерево, лён, керамика, крафт, сургуч.",
+      "Внимание к деталям и рукам: отбор, упаковка, печать — процесс как ремесло."
+    ],
+    "scenes": [
+      {"title": "Ручной отбор", "hint": "Руки фермера перебирают яйца в деревянном ящике при тёплом свете."},
+      {"title": "Печать на коробке", "hint": "Сургучно-красная наклейка-печать Primeegg на крафтовой крышке, рядом бечёвка."},
+      {"title": "Кухня шефа", "hint": "Кондитер разбивает яйцо над медной миской, на столе коробка с печатью."}
+    ]
+  },
+  "products": {
+    "carton": {"title": "Huevos frescos de granja", "subtitle": "Categoría A · Talla L", "badge": "Sello de granja"},
+    "powder": {"title": "Huevo entero en polvo", "subtitle": "Ovoproducto pasteurizado"},
+    "horeca": {"title": "Huevos para hostelería", "subtitle": "Bandeja 30 uds · Talla M-L"}
+  },
+  "contacts": {
+    "web": "primeegg.es",
+    "email": "pedidos@primeegg.es",
+    "phone": "+34 900 000 000",
+    "address": "Polígono Industrial, Nave 12 · 28000 Madrid"
+  }
+}

@@ -6,11 +6,17 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from chrome_util import fonts_href, used_families
 
-LB = Path(__file__).resolve().parent.parent / "logobooks"
+BRAND = "--brand" in sys.argv
+ROOT = Path(__file__).resolve().parent.parent
+LB = ROOT / "logobooks"
+OUT = ROOT / ("brandbooks" if BRAND else "logobooks")
+SUF = "Brandbook" if BRAND else "Logobook"
 esc = lambda s: html.escape(str(s), quote=True)
 
 cards, allsvg = [], ""
-for d in sorted(p for p in LB.glob("PE-*") if (p / "data.json").exists()):
+LEAD_LB = "{n} концептов, отобранных из 80. В каждом логобуке 12 разделов: концепция, версии, охранное поле, минимальные размеры, цвета, цветовые версии, типографика, недопустимое использование и знак в цифровой среде. Для каждого есть SVG для импорта в Figma."
+LEAD_BB = "{n} брендбуков на базе логобуков. Платформа бренда, ценности, аудитория, голос, слоганы, цвет, типографика, фирменный паттерн, фотостиль и брендированные носители: упаковка для розницы и HoReCa, яичный порошок, логистика, документация, униформа, сайт и соцсети. Для каждого есть SVG для импорта в Figma."
+for d in sorted(p for p in LB.glob("PE-*") if (p / "data.json").exists() and (not BRAND or (OUT / p.name / "brand.json").exists())):
     data = json.loads((d / "data.json").read_text())
     code = data["code"]
     svg = (d / "primary.svg").read_text()
@@ -21,18 +27,19 @@ for d in sorted(p for p in LB.glob("PE-*") if (p / "data.json").exists()):
     allsvg += svg
     dots = "".join(f'<i style="background:{esc(c["hex"])}" title="{esc(c["name"])}"></i>' for c in data["palette"][:5])
     cards.append(f'''<article class="card">
-  <a class="art" href="{code}/{code}_Logobook.html" aria-label="Открыть логобук {esc(data["name"])}">{svg}</a>
+  <a class="art" href="{code}/{code}_{SUF}.html" aria-label="Открыть {esc(data["name"])}">{svg}</a>
   <div class="info">
     <span class="code">{code}</span>
     <h2>{esc(data["name"])}</h2>
-    <p>{esc(data.get("tagline", ""))}</p>
+    <p>{esc((json.loads((OUT / code / "brand.json").read_text()).get("taglines", {}).get("es") if BRAND else None) or data.get("tagline", ""))}</p>
     <div class="row"><div class="dots">{dots}</div>
-      <div class="links"><a href="{code}/{code}_Logobook.html">Логобук</a><a href="{code}/{code}_Logobook_Figma.svg">SVG для Figma</a></div></div>
+      <div class="links"><a href="{code}/{code}_{SUF}.html">{"Брендбук" if BRAND else "Логобук"}</a><a href="{code}/{code}_{SUF}_Figma.svg">SVG для Figma</a></div></div>
   </div>
 </article>''')
 
 fam = used_families(allsvg + " Inter Fraunces")
-body = f'''<title>Primeegg логобуки</title>
+LEAD = (LEAD_BB if BRAND else LEAD_LB).format(n=len(cards))
+body = f'''<title>{'Primeegg брендбуки' if BRAND else 'Primeegg логобуки'}</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{fonts_href(fam)}">
@@ -64,12 +71,12 @@ h2{{font:600 21px/1.2 var(--display);margin:0}}
 .links a:hover,.links a:focus-visible{{border-color:#B07A00;outline:none}}
 </style>
 <div class="wrap">
-<div class="eyebrow">Primeegg Distribution SL · этап 02</div>
-<h1>Логобуки</h1>
-<p class="lead">{len(cards)} концептов, отобранных из 80. В каждом логобуке 12 разделов: концепция, версии, охранное поле, минимальные размеры, цвета, цветовые версии, типографика, недопустимое использование и знак в цифровой среде. Для каждого есть SVG для импорта в Figma.</p>
+<div class="eyebrow">Primeegg Distribution SL · этап {"03" if BRAND else "02"}</div>
+<h1>{"Брендбуки" if BRAND else "Логобуки"}</h1>
+<p class="lead">{LEAD}</p>
 <div class="grid">{"".join(cards)}</div>
 </div>'''
-(LB / "index.artifact.html").write_text(body)
-(LB / "index.html").write_text('<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+(OUT / "index.artifact.html").write_text(body)
+(OUT / "index.html").write_text('<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
                                + body.replace("<div class=\"wrap\">", "</head><body><div class=\"wrap\">", 1) + "</body></html>")
 print("index OK:", len(cards))

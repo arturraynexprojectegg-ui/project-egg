@@ -1,0 +1,77 @@
+{
+  "code": "PE-07.06",
+  "essence": "Солнце на каждой кухне",
+  "mission": "Приносить на кухни Испании свежие яйца и яйцепродукты, с которыми любое блюдо получается тёплым и аппетитным, — от первого заказа ресторана до завтрака дома.",
+  "vision": "Стать самым любимым яичным брендом Испании: тем, чью глазунью узнают с первого взгляда на коробке, в меню и на складе.",
+  "positioning": "Дистрибьютор яиц и яйцепродуктов для HoReCa, оптовиков и ретейла, который говорит на языке готового блюда: мы продаём не сырьё, а вкус испанского завтрака — с B2B-надёжностью поставок.",
+  "values": [
+    {"name": "Аппетит", "text": "Мы думаем о продукте так, как о нём думает повар: каким он будет на тарелке."},
+    {"name": "Тепло", "text": "Общаемся по-человечески и по-испански радушно — с клиентом, водителем и фермером."},
+    {"name": "Свежесть", "text": "Яйцо от фермы до кухни идёт кратчайшим путём, без лишних дней на складе."},
+    {"name": "Надёжность", "text": "Солнце встаёт каждый день — и наши поставки приходят так же без сбоев."}
+  ],
+  "audience": [
+    {"segment": "Оптовые покупатели", "need": "Стабильный объём, честная категория и калибр, предсказуемые цены и сроки.", "message": "Каждая партия такая же солнечная, как первая: калибр, категория и дата — без сюрпризов."},
+    {"segment": "HoReCa", "need": "Яркий желток, крепкий белок, удобная фасовка и доставка к открытию кухни.", "message": "Яйца, с которыми глазунья, тортилья и соус выглядят так, как вы их задумали."},
+    {"segment": "Ретейл и покупатель", "need": "Узнаваемая, радостная упаковка и уверенность в свежести.", "message": "Возьмите на завтрак кусочек средиземноморского солнца."}
+  ],
+  "personality": ["солнечный", "радушный", "аппетитный", "живой", "надёжный"],
+  "tone": {
+    "principles": [
+      {"name": "Вкусно", "text": "Говорим образами блюда и кухни, а не сухими характеристиками."},
+      {"name": "Тепло", "text": "Обращаемся на «tú», улыбаемся словами, но не сюсюкаем."},
+      {"name": "По делу", "text": "За эмоцией всегда стоит факт: калибр, дата, срок доставки."}
+    ],
+    "do": [
+      "Tu tortilla sale mejor con huevos de ayer por la tarde.",
+      "Pedido antes de las 12, en tu cocina mañana a primera hora.",
+      "Yema naranja, clara firme: así se nota la frescura."
+    ],
+    "dont": [
+      "Proveedor líder de soluciones ovoproductivas integrales.",
+      "Estimado cliente, le informamos de que su pedido ha sido procesado.",
+      "¡¡Los huevos más increíbles del universo!!"
+    ]
+  },
+  "taglines": {"es": "Sol en cada plato.", "en": "Sunshine on every plate.", "ru": "Солнце в каждой тарелке."},
+  "headlines_es": [
+    "El desayuno empieza en la granja",
+    "Yemas con sabor a mediodía",
+    "Tu cocina, siempre al sol"
+  ],
+  "web": {
+    "hero_title": "Sol en cada plato",
+    "hero_text": "Huevos frescos y ovoproductos para hostelería, mayoristas y tiendas. Directos de la granja, puntuales cada mañana.",
+    "cta": "Haz tu pedido",
+    "nav": ["Productos", "HoReCa", "Distribución", "Nosotros", "Contacto"]
+  },
+  "pattern": {
+    "name": "Солнечная россыпь",
+    "text": "Чередование маленьких глазуний из знака (красный контур белка, жёлтый желток) и солнышек-желтков с короткими лучами. Применяется на обечайке коробки, бумаге для подносов, фартуках, фоне сайта и в соцсетях."
+  },
+  "color_proportions": [
+    {"hex": "#FFF8EC", "pct": 45},
+    {"hex": "#C8102E", "pct": 30},
+    {"hex": "#F6B21A", "pct": 15},
+    {"hex": "#2A1215", "pct": 10}
+  ],
+  "photo": {
+    "principles": [
+      "Тёплый боковой солнечный свет и живые тени — как в испанской кухне около полудня.",
+      "Желток — главный герой кадра: яркий, глянцевый, крупным планом.",
+      "Настоящие руки, посуда и столы с историей — никаких стерильных студийных фонов."
+    ],
+    "scenes": [
+      {"title": "Сковорода на огне", "hint": "чугунная сковорода, глазунья с хрустящим краем, капли оливкового масла"},
+      {"title": "Утро в баре", "hint": "стойка испанского бара, тостада, яйцо, кофе, утренний свет из окна"},
+      {"title": "Ферма на рассвете", "hint": "рука фермера с корзиной яиц, низкое солнце, тёплая дымка"}
+    ]
+  },
+  "products": {
+    "carton": {"title": "Huevos frescos", "subtitle": "Categoría A · Talla L", "badge": "De granja"},
+    "powder": {"title": "Huevo entero en polvo", "subtitle": "Ovoproducto pasteurizado"},
+    "horeca": {"title": "Huevos para hostelería", "subtitle": "Bandeja 30 uds · Talla M-L"}
+  },
+  "contacts": {"web": "primeegg.es", "email": "pedidos@primeegg.es", "phone": "+34 900 000 000",
+               "address": "Polígono Industrial, Nave 12 · 28000 Madrid"}
+}

@@ -86,7 +86,8 @@ class Book:
         self.line = mix(self.ink, self.paper, 0.85)
         self.tint = mix(self.accent, "#FFFFFF", 0.9)
         f = self.d.get("fonts", [])
-        self.head_font = (f[1]["family"] if len(f) > 1 else "Fraunces") + ", Georgia, serif"
+        from brandkit import pick_font
+        self.head_font = pick_font(f, "заголов", 1, "Fraunces") + ", Georgia, serif"
         self.measure = {}
 
     # вставка компонента в бокс с сохранением пропорций
@@ -112,7 +113,7 @@ class Book:
         bg = bg or self.paper
         ink = "#FFFFFF" if dark else self.ink
         mut = mix(bg, "#FFFFFF", 0.55) if dark else self.muted
-        head = (T(M, 92, f"PRIMEEGG · ЛОГОБУК · {self.code}", 18, 600, mut, ls=3) +
+        head = (T(M, 92, f"PRIMEEGG · {getattr(self, 'kind', 'ЛОГОБУК')} · {self.code}", 18, 600, mut, ls=3) +
                 T(W - M, 92, f"{n:02d} / {total:02d}", 18, 600, mut, anchor="end", ls=2) +
                 (T(M, 196, title, 60, 600, ink, self.head_font) if title else "") +
                 T(M, H - 64, self.d["name"], 18, 500, mut) +

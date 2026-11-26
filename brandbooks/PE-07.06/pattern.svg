@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <g transform="translate(40 40) rotate(-12) scale(0.3) translate(-80.5 -146)">
+    <path d="M82 96 C104 94 124 106 128 126 C132 144 122 156 126 170 C129 184 112 196 94 192 C80 189 70 198 54 192 C36 185 30 168 33 152 C35 140 28 128 34 116 C42 100 62 97 82 96 Z" fill="none" stroke="#C8102E" stroke-width="7" stroke-linejoin="round"/>
+    <circle cx="84" cy="142" r="23" fill="#F6B21A"/>
+  </g>
+  <g transform="translate(120 120) rotate(150) scale(0.3) translate(-80.5 -146)">
+    <path d="M82 96 C104 94 124 106 128 126 C132 144 122 156 126 170 C129 184 112 196 94 192 C80 189 70 198 54 192 C36 185 30 168 33 152 C35 140 28 128 34 116 C42 100 62 97 82 96 Z" fill="none" stroke="#C8102E" stroke-width="7" stroke-linejoin="round"/>
+    <circle cx="84" cy="142" r="23" fill="#F6B21A"/>
+  </g>
+  <g fill="none" stroke="#F6B21A" stroke-width="2.4" stroke-linecap="round">
+    <circle cx="120" cy="40" r="5" fill="#F6B21A" stroke="none"/>
+    <path d="M120 28 V24 M120 52 V56 M108 40 H104 M132 40 H136 M111.5 31.5 L108.7 28.7 M128.5 48.5 L131.3 51.3 M128.5 31.5 L131.3 28.7 M111.5 48.5 L108.7 51.3"/>
+    <circle cx="40" cy="120" r="5" fill="#F6B21A" stroke="none"/>
+    <path d="M40 108 V104 M40 132 V136 M28 120 H24 M52 120 H56 M31.5 111.5 L28.7 108.7 M48.5 128.5 L51.3 131.3 M48.5 111.5 L51.3 108.7 M31.5 128.5 L28.7 131.3"/>
+  </g>
+</svg>

@@ -1,0 +1,86 @@
+{
+  "code": "PE-03.06",
+  "essence": "Испанское происхождение с гарантией",
+  "mission": "Привозить на столы яйца испанских ферм с понятным происхождением и сохранить в каждой поставке тепло средиземноморской кухни.",
+  "vision": "Стать для Испании таким же узнаваемым знаком происхождения, как роспись на керамике из Талаверы.",
+  "positioning": "Для HoReCa, гастрономов, оптовиков и ретейла, которым важно испанское происхождение и характер продукта. Primeegg соединяет надёжность дистрибьютора с гордостью за местные фермы.",
+  "values": [
+    {"name": "Происхождение", "text": "Только испанские фермы, названные по имени и региону."},
+    {"name": "Качество", "text": "Медальон на упаковке означает проверенную партию категории A."},
+    {"name": "Гостеприимство", "text": "Мы встречаем клиента как гостя за столом: внимательно, щедро и лично."},
+    {"name": "Культура", "text": "Яйцо — основа испанской кухни, от тортильи до флана, и мы относимся к нему с уважением."}
+  ],
+  "audience": [
+    {"segment": "Оптовые покупатели", "need": "Подтверждённое испанское происхождение и стабильные поставки для своих клиентов.", "message": "Испанские фермы, одна печать, стабильная поставка."},
+    {"segment": "HoReCa", "need": "Продукт с историей для местной кухни и надёжный калибр для ежедневной работы.", "message": "Для настоящей тортильи — настоящие испанские яйца."},
+    {"segment": "Ретейл и покупатель", "need": "Красивая, тёплая упаковка и понятный знак «сделано в Испании».", "message": "Яйца с фермы, с печатью Испании."}
+  ],
+  "personality": ["гордый", "тёплый", "солнечный", "гостеприимный", "надёжный"],
+  "tone": {
+    "principles": [
+      {"name": "С характером", "text": "Говорим живо и образно, как хозяин о своей земле, но без фольклорной пестроты."},
+      {"name": "С корнями", "text": "Называем регионы, фермы и блюда — происхождение звучит в конкретных словах."},
+      {"name": "С уважением", "text": "Обращаемся к клиенту на «usted» в B2B и тепло, по-соседски, — на полке."}
+    ],
+    "do": [
+      "Huevos de granjas españolas, con nombre y origen.",
+      "Para una tortilla de verdad, huevos de aquí.",
+      "Lo bueno de nuestra tierra, en su mesa."
+    ],
+    "dont": [
+      "Huevos importados al mejor precio global.",
+      "Olé, olé: ¡el huevo más flamenco de España!",
+      "Producto genérico apto para cualquier uso."
+    ]
+  },
+  "taglines": {
+    "es": "El sello de lo nuestro.",
+    "en": "The seal of Spanish origin.",
+    "ru": "Печать нашей земли."
+  },
+  "headlines_es": [
+    "De granjas españolas a su mesa",
+    "La tortilla empieza aquí",
+    "Origen con sello propio"
+  ],
+  "web": {
+    "hero_title": "Huevos de granja española",
+    "hero_text": "Distribuimos huevos y ovoproductos de origen español para hostelería, tiendas y mayoristas, con calidad sellada.",
+    "cta": "Conócenos",
+    "nav": ["Productos", "HoReCa", "Distribución", "Nosotros", "Contacto"]
+  },
+  "pattern": {
+    "name": "Азулехо Sello",
+    "text": "Плитка азулехо: четыре терракотовых яйца-лепестка вокруг шафранового желтка и бусинное кольцо из каймы медальона. Применяется на крышках коробок, мешках порошка, фоне сайта, фартуках и витринной плёнке."
+  },
+  "color_proportions": [
+    {"hex": "#F4ECDC", "pct": 35},
+    {"hex": "#1F4E9C", "pct": 30},
+    {"hex": "#C8553D", "pct": 15},
+    {"hex": "#0E2140", "pct": 10},
+    {"hex": "#F2A541", "pct": 10}
+  ],
+  "photo": {
+    "principles": [
+      "Яркое южное солнце, контрастные тени и насыщенные, но естественные цвета.",
+      "Испанский контекст в кадре: керамика, беленые стены, терракота, оливковое дерево.",
+      "Еда в действии: тортилья, флан, пекарня — яйцо как основа местной кухни."
+    ],
+    "scenes": [
+      {"title": "Двор фермы", "hint": "Беленая стена, терракотовая черепица, корзина яиц на кобальтовой плитке под солнцем."},
+      {"title": "Тортилья на столе", "hint": "Сковорода с тортильей на расписной тарелке, рядом коробка Primeegg с медальоном."},
+      {"title": "Утро в пекарне", "hint": "Пекарь в фартуке с азулехо-паттерном взбивает яйца у окна с мягким светом."}
+    ]
+  },
+  "products": {
+    "carton": {"title": "Huevos frescos de granja", "subtitle": "Categoría A · Talla L", "badge": "Origen España"},
+    "powder": {"title": "Huevo entero en polvo", "subtitle": "Ovoproducto pasteurizado"},
+    "horeca": {"title": "Huevos para hostelería", "subtitle": "Bandeja 30 uds · Talla M-L"}
+  },
+  "contacts": {
+    "web": "primeegg.es",
+    "email": "pedidos@primeegg.es",
+    "phone": "+34 900 000 000",
+    "address": "Polígono Industrial, Nave 12 · 28000 Madrid"
+  }
+}
