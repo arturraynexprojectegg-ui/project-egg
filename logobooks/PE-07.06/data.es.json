@@ -1,0 +1,32 @@
+{
+  "code": "PE-07.06",
+  "name": "Sol de huevo frito",
+  "name_en": "Sunny-Side Sun",
+  "tagline": "El cálido carácter español del huevo fresco, de la cocina del restaurante al lineal de la tienda.",
+  "story": [
+    "El símbolo es un huevo frito dibujado con un trazo vivo y algo irregular: la clara va perfilada en rojo y la yema amarilla con su brillo se lee como el sol mediterráneo del mediodía. A su lado, «Primeegg» manuscrito en Yellowtail y el sobrio descriptor «Huevos · Ovoproductos» en Montserrat, que equilibra la emoción del script con un tono profesional.",
+    "El rojo y el amarillo son los colores de España y del apetito, y se reconocen al instante en el estuche de huevos, la etiqueta y la carta. Para HoReCa, el símbolo habla el idioma del plato terminado; en retail crea un lineal vivo y cercano, y el descriptor de ovoproductos mantiene la seriedad B2B. El huevo frito funciona por sí solo como icono, sello y favicon."
+  ],
+  "elements": [
+    {"element": "Huevo frito", "meaning": "el producto en su forma más reconocible: frescura y listo para cocinar"},
+    {"element": "Yema-sol", "meaning": "Mediterráneo, calidez, calidad «prime»"},
+    {"element": "Tipografía manuscrita", "meaning": "sinceridad de granja, la voz humana de la marca"},
+    {"element": "Descriptor Huevos · Ovoproductos", "meaning": "posicionamiento B2B claro: huevos y ovoproductos"}
+  ],
+  "palette": [
+    {"role": "Principal", "name": "Rojo español", "hex": "#C8102E", "rgb": "200 16 46", "cmyk": "0 100 81 4", "pantone": "≈ 186 C"},
+    {"role": "Acento", "name": "Yema", "hex": "#F6B21A", "rgb": "246 178 26", "cmyk": "0 30 95 0", "pantone": "≈ 1235 C"},
+    {"role": "Neutro oscuro", "name": "Pimentón tostado", "hex": "#2A1215", "rgb": "42 18 21", "cmyk": "40 85 70 75", "pantone": "≈ 4975 C"},
+    {"role": "Neutro claro", "name": "Clara", "hex": "#FFF8EC", "rgb": "255 248 236", "cmyk": "0 2 7 0", "pantone": "≈ 9224 C"}
+  ],
+  "dark_bg": "#2A1215",
+  "brand_bg": "#C8102E",
+  "fonts": [
+    {"role": "Logotipo", "family": "Yellowtail", "weights": "400", "note": "nombre de marca manuscrito «Primeegg»"},
+    {"role": "Logotipo (descriptor)", "family": "Montserrat", "weights": "600", "note": "descriptor HUEVOS · OVOPRODUCTOS, con espaciado"},
+    {"role": "Titulares", "family": "Fraunces", "weights": "600, 700", "note": "serif cálida de formas suaves que acompaña el carácter manuscrito"},
+    {"role": "Texto", "family": "Montserrat", "weights": "400, 500", "note": "texto corrido, tablas e información técnica en el envase"}
+  ],
+  "clear_space": {"unit_name": "radio de la yema (x)", "unit": 23},
+  "min_size": {"print_mm": 25, "screen_px": 100, "mark_px": 16}
+}

@@ -1,0 +1,77 @@
+{
+  "code": "PE-07.06",
+  "essence": "Sol en cada cocina",
+  "mission": "Llevar a las cocinas de España huevos frescos y ovoproductos con los que cualquier plato sale cálido y apetecible, desde el primer pedido del restaurante hasta el desayuno en casa.",
+  "vision": "Ser la marca de huevos más querida de España: la que se reconoce a primera vista por su huevo frito en el estuche, en la carta y en el almacén.",
+  "positioning": "Distribuidor de huevos y ovoproductos para HoReCa, mayoristas y retail que habla el idioma del plato terminado: no vendemos materia prima, sino el sabor del desayuno español, con la fiabilidad de suministro que exige el B2B.",
+  "values": [
+    {"name": "Apetito", "text": "Pensamos en el producto como lo hace un cocinero: cómo quedará en el plato."},
+    {"name": "Calidez", "text": "Tratamos a todos con cercanía y hospitalidad española: al cliente, al conductor y al granjero."},
+    {"name": "Frescura", "text": "El huevo va de la granja a la cocina por el camino más corto, sin días de más en el almacén."},
+    {"name": "Fiabilidad", "text": "El sol sale cada día, y nuestras entregas llegan igual: sin fallos."}
+  ],
+  "audience": [
+    {"segment": "Mayoristas", "need": "Volumen estable, categoría y calibre honestos, precios y plazos previsibles.", "message": "Cada lote es tan soleado como el primero: calibre, categoría y fecha, sin sorpresas."},
+    {"segment": "HoReCa", "need": "Yema intensa, clara firme, formato práctico y entrega antes de abrir la cocina.", "message": "Huevos con los que el huevo frito, la tortilla y la salsa quedan tal como los imaginaste."},
+    {"segment": "Retail y consumidor", "need": "Un envase reconocible y alegre, y la seguridad de que es fresco.", "message": "Llévate al desayuno un trocito de sol mediterráneo."}
+  ],
+  "personality": ["soleada", "acogedora", "apetecible", "viva", "fiable"],
+  "tone": {
+    "principles": [
+      {"name": "Sabroso", "text": "Hablamos con imágenes de platos y cocina, no con características frías."},
+      {"name": "Cercano", "text": "Tuteamos y sonreímos con las palabras, pero sin empalagar."},
+      {"name": "Al grano", "text": "Detrás de la emoción siempre hay un dato: calibre, fecha, plazo de entrega."}
+    ],
+    "do": [
+      "Tu tortilla sale mejor con huevos de ayer por la tarde.",
+      "Pedido antes de las 12, en tu cocina mañana a primera hora.",
+      "Yema naranja, clara firme: así se nota la frescura."
+    ],
+    "dont": [
+      "Proveedor líder de soluciones ovoproductivas integrales.",
+      "Estimado cliente, le informamos de que su pedido ha sido procesado.",
+      "¡¡Los huevos más increíbles del universo!!"
+    ]
+  },
+  "taglines": {"es": "Sol en cada plato.", "en": "Sunshine on every plate.", "ru": "Sol en cada plato."},
+  "headlines_es": [
+    "El desayuno empieza en la granja",
+    "Yemas con sabor a mediodía",
+    "Tu cocina, siempre al sol"
+  ],
+  "web": {
+    "hero_title": "Sol en cada plato",
+    "hero_text": "Huevos frescos y ovoproductos para hostelería, mayoristas y tiendas. Directos de la granja, puntuales cada mañana.",
+    "cta": "Haz tu pedido",
+    "nav": ["Productos", "HoReCa", "Distribución", "Nosotros", "Contacto"]
+  },
+  "pattern": {
+    "name": "Lluvia de soles",
+    "text": "Alternancia de pequeños huevos fritos del símbolo (clara perfilada en rojo, yema amarilla) y soles-yema con rayos cortos. Se aplica en la faja del estuche, el papel de bandeja, los delantales, el fondo web y las redes sociales."
+  },
+  "color_proportions": [
+    {"hex": "#FFF8EC", "pct": 45},
+    {"hex": "#C8102E", "pct": 30},
+    {"hex": "#F6B21A", "pct": 15},
+    {"hex": "#2A1215", "pct": 10}
+  ],
+  "photo": {
+    "principles": [
+      "Luz solar cálida y lateral, con sombras vivas, como en una cocina española a mediodía.",
+      "La yema es la protagonista: intensa, brillante y en primer plano.",
+      "Manos reales, vajilla y mesas con historia; nada de fondos de estudio asépticos."
+    ],
+    "scenes": [
+      {"title": "Sartén al fuego", "hint": "sartén de hierro, huevo frito con puntilla, gotas de aceite de oliva"},
+      {"title": "Mañana en el bar", "hint": "barra de bar español, tostada, huevo, café, luz matinal por la ventana"},
+      {"title": "Granja al amanecer", "hint": "mano del granjero con una cesta de huevos, sol bajo, bruma cálida"}
+    ]
+  },
+  "products": {
+    "carton": {"title": "Huevos frescos", "subtitle": "Categoría A · Talla L", "badge": "De granja"},
+    "powder": {"title": "Huevo entero en polvo", "subtitle": "Ovoproducto pasteurizado"},
+    "horeca": {"title": "Huevos para hostelería", "subtitle": "Bandeja 30 uds · Talla M-L"}
+  },
+  "contacts": {"web": "primeegg.es", "email": "pedidos@primeegg.es", "phone": "+34 900 000 000",
+               "address": "Polígono Industrial, Nave 12 · 28000 Madrid"}
+}

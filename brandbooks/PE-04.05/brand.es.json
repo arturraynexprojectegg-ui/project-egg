@@ -1,0 +1,161 @@
+{
+  "code": "PE-04.05",
+  "essence": "El huevo como grand cru",
+  "mission": "Devolvemos a un producto sencillo su categoría de manjar: seleccionamos los mejores huevos de granjas españolas y los llevamos a chefs y gourmets con el esmero impecable de una casa vinícola.",
+  "vision": "Ser en España un nombre que en la cocina se pronuncie con el mismo respeto que el de una buena casa de vinos.",
+  "positioning": "Proveedor premium de huevos y ovoproductos para restaurantes de alta cocina, hoteles, pastelerías y retail gourmet en España. A diferencia de los distribuidores masivos, vendemos selección, origen y un servicio de nivel «maison», no toneladas.",
+  "values": [
+    {
+      "name": "Selección",
+      "text": "En la caja solo entra lo que nosotros mismos serviríamos en la mesa: categoría A, calibre uniforme, cáscara limpia."
+    },
+    {
+      "name": "Origen",
+      "text": "Conocemos cada granja asociada y podemos contar la historia de cualquier lote."
+    },
+    {
+      "name": "Ceremonia",
+      "text": "Embalaje, documentación y entrega cuidados con la misma atención al detalle que el producto."
+    },
+    {
+      "name": "Constancia",
+      "text": "La casa cumple su palabra: la misma calidad en el primer pedido y en el milésimo."
+    }
+  ],
+  "audience": [
+    {
+      "segment": "Mayoristas",
+      "need": "Una gama premium estable, con trazabilidad y un margen superior al del mercado.",
+      "message": "Un producto que se vende solo: etiqueta, historia y una calidad por la que el cliente paga con gusto."
+    },
+    {
+      "segment": "HoReCa",
+      "need": "Huevos de yema intensa y clara firme, entregas puntuales antes del servicio, suministro sin interrupciones.",
+      "message": "Su chef recibe un huevo a la altura de su carta: cada día, sin concesiones."
+    },
+    {
+      "segment": "Retail y consumidor",
+      "need": "Un sello de calidad claro en el lineal y un motivo para comprar para una mesa especial.",
+      "message": "Un pequeño lujo cotidiano: huevos de la casa Primeegg."
+    }
+  ],
+  "personality": [
+    "refinado",
+    "sobrio",
+    "seguro",
+    "atento",
+    "hospitalario"
+  ],
+  "tone": {
+    "principles": [
+      {
+        "name": "Con dignidad",
+        "text": "Hablamos con calma y sin exclamaciones: la calidad no necesita gritar."
+      },
+      {
+        "name": "Con precisión",
+        "text": "En lugar de epítetos rimbombantes, detalles: la granja, el calibre, el día de recogida."
+      },
+      {
+        "name": "Con hospitalidad",
+        "text": "Nos dirigimos al cliente como un sumiller a su invitado: de usted, con respeto y disposición a ayudar."
+      }
+    ],
+    "do": [
+      "Seleccionados a mano, granja a granja.",
+      "Su pedido llegará mañana antes del servicio.",
+      "Un huevo digno de su mesa."
+    ],
+    "dont": [
+      "¡¡Los huevos más baratos del mercado!!",
+      "Ofertón: compra 3 y paga 2.",
+      "Huevos de calidad top, a tope."
+    ]
+  },
+  "taglines": {
+    "es": "La casa del huevo selecto",
+    "en": "The house of select eggs",
+    "ru": "La casa del huevo selecto"
+  },
+  "headlines_es": [
+    "Cada huevo, una reserva",
+    "Selección de la casa",
+    "El lujo de lo esencial"
+  ],
+  "web": {
+    "hero_title": "La casa del huevo selecto",
+    "hero_text": "Huevos y ovoproductos de granjas españolas, elegidos uno a uno para la alta cocina y la mesa exigente.",
+    "cta": "Solicitar catálogo",
+    "nav": [
+      "Productos",
+      "HoReCa",
+      "Distribución",
+      "Nosotros",
+      "Contacto"
+    ]
+  },
+  "pattern": {
+    "name": "Corona de la casa",
+    "text": "Pequeñas coronas doradas del símbolo dispuestas al tresbolillo, con estrellas de cuatro puntas de la línea «ESPAÑA · 2026» entre ellas. Se aplica en fajas y tapas de cajas, envases de regalo, fajas de bandeja, fondo web y delantales del personal."
+  },
+  "color_proportions": [
+    {
+      "hex": "#5E1A26",
+      "pct": 45
+    },
+    {
+      "hex": "#F3ECDC",
+      "pct": 35
+    },
+    {
+      "hex": "#B8924A",
+      "pct": 12
+    },
+    {
+      "hex": "#2B0D14",
+      "pct": 8
+    }
+  ],
+  "photo": {
+    "principles": [
+      "Luz lateral cálida y sombras profundas, como en los bodegones de los maestros antiguos.",
+      "Mínimos elementos: el huevo, la textura del lino, la madera o la piedra, nada superfluo.",
+      "El color de la imagen se mantiene en la gama de burdeos, marfil y oro."
+    ],
+    "scenes": [
+      {
+        "title": "El emplatado del chef",
+        "hint": "La mano del chef coloca una yema en el plato en un restaurante de alta cocina, luz suave de ventana."
+      },
+      {
+        "title": "Selección en la granja",
+        "hint": "Una cesta de huevos frescos sobre una mesa de madera; las manos del granjero revisan la cáscara al amanecer."
+      },
+      {
+        "title": "Caja de regalo",
+        "hint": "Caja abierta con la faja «Maison» sobre un mantel de lino, junto a una copa y pan."
+      }
+    ]
+  },
+  "products": {
+    "carton": {
+      "title": "Huevos frescos",
+      "subtitle": "Categoría A · Talla L",
+      "badge": "Selección"
+    },
+    "powder": {
+      "title": "Huevo entero en polvo",
+      "subtitle": "Ovoproducto pasteurizado"
+    },
+    "horeca": {
+      "title": "Huevos para alta cocina",
+      "subtitle": "Bandeja 30 uds · Talla L"
+    }
+  },
+  "contacts": {
+    "web": "primeegg.es",
+    "email": "pedidos@primeegg.es",
+    "phone": "+34 900 000 000",
+    "address": "Polígono Industrial, Nave 12 · 28000 Madrid"
+  }
+}

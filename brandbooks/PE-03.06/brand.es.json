@@ -1,0 +1,86 @@
+{
+  "code": "PE-03.06",
+  "essence": "Origen español con garantía",
+  "mission": "Llevar a la mesa huevos de granjas españolas con un origen claro y conservar en cada entrega la calidez de la cocina mediterránea.",
+  "vision": "Ser en España un sello de origen tan reconocible como la cerámica pintada de Talavera.",
+  "positioning": "Para HoReCa, tiendas gourmet, mayoristas y retail que valoran el origen español y el carácter del producto. Primeegg une la fiabilidad de un distribuidor con el orgullo por las granjas de aquí.",
+  "values": [
+    {"name": "Origen", "text": "Solo granjas españolas, con nombre y región."},
+    {"name": "Calidad", "text": "El medallón del envase significa un lote verificado de categoría A."},
+    {"name": "Hospitalidad", "text": "Recibimos al cliente como a un invitado a la mesa: con atención, generosidad y trato personal."},
+    {"name": "Cultura", "text": "El huevo es la base de la cocina española, de la tortilla al flan, y lo tratamos con respeto."}
+  ],
+  "audience": [
+    {"segment": "Mayoristas", "need": "Origen español acreditado y suministro estable para sus propios clientes.", "message": "Granjas españolas, un solo sello, suministro estable."},
+    {"segment": "HoReCa", "need": "Un producto con historia para la cocina local y un calibre fiable para el trabajo diario.", "message": "Para una tortilla de verdad, huevos españoles de verdad."},
+    {"segment": "Retail y consumidor", "need": "Un envase bonito y cálido y un distintivo claro de «hecho en España».", "message": "Huevos de granja, con el sello de España."}
+  ],
+  "personality": ["orgullosa", "cálida", "luminosa", "hospitalaria", "fiable"],
+  "tone": {
+    "principles": [
+      {"name": "Con carácter", "text": "Hablamos con viveza e imágenes, como quien habla de su tierra, pero sin folclore recargado."},
+      {"name": "Con raíces", "text": "Nombramos regiones, granjas y platos: el origen se dice con palabras concretas."},
+      {"name": "Con respeto", "text": "Tratamos al cliente de «usted» en B2B y con cercanía de vecino en el lineal."}
+    ],
+    "do": [
+      "Huevos de granjas españolas, con nombre y origen.",
+      "Para una tortilla de verdad, huevos de aquí.",
+      "Lo bueno de nuestra tierra, en su mesa."
+    ],
+    "dont": [
+      "Huevos importados al mejor precio global.",
+      "Olé, olé: ¡el huevo más flamenco de España!",
+      "Producto genérico apto para cualquier uso."
+    ]
+  },
+  "taglines": {
+    "es": "El sello de lo nuestro.",
+    "en": "The seal of Spanish origin.",
+    "ru": "El sello de lo nuestro."
+  },
+  "headlines_es": [
+    "De granjas españolas a su mesa",
+    "La tortilla empieza aquí",
+    "Origen con sello propio"
+  ],
+  "web": {
+    "hero_title": "Huevos de granja española",
+    "hero_text": "Distribuimos huevos y ovoproductos de origen español para hostelería, tiendas y mayoristas, con calidad sellada.",
+    "cta": "Conócenos",
+    "nav": ["Productos", "HoReCa", "Distribución", "Nosotros", "Contacto"]
+  },
+  "pattern": {
+    "name": "Azulejo Sello",
+    "text": "Un azulejo: cuatro huevos-pétalo terracota alrededor de una yema azafrán y un anillo de cuentas tomado de la orla del medallón. Se aplica en tapas de estuche, sacos de huevo en polvo, fondo web, delantales y vinilo de escaparate."
+  },
+  "color_proportions": [
+    {"hex": "#F4ECDC", "pct": 35},
+    {"hex": "#1F4E9C", "pct": 30},
+    {"hex": "#C8553D", "pct": 15},
+    {"hex": "#0E2140", "pct": 10},
+    {"hex": "#F2A541", "pct": 10}
+  ],
+  "photo": {
+    "principles": [
+      "Sol brillante del sur, sombras contrastadas y colores intensos pero naturales.",
+      "Contexto español en el encuadre: cerámica, paredes encaladas, terracota, madera de olivo.",
+      "La comida en acción: tortilla, flan, panadería; el huevo como base de la cocina local."
+    ],
+    "scenes": [
+      {"title": "Patio de la granja", "hint": "Pared encalada, teja de terracota y una cesta de huevos sobre azulejo cobalto al sol."},
+      {"title": "Tortilla en la mesa", "hint": "Una sartén con tortilla sobre un plato pintado, junto a un estuche Primeegg con el medallón."},
+      {"title": "Mañana en el obrador", "hint": "Un panadero con delantal de azulejos bate huevos junto a una ventana de luz suave."}
+    ]
+  },
+  "products": {
+    "carton": {"title": "Huevos frescos de granja", "subtitle": "Categoría A · Talla L", "badge": "Origen España"},
+    "powder": {"title": "Huevo entero en polvo", "subtitle": "Ovoproducto pasteurizado"},
+    "horeca": {"title": "Huevos para hostelería", "subtitle": "Bandeja 30 uds · Talla M-L"}
+  },
+  "contacts": {
+    "web": "primeegg.es",
+    "email": "pedidos@primeegg.es",
+    "phone": "+34 900 000 000",
+    "address": "Polígono Industrial, Nave 12 · 28000 Madrid"
+  }
+}

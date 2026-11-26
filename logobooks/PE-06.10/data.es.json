@@ -1,0 +1,32 @@
+{
+  "code": "PE-06.10",
+  "name": "Huevo en línea",
+  "name_en": "Egg on the Line",
+  "tagline": "El distribuidor que siempre responde y llega a tiempo.",
+  "story": [
+    "El símbolo es un huevo convertido en burbuja de chat: un pico abajo a la izquierda y unos «puntos suspensivos» de tres huevos pequeños, como si el interlocutor ya estuviera escribiendo. El último huevo tiene el color de la yema: es el punto en que la conversación se convierte en entrega.",
+    "Para el cliente B2B lo esencial es la fiabilidad y la rapidez de respuesta: el símbolo promete que Primeegg contesta a cada pedido y está en contacto con cocinas HoReCa, mayoristas e industria. La Nunito Black, redondeada, se lee en cartón y en cuerpos pequeños, y la burbuja funciona con naturalidad como icono de app, avatar de mensajería y botón de pedido en la web."
+  ],
+  "elements": [
+    {"element": "Huevo-burbuja", "meaning": "el producto y el diálogo con el cliente en una sola forma"},
+    {"element": "Puntos suspensivos de huevos", "meaning": "conversación viva, respuesta rápida al pedido"},
+    {"element": "Punto yema", "meaning": "el resultado: pedido preparado y en camino al cliente"},
+    {"element": "PRIMEEGG bicolor", "meaning": "«prime», fiabilidad; «egg», un producto cálido"}
+  ],
+  "palette": [
+    {"role": "Principal", "name": "Azul cielo", "hex": "#4FB3E8", "rgb": "79 179 232", "cmyk": "63 13 0 0", "pantone": "≈ 298 C"},
+    {"role": "Principal", "name": "Azul profundo", "hex": "#1F8FD0", "rgb": "31 143 208", "cmyk": "82 30 0 0", "pantone": "≈ 2925 C"},
+    {"role": "Acento", "name": "Coral", "hex": "#FF6B5B", "rgb": "255 107 91", "cmyk": "0 70 62 0", "pantone": "≈ 178 C"},
+    {"role": "Acento", "name": "Yema", "hex": "#FFC530", "rgb": "255 197 48", "cmyk": "0 24 85 0", "pantone": "≈ 123 C"},
+    {"role": "Neutro oscuro", "name": "Azul noche", "hex": "#22304D", "rgb": "34 48 77", "cmyk": "87 74 40 35", "pantone": "≈ 534 C"}
+  ],
+  "dark_bg": "#1A2540",
+  "brand_bg": "#4FB3E8",
+  "fonts": [
+    {"role": "Logotipo", "family": "Nunito", "weights": "900, 700", "note": "PRIMEEGG en Black, descriptor «Distribution · España» en Bold"},
+    {"role": "Titulares", "family": "Baloo 2", "weights": "700, 800", "note": "titulares compactos y redondeados, afines a la Nunito Black"},
+    {"role": "Texto", "family": "Nunito", "weights": "400, 600", "note": "texto general, interfaces, documentos y etiquetas"}
+  ],
+  "clear_space": {"unit_name": "altura del huevo-punto (x)", "unit": 23},
+  "min_size": {"print_mm": 25, "screen_px": 100, "mark_px": 16}
+}

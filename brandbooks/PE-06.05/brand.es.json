@@ -1,0 +1,165 @@
+{
+  "code": "PE-06.05",
+  "essence": "El sello de la calidad de granja",
+  "mission": "Poner un sello de calidad en cada envío de huevos y ovoproductos para que el comprador confíe en el producto a primera vista. Seleccionamos, revisamos y envasamos con mimo, como en una buena granja.",
+  "vision": "Convertir el sello Primeegg en el símbolo del producto de granja verificado en los lineales y las cocinas de España.",
+  "positioning": "Para tiendas, HoReCa y mayoristas que valoran la garantía de calidad y un envase atractivo. Primeegg es el distribuidor cuyo sello en el estuche significa: revisado, seleccionado, fresco.",
+  "values": [
+    {
+      "name": "Calidad verificada",
+      "text": "Cada lote pasa un control, y solo ponemos nuestro sello en aquello que garantizamos."
+    },
+    {
+      "name": "Cuidado del detalle",
+      "text": "Como el pespunte de una etiqueta, cuidamos cada detalle: calibrado, envasado y etiquetado."
+    },
+    {
+      "name": "Honestidad de granja",
+      "text": "Origen, categoría y fecha de recogida siempre indicados en el propio envase."
+    },
+    {
+      "name": "Alegría en el lineal",
+      "text": "Nuestro producto da gusto elegirlo, tenerlo en la mano y llevarlo a la cocina."
+    }
+  ],
+  "audience": [
+    {
+      "segment": "Mayoristas",
+      "need": "Garantía de calidad homogénea en cada lote y documentación transparente.",
+      "message": "Cada caja lleva nuestro sello: lote revisado y etiquetado, documentación en regla."
+    },
+    {
+      "segment": "HoReCa",
+      "need": "Producto sin defectos ni sorpresas, en formatos prácticos para la cocina.",
+      "message": "Huevos seleccionados y productos pasteurizados con el sello Primeegg: la confianza del chef."
+    },
+    {
+      "segment": "Retail y consumidor",
+      "need": "Un sello de calidad claro y un envase que destaque en el lineal.",
+      "message": "Busca el sello Primeegg: huevos frescos de granja, seleccionados con cariño."
+    }
+  ],
+  "personality": [
+    "entrañable",
+    "atento",
+    "honesto",
+    "cordial",
+    "artesanal"
+  ],
+  "tone": {
+    "principles": [
+      {
+        "name": "Como en la etiqueta",
+        "text": "Frases breves y precisas que caben en una etiqueta y suenan a promesa."
+      },
+      {
+        "name": "Con alma",
+        "text": "Añadimos calidez y un tono personal, como si el granjero firmara el producto a mano."
+      },
+      {
+        "name": "Al grano",
+        "text": "Respaldamos las palabras con hechos: categoría, fecha, control."
+      }
+    ],
+    "do": [
+      "Seleccionados uno a uno.",
+      "Con nuestro sello, sin sorpresas.",
+      "Revisado, envasado y listo para tu cocina."
+    ],
+    "dont": [
+      "Huevos baratos para todo.",
+      "Producto conforme al lote n.º 4471-B.",
+      "¡¡Compra ya, oferta loquísima!!"
+    ]
+  },
+  "taglines": {
+    "es": "Calidad con sello propio.",
+    "en": "Quality with its own seal.",
+    "ru": "Calidad con sello propio."
+  },
+  "headlines_es": [
+    "Busca nuestro sello",
+    "Seleccionados uno a uno",
+    "Sellado con cariño en España"
+  ],
+  "web": {
+    "hero_title": "Huevos con sello de calidad",
+    "hero_text": "Seleccionamos, revisamos y distribuimos huevos de granja y ovoproductos para tiendas, hostelería y mayoristas.",
+    "cta": "Pide muestras",
+    "nav": [
+      "Productos",
+      "HoReCa",
+      "Distribución",
+      "Nosotros",
+      "Contacto"
+    ]
+  },
+  "pattern": {
+    "name": "Lluvia de sellos",
+    "text": "Pequeños sellos festoneados con pespunte punteado y huevo dorado se alternan con huevos-punto, como pegatinas en una caja. Funciona en la tapa del estuche, el papel de envolver, la cinta para cajas HoReCa y el fondo web."
+  },
+  "color_proportions": [
+    {
+      "hex": "#FFF6E0",
+      "pct": 40
+    },
+    {
+      "hex": "#4FB3E8",
+      "pct": 25
+    },
+    {
+      "hex": "#FF6B5B",
+      "pct": 15
+    },
+    {
+      "hex": "#FFC530",
+      "pct": 10
+    },
+    {
+      "hex": "#22304D",
+      "pct": 10
+    }
+  ],
+  "photo": {
+    "principles": [
+      "Primeros planos de manos y detalles: etiqueta, pegatina, cordel, cartón kraft.",
+      "Fondo crema claro y materiales naturales: madera, lino, cestas de mimbre.",
+      "Luz suave y difusa, color honesto del producto sin retoque brillante."
+    ],
+    "scenes": [
+      {
+        "title": "Selección a mano",
+        "hint": "Manos con guantes revisan los huevos al trasluz en la mesa de clasificación."
+      },
+      {
+        "title": "Sello en el estuche",
+        "hint": "Primer plano de la pegatina Primeegg presionada sobre la tapa de un estuche de huevos kraft."
+      },
+      {
+        "title": "Lineal de tienda",
+        "hint": "Una fila de estuches con el sello reconocible en la estantería de una tienda de productos de granja."
+      }
+    ]
+  },
+  "products": {
+    "carton": {
+      "title": "Huevos frescos",
+      "subtitle": "Categoría A · Talla L",
+      "badge": "Sello de granja"
+    },
+    "powder": {
+      "title": "Huevo entero en polvo",
+      "subtitle": "Ovoproducto pasteurizado"
+    },
+    "horeca": {
+      "title": "Huevos para hostelería",
+      "subtitle": "Bandeja 30 uds · Talla M-L"
+    }
+  },
+  "contacts": {
+    "web": "primeegg.es",
+    "email": "pedidos@primeegg.es",
+    "phone": "+34 900 000 000",
+    "address": "Polígono Industrial, Nave 12 · 28000 Madrid"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "code": "PE-02.06",
+  "essence": "Чесне маркування поставки",
+  "mission": "Постачати яйця та яєчні продукти так, щоб маркування на ящику завжди збігалося з тим, що всередині: сорт, калібр, дата, вага.",
+  "vision": "Стати постачальником, чий штамп на тарі іспанські закупники приймають без перевірки.",
+  "positioning": "Для оптовиків, харчових виробництв і HoReCa, які рахують палети й перевіряють накладні. Primeegg — дистриб’ютор без зайвих слів: сорт A, повна простежуваність і тара, яка говорить сама за себе.",
+  "values": [
+    {"name": "Чесність", "text": "На ящику написано саме те, що всередині, — без округлень і дрібного шрифту."},
+    {"name": "Простежуваність", "text": "Кожна партія має номер, ферму й дату пакування, які легко перевірити."},
+    {"name": "Витривалість", "text": "Тара, логістика й люди розраховані на щоденну важку роботу складу."},
+    {"name": "Свіжість", "text": "Сорт A й короткий ланцюжок від ферми до рампи клієнта — стандарт, а не акція."}
+  ],
+  "audience": [
+    {"segment": "Оптові покупці", "need": "Точні обсяги, єдині стандарти тари й документи без помилок.", "message": "Що на ящику — те й у ящику. Палета за палетою."},
+    {"segment": "HoReCa", "need": "Стабільний калібр, зручна тара й зрозуміла дата пакування.", "message": "Сорт A, потрібний калібр, дата на кожному лотку."},
+    {"segment": "Ретейл і покупець", "need": "Відчуття справжнього фермерського продукту без посередників.", "message": "Просто з ферми — у тому самому ящику."}
+  ],
+  "personality": ["чесний", "практичний", "міцний", "небагатослівний", "робочий"],
+  "tone": {
+    "principles": [
+      {"name": "Коротко", "text": "Пишемо як маркування: іменники, цифри, факти — жодного зайвого слова."},
+      {"name": "По суті", "text": "Говоримо про сорт, калібр, вагу й строки, а не про емоції та обіцянки."},
+      {"name": "Прямо", "text": "Якщо щось не так, кажемо про це одразу й пропонуємо рішення."}
+    ],
+    "do": [
+      "Grado A. Talla L. 30 docenas por caja.",
+      "Lote, granja y fecha en cada etiqueta.",
+      "Lo que pone la caja, es lo que hay."
+    ],
+    "dont": [
+      "Una experiencia gastronómica única que despertará tus sentidos.",
+      "¡Descubre la magia del huevo con nosotros!",
+      "Calidad superior inigualable y sin precedentes."
+    ]
+  },
+  "taglines": {
+    "es": "Lo que pone la caja, es lo que hay.",
+    "en": "What the crate says is what you get.",
+    "ru": "Що написано на ящику — те й усередині."
+  },
+  "headlines_es": [
+    "Grado A, caja a caja",
+    "Sin intermediarios, sin sorpresas",
+    "Directo de la granja al muelle"
+  ],
+  "web": {
+    "hero_title": "Grado A. Caja a caja.",
+    "hero_text": "Distribución de huevos y ovoproductos para mayoristas, industria y hostelería. Trazabilidad completa en cada palé.",
+    "cta": "Pedir tarifa",
+    "nav": ["Productos", "HoReCa", "Distribución", "Nosotros", "Contacto"]
+  },
+  "pattern": {
+    "name": "Трафарет і мітки",
+    "text": "Трафаретні яйця з перемичкою, як на вирізаному шаблоні, чергуються з кутовими мітками зрізаної рамки штампа. Використовується на гофрокоробах, мішках порошку, палетній стрічці, фартухах і тлі сайту."
+  },
+  "color_proportions": [
+    {"hex": "#C9A574", "pct": 35},
+    {"hex": "#24402A", "pct": 30},
+    {"hex": "#F5EFE3", "pct": 20},
+    {"hex": "#1E2420", "pct": 8},
+    {"hex": "#E3A23B", "pct": 7}
+  ],
+  "photo": {
+    "principles": [
+      "Документальна зйомка: склад, рампа, руки, тара — без постановки й ретуші.",
+      "Фактура на першому плані: крафт-картон, дерево, шкаралупа, трафаретна фарба.",
+      "Рівне денне світло й приглушені природні кольори, близькі до палітри бренду."
+    ],
+    "scenes": [
+      {"title": "Штамп на ящику", "hint": "Рука наносить трафарет PRIMEEGG зеленою фарбою на крафтовий короб."},
+      {"title": "Палета готова", "hint": "Стос гофрокоробів із маркуванням на рампі складу, поруч навантажувач."},
+      {"title": "Перевірка партії", "hint": "Закупник звіряє накладну з етикеткою лоту на лотку з яйцями."}
+    ]
+  },
+  "products": {
+    "carton": {"title": "Huevos frescos", "subtitle": "Categoría A · Talla L", "badge": "Grado A"},
+    "powder": {"title": "Huevo entero en polvo", "subtitle": "Ovoproducto pasteurizado · Saco 20 kg"},
+    "horeca": {"title": "Huevos para hostelería", "subtitle": "Bandeja 30 uds · Talla M-L"}
+  },
+  "contacts": {
+    "web": "primeegg.es",
+    "email": "pedidos@primeegg.es",
+    "phone": "+34 900 000 000",
+    "address": "Polígono Industrial, Nave 12 · 28000 Madrid"
+  }
+}

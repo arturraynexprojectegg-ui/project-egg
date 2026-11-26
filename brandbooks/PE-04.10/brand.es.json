@@ -1,0 +1,161 @@
+{
+  "code": "PE-04.10",
+  "essence": "Una casa fiable con tradición",
+  "mission": "Suministramos huevos frescos y ovoproductos como trabaja una buena tienda familiar: bien embalados, entregados a tiempo y siempre con la misma calidad.",
+  "vision": "Ser para las cocinas y tiendas de España esa «casa» a la que se vuelve durante años.",
+  "positioning": "Distribuidor de huevos y ovoproductos para mayoristas, HoReCa y comercios de España, que une la fiabilidad de un gran proveedor con el cuidado y el orden de un negocio familiar. Nuestro punto fuerte: embalaje esmerado, fichas técnicas claras y constancia en los suministros.",
+  "values": [
+    {
+      "name": "Frescura",
+      "text": "Un trayecto corto de la granja al almacén del cliente y un control riguroso de las fechas."
+    },
+    {
+      "name": "Orden",
+      "text": "Cada caja etiquetada, cada lote documentado, cada pedido preparado sin errores."
+    },
+    {
+      "name": "Continuidad",
+      "text": "Construimos una casa para años: las relaciones duraderas con granjas y clientes valen más que una venta puntual."
+    },
+    {
+      "name": "Honestidad",
+      "text": "Precios y fichas técnicas transparentes, sin letra pequeña."
+    }
+  ],
+  "audience": [
+    {
+      "segment": "Mayoristas",
+      "need": "Volúmenes previsibles, etiquetado claro y una logística sin interrupciones.",
+      "message": "Un orden en el que confiar: cada lote en su sitio y tal como se describe."
+    },
+    {
+      "segment": "HoReCa",
+      "need": "Calidad estable, formatos prácticos y un proveedor que no falla un viernes por la noche.",
+      "message": "Su proveedor de confianza, como el carnicero de su mercado: le conoce y no le falla."
+    },
+    {
+      "segment": "Retail y consumidor",
+      "need": "Un envase bonito y reconocible y la sensación de un producto natural de granja.",
+      "message": "Huevos de una casa de confianza: frescos, honestos, de granjas españolas."
+    }
+  ],
+  "personality": [
+    "sólido",
+    "cálido",
+    "cuidadoso",
+    "tradicional",
+    "honesto"
+  ],
+  "tone": {
+    "principles": [
+      {
+        "name": "Con calidez",
+        "text": "Hablamos como el anfitrión de la casa: con cercanía, pero sin excesos de confianza."
+      },
+      {
+        "name": "Con claridad",
+        "text": "Frases cortas y datos concretos: plazos, formatos, cantidades."
+      },
+      {
+        "name": "Con raíces",
+        "text": "Nos apoyamos en el oficio y la tradición, no en palabras de moda."
+      }
+    ],
+    "do": [
+      "Desde la granja a su cocina, como siempre.",
+      "Cajas bien cerradas, pedidos bien servidos.",
+      "En casa Primeegg, la palabra se cumple."
+    ],
+    "dont": [
+      "Revolucionamos la industria del huevo.",
+      "Somos disruptivos y 100% innovadores.",
+      "Huevos low cost para todos."
+    ]
+  },
+  "taglines": {
+    "es": "Huevos de casa, desde 2026",
+    "en": "Eggs from the house, since 2026",
+    "ru": "Huevos de casa, desde 2026"
+  },
+  "headlines_es": [
+    "Una casa, mil cocinas",
+    "Frescura con sello de la casa",
+    "Bien hecho, bien servido"
+  ],
+  "web": {
+    "hero_title": "Huevos de casa, desde 2026",
+    "hero_text": "Distribuimos huevos frescos y ovoproductos de granjas españolas para hostelería, comercio y mayoristas.",
+    "cta": "Hacer pedido",
+    "nav": [
+      "Productos",
+      "HoReCa",
+      "Distribución",
+      "Nosotros",
+      "Contacto"
+    ]
+  },
+  "pattern": {
+    "name": "Rombos Casa",
+    "text": "Una retícula de rombos dorados dobles del símbolo-capitular, con pequeños rombos macizos y puntos entre ellos, como el motivo de la tapa de una lata antigua. Se aplica en laterales de cajas, sacos de polvo, fajas de bandeja, etiquetas de transporte, fondo web y delantales."
+  },
+  "color_proportions": [
+    {
+      "hex": "#1F3D2B",
+      "pct": 45
+    },
+    {
+      "hex": "#F1EADB",
+      "pct": 35
+    },
+    {
+      "hex": "#B8924A",
+      "pct": 12
+    },
+    {
+      "hex": "#12261A",
+      "pct": 8
+    }
+  ],
+  "photo": {
+    "principles": [
+      "Luz natural de día y un etalonaje cálido, ligeramente vintage.",
+      "En la imagen, lugares y personas reales: la granja, el almacén, la cocina, la tienda.",
+      "Las texturas de madera, papel kraft y cerámica refuerzan la gama verde y oro."
+    ],
+    "scenes": [
+      {
+        "title": "Mañana en la granja",
+        "hint": "Un granjero saca del gallinero una caja de madera con huevos, suave luz matinal, vegetación alrededor."
+      },
+      {
+        "title": "Almacén y preparación",
+        "hint": "Pilas ordenadas de cajas con la etiqueta verde; un empleado comprueba el albarán."
+      },
+      {
+        "title": "Cocina familiar",
+        "hint": "Una tortilla en una sartén de hierro fundido y, al lado, una caja abierta de Primeegg sobre una mesa de madera."
+      }
+    ]
+  },
+  "products": {
+    "carton": {
+      "title": "Huevos frescos",
+      "subtitle": "Categoría A · Talla L",
+      "badge": "De la casa"
+    },
+    "powder": {
+      "title": "Huevo entero en polvo",
+      "subtitle": "Ovoproducto pasteurizado"
+    },
+    "horeca": {
+      "title": "Huevos para hostelería",
+      "subtitle": "Bandeja 30 uds · Talla M-L"
+    }
+  },
+  "contacts": {
+    "web": "primeegg.es",
+    "email": "pedidos@primeegg.es",
+    "phone": "+34 900 000 000",
+    "address": "Polígono Industrial, Nave 12 · 28000 Madrid"
+  }
+}

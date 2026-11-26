@@ -1,0 +1,169 @@
+{
+  "code": "PE-06.03",
+  "essence": "La mañana soleada de España",
+  "mission": "Llevar a las cocinas de España huevos frescos de granja y ovoproductos con los que cada mañana empieza con calidez y buen sabor. Hacemos que la calidad sea sencilla y clara, de la granja al plato.",
+  "vision": "Ser la marca de huevos más reconocida y querida del Mediterráneo, del almacén mayorista al desayuno en casa.",
+  "positioning": "Para mayoristas, HoReCa y tiendas que buscan un producto fresco con carácter propio. Primeegg es un distribuidor con rostro cercano: suministro B2B fiable y un envase que se vende solo en el lineal.",
+  "values": [
+    {
+      "name": "Frescura",
+      "text": "Los huevos llegan al cliente pocos días después de la recogida: como el sol de la mañana, siempre nuevos."
+    },
+    {
+      "name": "Calidez",
+      "text": "Hablamos con los clientes de forma cercana y humana, sin jerga burocrática."
+    },
+    {
+      "name": "Transparencia",
+      "text": "Mostramos el producto «tal cual»: origen, categoría y fecha siempre a la vista."
+    },
+    {
+      "name": "Fiabilidad",
+      "text": "El sol sale cada día, y nuestros suministros llegan con la misma puntualidad."
+    }
+  ],
+  "audience": [
+    {
+      "segment": "Mayoristas",
+      "need": "Volúmenes estables, precio claro y un calendario de entregas preciso.",
+      "message": "Producto fresco cada día, sin sorpresas: volúmenes y plazos en los que se puede confiar."
+    },
+    {
+      "segment": "HoReCa",
+      "need": "Huevos y ovoproductos de calidad constante para desayunos, repostería y cocina.",
+      "message": "Tu desayuno empieza con nosotros: huevos calibrados y productos pasteurizados que no fallan."
+    },
+    {
+      "segment": "Retail y consumidor",
+      "need": "Un envase vistoso y claro, y confianza en el origen del producto.",
+      "message": "Un poco de sol mediterráneo en tu cesta: huevos frescos de granja para cada día."
+    }
+  ],
+  "personality": [
+    "soleado",
+    "cercano",
+    "abierto",
+    "alegre",
+    "fiable"
+  ],
+  "tone": {
+    "principles": [
+      {
+        "name": "Cálido",
+        "text": "Escribimos como quien saluda al vecino por la mañana: con una sonrisa y tuteando cuando procede."
+      },
+      {
+        "name": "Claro",
+        "text": "Una idea, una frase: frescura, categoría, fecha, sin palabras de más."
+      },
+      {
+        "name": "Apetecible",
+        "text": "Hablamos de sabor, de la mañana y del desayuno para que den ganas de probar el producto."
+      }
+    ],
+    "do": [
+      "¡Buenos días! Tus huevos ya van de camino.",
+      "Recién recogidos, recién llegados.",
+      "El desayuno empieza aquí."
+    ],
+    "dont": [
+      "Le informamos de que su pedido ha sido procesado conforme a la normativa vigente.",
+      "Producto avícola de categoría estándar.",
+      "Los mejores huevos del universo, garantizado."
+    ]
+  },
+  "taglines": {
+    "es": "Sol mediterráneo en cada huevo.",
+    "en": "Mediterranean sunshine in every egg.",
+    "ru": "Sol mediterráneo en cada huevo."
+  },
+  "headlines_es": [
+    "Cada mañana sale el sol",
+    "Frescos como el primer rayo",
+    "Del campo a tu desayuno"
+  ],
+  "web": {
+    "hero_title": "El sol de tus mañanas",
+    "hero_text": "Huevos frescos de granja y ovoproductos para distribuidores, hostelería y tiendas en toda España.",
+    "cta": "Haz tu pedido",
+    "nav": [
+      "Productos",
+      "HoReCa",
+      "Distribución",
+      "Nosotros",
+      "Contacto"
+    ]
+  },
+  "pattern": {
+    "name": "Sol y ola",
+    "text": "Un ritmo en damero de pequeños soles-yema con los doce rayos del símbolo y líneas onduladas de clara y mar. Se aplica en la tapa del estuche de huevos, la faja de la bandeja, el fondo web y los delantales del personal."
+  },
+  "color_proportions": [
+    {
+      "hex": "#FAF7F2",
+      "pct": 35
+    },
+    {
+      "hex": "#FFB020",
+      "pct": 25
+    },
+    {
+      "hex": "#4FB3E8",
+      "pct": 20
+    },
+    {
+      "hex": "#22304D",
+      "pct": 10
+    },
+    {
+      "hex": "#3FAE5A",
+      "pct": 6
+    },
+    {
+      "hex": "#2B8FCB",
+      "pct": 4
+    }
+  ],
+  "photo": {
+    "principles": [
+      "Luz cálida de mañana, sombras suaves y destellos de sol: la imagen debe sentirse como el comienzo del día.",
+      "El producto «tal cual»: huevo abierto, yema intensa, texturas naturales de madera, lino y cerámica.",
+      "Cielo despejado y acentos azules en la imagen refuerzan la paleta de la marca."
+    ],
+    "scenes": [
+      {
+        "title": "Granja al amanecer",
+        "hint": "Gallinero de cría en libertad con los primeros rayos de sol, una cesta de huevos recién recogidos."
+      },
+      {
+        "title": "Desayuno mediterráneo",
+        "hint": "Huevos fritos con yema soleada en sartén de hierro, pan, tomate y aceite de oliva en la terraza."
+      },
+      {
+        "title": "Reparto matinal",
+        "hint": "Un repartidor descarga bandejas frente a una cafetería en una calle soleada, escaparate y cielo azul."
+      }
+    ]
+  },
+  "products": {
+    "carton": {
+      "title": "Huevos frescos",
+      "subtitle": "Categoría A · Talla L",
+      "badge": "Recién recogidos"
+    },
+    "powder": {
+      "title": "Huevo entero en polvo",
+      "subtitle": "Ovoproducto pasteurizado"
+    },
+    "horeca": {
+      "title": "Huevos para hostelería",
+      "subtitle": "Bandeja 30 uds · Talla M-L"
+    }
+  },
+  "contacts": {
+    "web": "primeegg.es",
+    "email": "pedidos@primeegg.es",
+    "phone": "+34 900 000 000",
+    "address": "Polígono Industrial, Nave 12 · 28000 Madrid"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "code": "PE-04.05",
+  "name": "Etiqueta Maison",
+  "name_en": "Maison Label",
+  "tagline": "Un huevo con etiqueta de casa de champán: presentación premium para quien elige lo mejor.",
+  "story": [
+    "El logotipo se construye como la etiqueta de una casa vinícola: una cartela color marfil con esquinas cóncavas, un marco burdeos y una fina línea interior dorada. Sobre el nombre, una corona y la palabra MAISON; debajo, un doble filete dorado, la firma en cursiva «Huevos · Ovoproductos» y la línea «ESPAÑA · 2026» entre estrellas. La contrastada Abril Fatface hace que «PRIMEEGG» destaque incluso en una etiqueta de 3 cm. El símbolo para tamaños pequeños es una cartela burdeos con la corona y la capitular P: repite de forma reconocible la silueta de la etiqueta.",
+    "El lenguaje de las etiquetas de vino y gastronomía sitúa el producto de inmediato en el segmento premium: para restaurantes y HoReCa es una señal de calidad «prime»; para el retail, una etiqueta lista para la caja, la faja o la tapa. La simetría rigurosa y el marco transmiten la idea de una casa con historia y un proveedor fiable, y la versión monocolor, solo con líneas y texto, se estampa limpiamente sobre cartón."
+  ],
+  "elements": [
+    {
+      "element": "Cartela con esquinas cóncavas",
+      "meaning": "etiqueta de casa vinícola: crianza, prestigio, producto premium"
+    },
+    {
+      "element": "Corona",
+      "meaning": "«prime»: primera calidad, producto selecto"
+    },
+    {
+      "element": "Doble filete dorado",
+      "meaning": "esmero y orden en los suministros, tipografía clásica"
+    },
+    {
+      "element": "ESPAÑA · 2026",
+      "meaning": "origen y año de fundación de la casa"
+    }
+  ],
+  "palette": [
+    {
+      "role": "Principal",
+      "name": "Burdeos Maison",
+      "hex": "#5E1A26",
+      "rgb": "94 26 38",
+      "cmyk": "30 95 70 50",
+      "pantone": "≈ 7421 C"
+    },
+    {
+      "role": "Acento",
+      "name": "Oro champán",
+      "hex": "#B8924A",
+      "rgb": "184 146 74",
+      "cmyk": "25 40 80 5",
+      "pantone": "≈ 7562 C"
+    },
+    {
+      "role": "Neutro claro",
+      "name": "Marfil",
+      "hex": "#F3ECDC",
+      "rgb": "243 236 220",
+      "cmyk": "3 5 13 0",
+      "pantone": "≈ 9224 C"
+    },
+    {
+      "role": "Neutro oscuro",
+      "name": "Vino oscuro",
+      "hex": "#2B0D14",
+      "rgb": "43 13 20",
+      "cmyk": "50 90 70 80",
+      "pantone": "≈ 4975 C"
+    }
+  ],
+  "dark_bg": "#2B0D14",
+  "brand_bg": "#5E1A26",
+  "fonts": [
+    {
+      "role": "Logotipo",
+      "family": "Abril Fatface",
+      "weights": "400",
+      "note": "nombre PRIMEEGG en el logotipo y capitular P en el símbolo"
+    },
+    {
+      "role": "Descriptores",
+      "family": "Josefin Sans",
+      "weights": "400",
+      "note": "MAISON y ESPAÑA · 2026 en mayúsculas con amplio espaciado; también pies y pequeñas anotaciones"
+    },
+    {
+      "role": "Titulares",
+      "family": "Cormorant Garamond",
+      "weights": "500, 600, 500 italic",
+      "note": "la cursiva retoma la firma «Huevos · Ovoproductos»"
+    },
+    {
+      "role": "Texto",
+      "family": "Lora",
+      "weights": "400, 500",
+      "note": "romana serena de estilo libro para catálogos, tarifas y web"
+    }
+  ],
+  "clear_space": {
+    "unit_name": "altura de la corona (x)",
+    "unit": 18
+  },
+  "min_size": {
+    "print_mm": 30,
+    "screen_px": 120,
+    "mark_px": 16
+  }
+}

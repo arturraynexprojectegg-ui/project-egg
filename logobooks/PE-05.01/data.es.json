@@ -1,0 +1,101 @@
+{
+  "code": "PE-05.01",
+  "name": "Pin de entrega",
+  "name_en": "Delivery Pin",
+  "tagline": "El proveedor que siempre llega a su destino.",
+  "story": [
+    "Un huevo invertido, con la parte ancha hacia arriba, se convierte en un marcador de mapa, y la yema, en el anillo del punto de destino. Bajo el marcador, una sombra suave: el pin «se ha posado» en la dirección del cliente. Una única silueta sencilla habla a la vez del producto y de la logística.",
+    "Para un distribuidor, la promesa principal es la fiabilidad del suministro, y el símbolo la formula sin palabras. El riguroso azul de navegación y la compacta palo seco Montserrat se leen como un estilo corporativo B2B, adecuado para una propuesta comercial a HoReCa, el lateral de un camión o un albarán. La cálida yema aporta reconocimiento en el lineal y en la app de pedidos, y el símbolo compacto funciona como favicon y como sello en la caja."
+  ],
+  "elements": [
+    {
+      "element": "Huevo invertido",
+      "meaning": "el producto y, a la vez, un marcador de mapa: entrega exacta en destino"
+    },
+    {
+      "element": "Yema-anillo con punto",
+      "meaning": "punto de destino, frescura y calidez del producto"
+    },
+    {
+      "element": "Sombra bajo el pin",
+      "meaning": "pedido entregado: el marcador toca tierra, en casa del cliente"
+    },
+    {
+      "element": "Línea amarilla sobre el nombre",
+      "meaning": "ruta y ritmo de los suministros; acento que une símbolo y nombre"
+    }
+  ],
+  "palette": [
+    {
+      "role": "Principal",
+      "name": "Azul navegación",
+      "hex": "#0B3C5D",
+      "rgb": "11 60 93",
+      "cmyk": "100 70 30 25",
+      "pantone": "≈ 302 C"
+    },
+    {
+      "role": "Acento",
+      "name": "Yema",
+      "hex": "#F2B705",
+      "rgb": "242 183 5",
+      "cmyk": "0 25 100 0",
+      "pantone": "≈ 7409 C"
+    },
+    {
+      "role": "Complementario",
+      "name": "Oro oscuro",
+      "hex": "#D9A000",
+      "rgb": "217 160 0",
+      "cmyk": "10 35 100 0",
+      "pantone": "≈ 7555 C"
+    },
+    {
+      "role": "Fondo oscuro",
+      "name": "Ruta nocturna",
+      "hex": "#0A2A40",
+      "rgb": "10 42 64",
+      "cmyk": "95 70 40 50",
+      "pantone": "≈ 5395 C"
+    },
+    {
+      "role": "Fondo claro",
+      "name": "Cáscara",
+      "hex": "#FAF7F2",
+      "rgb": "250 247 242",
+      "cmyk": "1 2 4 0",
+      "pantone": "≈ 9224 C"
+    }
+  ],
+  "dark_bg": "#0A2A40",
+  "brand_bg": "#0B3C5D",
+  "fonts": [
+    {
+      "role": "Logotipo",
+      "family": "Montserrat",
+      "weights": "800, 600",
+      "note": "800 para el nombre PRIMEEGG; 600 espaciada para el descriptor DISTRIBUTION"
+    },
+    {
+      "role": "Titulares",
+      "family": "Montserrat",
+      "weights": "700, 800",
+      "note": "una misma voz geométrica con el logotipo; titulares en mayúsculas o en tipo oración"
+    },
+    {
+      "role": "Texto",
+      "family": "Inter",
+      "weights": "400, 500",
+      "note": "neutra y nítida en cuerpos pequeños: tarifas, albaranes, interfaces"
+    }
+  ],
+  "clear_space": {
+    "unit_name": "diámetro de la yema (x)",
+    "unit": 34
+  },
+  "min_size": {
+    "print_mm": 25,
+    "screen_px": 100,
+    "mark_px": 16
+  }
+}

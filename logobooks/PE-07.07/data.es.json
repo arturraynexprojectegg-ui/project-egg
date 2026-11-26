@@ -1,0 +1,32 @@
+{
+  "code": "PE-07.07",
+  "name": "Huevo punto final",
+  "name_en": "Egg Full Stop",
+  "tagline": "Primeegg. Punto final a las dudas sobre frescura.",
+  "story": [
+    "El logotipo es un script retro en Lobster, con «Prime» en turquesa profundo y «egg» en ámbar cálido. Al final de la palabra, en lugar del punto, hay un huevo: el nombre se convierte en una afirmación, «Primeegg.». El trazo de subrayado y la línea «Since 2026 · España» le dan el tono de un rótulo de casa. El símbolo derivado, un monograma «P» con el huevo-punto dentro de un círculo turquesa, nace directamente del lettering.",
+    "El huevo-punto es un recurso sencillo y memorable: habla del producto sin ilustración y suena con aplomo en la comunicación B2B, en tarifas, palés y documentos. El turquesa y el ámbar evocan el mar Mediterráneo y la yema, y distinguen la marca en el lineal frente a los habituales envases rojos y amarillos; el monograma circular funciona como favicon, sello en la caja y avatar."
+  ],
+  "elements": [
+    {"element": "Huevo-punto", "meaning": "el producto como argumento final: seguridad y garantía de frescura"},
+    {"element": "Prime / egg en dos colores", "meaning": "calidad «prime» y producto en una sola palabra"},
+    {"element": "Trazo de subrayado", "meaning": "la firma del productor, un enfoque artesano"},
+    {"element": "Monograma P en círculo", "meaning": "símbolo compacto para sello, icono y envase"}
+  ],
+  "palette": [
+    {"role": "Principal", "name": "Turquesa mediterráneo", "hex": "#0F6E6E", "rgb": "15 110 110", "cmyk": "88 30 45 20", "pantone": "≈ 7714 C"},
+    {"role": "Acento", "name": "Yema ámbar", "hex": "#E39B2D", "rgb": "227 155 45", "cmyk": "5 42 90 0", "pantone": "≈ 7563 C"},
+    {"role": "Neutro oscuro", "name": "Laguna profunda", "hex": "#0A3A3A", "rgb": "10 58 58", "cmyk": "88 50 58 55", "pantone": "≈ 5463 C"},
+    {"role": "Neutro claro", "name": "Cáscara", "hex": "#F7EFDF", "rgb": "247 239 223", "cmyk": "2 4 12 0", "pantone": "≈ 7527 C (20%)"}
+  ],
+  "dark_bg": "#0A3A3A",
+  "brand_bg": "#0F6E6E",
+  "fonts": [
+    {"role": "Logotipo", "family": "Lobster", "weights": "400", "note": "script retro del nombre y del monograma «P»"},
+    {"role": "Logotipo (descriptor)", "family": "Montserrat", "weights": "600", "note": "línea SINCE 2026 · ESPAÑA, espaciado amplio"},
+    {"role": "Titulares", "family": "Montserrat", "weights": "700", "note": "titulares geométricos y nítidos que equilibran el script expresivo"},
+    {"role": "Texto", "family": "Lora", "weights": "400, 500", "note": "serif editorial cálida para descripciones, catálogos y cartas"}
+  ],
+  "clear_space": {"unit_name": "altura del huevo-punto (x)", "unit": 35},
+  "min_size": {"print_mm": 25, "screen_px": 96, "mark_px": 16}
+}

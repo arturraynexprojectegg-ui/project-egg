@@ -39,6 +39,28 @@ def contrast(a, b):
     return (max(la, lb) + 0.05) / (min(la, lb) + 0.05)
 
 
+CYR_OK = {"Playfair Display", "Cormorant Garamond", "Montserrat", "Manrope", "Oswald", "Inter", "Nunito",
+          "Pacifico", "Lobster", "Caveat", "Lora"}
+CYR_SUB = {"Fraunces": "Playfair Display", "DM Serif Display": "Playfair Display", "Abril Fatface": "Playfair Display",
+           "Libre Baskerville": "Lora", "Space Grotesk": "Manrope", "Syne": "Manrope", "Bricolage Grotesque": "Manrope",
+           "Outfit": "Manrope", "Archivo Black": "Montserrat", "Josefin Sans": "Montserrat", "Bebas Neue": "Oswald",
+           "Fredoka": "Nunito", "Baloo 2": "Nunito", "Quicksand": "Nunito", "Yellowtail": "Lobster", "Rye": "Oswald"}
+
+
+def cyr(family):
+    """Гарнитура с кириллицей для украинской версии (если у исходной её нет)."""
+    return family if family in CYR_OK else CYR_SUB.get(family, "Inter")
+
+
+def load_lang(path, lang):
+    """data.json -> data.<lang>.json, если перевод есть."""
+    if lang and lang != "ru":
+        tp = path.with_name(f"{path.stem}.{lang}.json")
+        if tp.exists():
+            return json.loads(tp.read_text())
+    return json.loads(path.read_text())
+
+
 def pick_font(fonts, role_word, idx, fallback):
     """Шрифт по роли ('Заголовки', 'Текст'...), иначе по позиции."""
     for x in fonts:
@@ -51,13 +73,17 @@ def pick_font(fonts, role_word, idx, fallback):
 class BrandKit:
     _n = 0
 
-    def __init__(self, code):
+    def __init__(self, code, lang=None):
+        if lang is None:
+            import i18n_ui
+            lang = i18n_ui.LANG
+        self.lang = lang
         self.code = code
         self.lb_dir = ROOT / "logobooks" / code
         self.bb_dir = ROOT / "brandbooks" / code
-        self.d = json.loads((self.lb_dir / "data.json").read_text())
-        bj = self.bb_dir / "brand.json"
-        self.b = json.loads(bj.read_text()) if bj.exists() else {}
+        self.d_ru = json.loads((self.lb_dir / "data.json").read_text())   # роли/структура — всегда из исходника
+        self.d = load_lang(self.lb_dir / "data.json", lang)
+        self.b = load_lang(self.bb_dir / "brand.json", lang) if (self.bb_dir / "brand.json").exists() else {}
         self.name = self.d["name"]
         self.comp = {k: (self.lb_dir / f"{k}.svg").read_text() for k in VB if (self.lb_dir / f"{k}.svg").exists()}
         pt = self.bb_dir / "pattern.svg"
@@ -65,18 +91,23 @@ class BrandKit:
         self.palette = self.d["palette"]
         pal = self.palette
         self.primary = pal[0]["hex"]
-        acc = [c for c in pal[1:] if "акцент" in c.get("role", "").lower()]
-        self.accent = (acc[0] if acc else (pal[1] if len(pal) > 1 else pal[0]))["hex"]
+        acc = [i for i, c in enumerate(self.d_ru["palette"][1:], 1) if "акцент" in c.get("role", "").lower()]
+        self.accent = pal[acc[0] if acc else (1 if len(pal) > 1 else 0)]["hex"]
         by = sorted(pal, key=lambda c: lum(c["hex"]))
         self.ink = by[0]["hex"] if lum(by[0]["hex"]) < 0.06 else "#1C1B19"
         self.light = by[-1]["hex"] if lum(by[-1]["hex"]) > 0.75 else "#F6F2EA"
         self.dark = self.d.get("dark_bg", self.ink)
         self.brand_bg = self.d.get("brand_bg", self.primary)
         self.paper = "#FBFAF7"
-        f = self.d.get("fonts", [])
+        f = self.d_ru.get("fonts", [])
         self.logo_font = pick_font(f, "логотип", 0, "Inter") + ", sans-serif"
-        self.head_font = pick_font(f, "заголов", 1, "Fraunces") + ", Georgia, serif"
-        self.text_font = pick_font(f, "текст", 2, "Inter") + ", Helvetica, Arial, sans-serif"
+        self.head_family = pick_font(f, "заголов", 1, "Fraunces")
+        self.text_family = pick_font(f, "текст", 2, "Inter")
+        if lang == "uk":
+            self.head_family = cyr(self.head_family)
+            self.text_family = cyr(self.text_family)
+        self.head_font = self.head_family + ", Georgia, serif"
+        self.text_font = self.text_family + ", Helvetica, Arial, sans-serif"
 
     # ------------------------------------------------------------ utils
     def uid(self, p="u"):

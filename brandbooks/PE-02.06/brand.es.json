@@ -1,0 +1,86 @@
+{
+  "code": "PE-02.06",
+  "essence": "Un marcaje honesto del suministro",
+  "mission": "Suministrar huevos y ovoproductos de forma que el marcaje de la caja coincida siempre con lo que hay dentro: categoría, calibre, fecha y peso.",
+  "vision": "Ser el proveedor cuyo sello en el envase los compradores españoles aceptan sin volver a comprobarlo.",
+  "positioning": "Para mayoristas, industria alimentaria y HoReCa que cuentan palés y revisan albaranes. Primeegg es un distribuidor sin palabras de más: categoría A, trazabilidad completa y un envase que habla por sí solo.",
+  "values": [
+    {"name": "Honestidad", "text": "En la caja pone exactamente lo que hay dentro, sin redondeos ni letra pequeña."},
+    {"name": "Trazabilidad", "text": "Cada lote tiene número, granja y fecha de envasado, fáciles de comprobar."},
+    {"name": "Resistencia", "text": "Envases, logística y equipo preparados para el duro trabajo diario del almacén."},
+    {"name": "Frescura", "text": "Categoría A y una cadena corta de la granja al muelle del cliente: es el estándar, no una oferta."}
+  ],
+  "audience": [
+    {"segment": "Mayoristas", "need": "Volúmenes exactos, estándares de envase unificados y documentación sin errores.", "message": "Lo que pone la caja, es lo que hay. Palé tras palé."},
+    {"segment": "HoReCa", "need": "Calibre estable, envase práctico y fecha de envasado clara.", "message": "Categoría A, el calibre que necesita, fecha en cada bandeja."},
+    {"segment": "Retail y consumidor", "need": "La sensación de un auténtico producto de granja sin intermediarios.", "message": "Directo de la granja, en la misma caja."}
+  ],
+  "personality": ["honesta", "práctica", "robusta", "parca", "trabajadora"],
+  "tone": {
+    "principles": [
+      {"name": "Breve", "text": "Escribimos como un marcaje: sustantivos, cifras, hechos; ni una palabra de más."},
+      {"name": "Al grano", "text": "Hablamos de categoría, calibre, peso y plazos, no de emociones ni promesas."},
+      {"name": "Directo", "text": "Si algo falla, lo decimos enseguida y proponemos una solución."}
+    ],
+    "do": [
+      "Grado A. Talla L. 30 docenas por caja.",
+      "Lote, granja y fecha en cada etiqueta.",
+      "Lo que pone la caja, es lo que hay."
+    ],
+    "dont": [
+      "Una experiencia gastronómica única que despertará tus sentidos.",
+      "¡Descubre la magia del huevo con nosotros!",
+      "Calidad superior inigualable y sin precedentes."
+    ]
+  },
+  "taglines": {
+    "es": "Lo que pone la caja, es lo que hay.",
+    "en": "What the crate says is what you get.",
+    "ru": "Lo que pone la caja, es lo que hay."
+  },
+  "headlines_es": [
+    "Grado A, caja a caja",
+    "Sin intermediarios, sin sorpresas",
+    "Directo de la granja al muelle"
+  ],
+  "web": {
+    "hero_title": "Grado A. Caja a caja.",
+    "hero_text": "Distribución de huevos y ovoproductos para mayoristas, industria y hostelería. Trazabilidad completa en cada palé.",
+    "cta": "Pedir tarifa",
+    "nav": ["Productos", "HoReCa", "Distribución", "Nosotros", "Contacto"]
+  },
+  "pattern": {
+    "name": "Plantilla y marcas",
+    "text": "Huevos de plantilla con puente, como en un estarcido recortado, alternan con las marcas de esquina del marco achaflanado del sello. Se usa en cajas de cartón ondulado, sacos de huevo en polvo, cinta de palé, delantales y fondo web."
+  },
+  "color_proportions": [
+    {"hex": "#C9A574", "pct": 35},
+    {"hex": "#24402A", "pct": 30},
+    {"hex": "#F5EFE3", "pct": 20},
+    {"hex": "#1E2420", "pct": 8},
+    {"hex": "#E3A23B", "pct": 7}
+  ],
+  "photo": {
+    "principles": [
+      "Fotografía documental: almacén, muelle, manos, envases; sin puesta en escena ni retoque.",
+      "La textura en primer plano: cartón kraft, madera, cáscara, pintura de plantilla.",
+      "Luz diurna uniforme y colores naturales apagados, cercanos a la paleta de la marca."
+    ],
+    "scenes": [
+      {"title": "Sello en la caja", "hint": "Una mano estampa la plantilla PRIMEEGG con pintura verde sobre una caja kraft."},
+      {"title": "Palé listo", "hint": "Una pila de cajas marcadas en el muelle del almacén, junto a una carretilla elevadora."},
+      {"title": "Control del lote", "hint": "Un comprador coteja el albarán con la etiqueta del lote en una bandeja de huevos."}
+    ]
+  },
+  "products": {
+    "carton": {"title": "Huevos frescos", "subtitle": "Categoría A · Talla L", "badge": "Grado A"},
+    "powder": {"title": "Huevo entero en polvo", "subtitle": "Ovoproducto pasteurizado · Saco 20 kg"},
+    "horeca": {"title": "Huevos para hostelería", "subtitle": "Bandeja 30 uds · Talla M-L"}
+  },
+  "contacts": {
+    "web": "primeegg.es",
+    "email": "pedidos@primeegg.es",
+    "phone": "+34 900 000 000",
+    "address": "Polígono Industrial, Nave 12 · 28000 Madrid"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "code": "PE-02.10",
+  "name": "Sello dentado de calidad",
+  "name_en": "Serrated Seal of Quality",
+  "tagline": "Un sello de granja que inspira confianza desde la primera caja.",
+  "story": [
+    "El símbolo se construye como un sello-roseta de borde dentado, como los distintivos de calidad que lucían los antiguos envases y certificados de granja. En el centro, un huevo con el monograma P; en círculo, el nombre y el descriptor «Huevos · Ovoproductos»; a los lados, estrellas y el año de fundación. Para el icono y el favicon se extrae del sello un símbolo independiente: la roseta dentada con un huevo claro y el monograma P.",
+    "El sello comunica de inmediato calidad y origen verificados, algo clave para mayoristas y HoReCa, y en el lineal destaca por su cálido carácter artesanal. La forma de sello se adapta con naturalidad a bandejas de cartón, sacos de huevo en polvo y etiquetas de lacre; la versión lineal a una tinta funciona como sello de caucho y como marcaje en la cáscara."
+  ],
+  "elements": [
+    {"element": "Roseta dentada", "meaning": "distintivo de calidad y certificación, el «sello» de la granja"},
+    {"element": "Huevo con monograma P", "meaning": "el producto y el nombre Primeegg; símbolo independiente para favicon y sello"},
+    {"element": "Texto en círculo", "meaning": "nombre y categoría del producto, como en un sello clásico"},
+    {"element": "Estrellas y EST. 2026", "meaning": "marca de calidad «prime» y la historia que la marca empieza a escribir"}
+  ],
+  "palette": [
+    {"role": "Principal", "name": "Rojo lacre", "hex": "#9E2B25", "rgb": "158 43 37", "cmyk": "15 90 90 25", "pantone": "≈ 484 C"},
+    {"role": "Claro (fondo y calado)", "name": "Cáscara crema", "hex": "#F6EEDC", "rgb": "246 238 220", "cmyk": "2 5 14 0", "pantone": "≈ 7527 C (tinte 30%)"},
+    {"role": "Oscuro (texto, fondo oscuro)", "name": "Café tostado", "hex": "#2B1D19", "rgb": "43 29 25", "cmyk": "50 70 70 80", "pantone": "≈ Black 4 C"},
+    {"role": "Complementario (fondo oscuro)", "name": "Rojo ladrillo", "hex": "#B8392F", "rgb": "184 57 47", "cmyk": "10 88 85 5", "pantone": "≈ 7627 C"},
+    {"role": "Neutro", "name": "Kraft", "hex": "#C4A27A", "rgb": "196 162 122", "cmyk": "20 35 55 5", "pantone": "≈ 7503 C"}
+  ],
+  "dark_bg": "#2B1D19",
+  "brand_bg": "#9E2B25",
+  "fonts": [
+    {"role": "Logotipo", "family": "Rye", "weights": "400", "note": "nombre PRIMEEGG en arco y en la versión horizontal"},
+    {"role": "Logotipo (descriptor)", "family": "Oswald", "weights": "500, 600", "note": "HUEVOS · OVOPRODUCTOS y EST. 2026, con tracking"},
+    {"role": "Logotipo (monograma)", "family": "Fraunces", "weights": "900", "note": "monograma P dentro del huevo"},
+    {"role": "Titulares", "family": "Fraunces", "weights": "700, 900", "note": "serif expresiva de remates suaves, en sintonía con el monograma"},
+    {"role": "Texto", "family": "Lora", "weights": "400, 500", "note": "serif editorial cálida para descripciones, etiquetas y documentos"}
+  ],
+  "clear_space": {"unit_name": "altura de las mayúsculas de PRIMEEGG en el sello (x)", "unit": 15},
+  "min_size": {"print_mm": 22, "screen_px": 96, "mark_px": 16}
+}

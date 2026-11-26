@@ -1,0 +1,78 @@
+{
+  "code": "PE-08.07",
+  "essence": "Naturaleza sin intermediarios",
+  "mission": "Llevar huevos y ovoproductos de granjas locales de modo que entre la naturaleza y la cocina no quede nada de sobra: ni días de más, ni aditivos de más, ni palabras de más.",
+  "vision": "Hacer del huevo de granja honesto la norma en las cocinas y los lineales de España: comprensible, accesible y trazable.",
+  "positioning": "Para HoReCa, industria y retail que eligen lo natural: Primeegg es un distribuidor de huevos y ovoproductos con una cadena transparente «de la granja a la cocina», proveedores locales y un discurso sereno y honesto en lugar de grandes promesas.",
+  "values": [
+    {"name": "Naturalidad", "text": "No mejoramos la naturaleza: trasladamos con cuidado lo que ella ya ha hecho."},
+    {"name": "Transparencia", "text": "Cada lote tiene granja, región y fecha, y los mostramos."},
+    {"name": "Proximidad", "text": "Trabajamos con granjas españolas cercanas, acortando el trayecto y la huella del producto."},
+    {"name": "Cuidado", "text": "Cuidamos de las gallinas, de la tierra y del tiempo del cliente; no hay contradicción."}
+  ],
+  "audience": [
+    {"segment": "Mayoristas", "need": "Origen acreditado, certificados y suministro estable de producto natural.", "message": "Granjas locales, trazabilidad de cada lote y un volumen con el que se puede contar."},
+    {"segment": "HoReCa", "need": "Un producto del que se pueda hablar con honestidad al cliente en la carta.", "message": "Pon en tu carta de dónde vienen tus huevos: nosotros te damos esa historia."},
+    {"segment": "Retail y consumidor", "need": "Producto natural sin trucos de marketing, envase ecológico y fácil de entender.", "message": "Simplemente buenos huevos de las granjas más cercanas. Sin más."}
+  ],
+  "personality": ["natural", "serena", "honesta", "cercana", "atenta"],
+  "tone": {
+    "principles": [
+      {"name": "Sencillo", "text": "Escribimos con palabras sencillas, como un granjero que habla de su granja."},
+      {"name": "Sereno", "text": "Sin exclamaciones ni superlativos: la naturaleza no grita."},
+      {"name": "Concreto", "text": "En lugar de «eco» y «natural», nombramos la granja, la región y el sistema de cría."}
+    ],
+    "do": [
+      "Estos huevos vienen de una granja a 40 km de tu cocina.",
+      "Gallinas al aire libre, pienso vegetal y nada más.",
+      "Puesto el martes, en tu mesa el miércoles."
+    ],
+    "dont": [
+      "¡Huevos 100% eco-friendly superfood revolucionarios!",
+      "Producto de origen natural con propiedades únicas garantizadas.",
+      "La opción más sostenible del planeta."
+    ]
+  },
+  "taglines": {"es": "De la naturaleza, sin rodeos.", "en": "Straight from nature.", "ru": "De la naturaleza, sin rodeos."},
+  "headlines_es": [
+    "Crecen en el campo, no en catálogo",
+    "De granjas cercanas a tu mesa",
+    "Natural, local y sin más"
+  ],
+  "web": {
+    "hero_title": "De la naturaleza, sin rodeos",
+    "hero_text": "Huevos y ovoproductos de granjas locales, con origen trazable en cada lote. Para hostelería, industria y tiendas.",
+    "cta": "Conoce las granjas",
+    "nav": ["Productos", "HoReCa", "Distribución", "Nosotros", "Contacto"]
+  },
+  "pattern": {
+    "name": "Hojarasca",
+    "text": "Huevos-hoja perfilados del símbolo, con nervios y pecíolo, enfrentados entre sí, y una lluvia de pequeñas «semillas». Se aplica en cajas kraft, sacos de producto en polvo, la faja de la bandeja, delantales y el fondo web; la versión monocroma sirve para sellos e impresión sobre cartón."
+  },
+  "color_proportions": [
+    {"hex": "#F3EAD3", "pct": 40},
+    {"hex": "#2F5D3A", "pct": 30},
+    {"hex": "#8A9A5B", "pct": 15},
+    {"hex": "#A3B46C", "pct": 8},
+    {"hex": "#1C2E22", "pct": 7}
+  ],
+  "photo": {
+    "principles": [
+      "Solo luz natural: mañana, día nublado, la sombra suave del follaje.",
+      "Texturas naturales (kraft, madera, lino, hierba, paja) y nada de plástico en la imagen.",
+      "Granjas y personas reales, sin brillo impostado ni retoque del producto."
+    ],
+    "scenes": [
+      {"title": "Granja al amanecer", "hint": "gallinas sueltas en la hierba, rocío, luz suave de la mañana"},
+      {"title": "Manos del granjero", "hint": "primer plano de unas manos que recogen huevos con cuidado en una cesta de mimbre con paja"},
+      {"title": "Mesa de madera", "hint": "caja kraft de Primeegg, unos huevos, una ramita de hierbas, servilleta de lino"}
+    ]
+  },
+  "products": {
+    "carton": {"title": "Huevos frescos", "subtitle": "Categoría A · Talla L", "badge": "Camperos"},
+    "powder": {"title": "Huevo entero en polvo", "subtitle": "Ovoproducto pasteurizado"},
+    "horeca": {"title": "Huevos para hostelería", "subtitle": "Bandeja 30 uds · Talla M-L"}
+  },
+  "contacts": {"web": "primeegg.es", "email": "pedidos@primeegg.es", "phone": "+34 900 000 000",
+               "address": "Polígono Industrial, Nave 12 · 28000 Madrid"}
+}

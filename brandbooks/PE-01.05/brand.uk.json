@@ -1,0 +1,86 @@
+{
+  "code": "PE-01.05",
+  "essence": "Свіжість середземноморського ранку",
+  "mission": "Щоранку доставляти кухням і магазинам Іспанії свіжі яйця та яєчні продукти так само передбачувано, як сонце сходить над морем.",
+  "vision": "Стати для іспанських HoReCa й ретейлу найспокійнішою та найнадійнішою ланкою між фермою і столом.",
+  "positioning": "Для оптовиків, ресторанів і харчових виробництв Іспанії, яким потрібні стабільні поставки без сюрпризів. Primeegg вирізняє ритм: ранковий збір, зрозумілий графік, однакова якість у кожній партії.",
+  "values": [
+    {"name": "Свіжість", "text": "Яйце потрапляє до клієнта в найкоротший строк від збору — це наша головна метрика."},
+    {"name": "Ритм", "text": "Поставки надходять за графіком, як приплив: клієнт планує меню, а не чекає на машину."},
+    {"name": "Ясність", "text": "Ціни, строки, категорії й походження партії зрозумілі без дзвінків і уточнень."},
+    {"name": "Тепло півдня", "text": "Ми працюємо по-середземноморськи відкрито: на зв’язку, з усмішкою й без бюрократії."}
+  ],
+  "audience": [
+    {"segment": "Оптові покупці", "need": "Стабільні обсяги, прозора ціна й дотримання графіка відвантажень.", "message": "Ваш графік — наш ритм: ті самі обсяги й та сама якість щотижня."},
+    {"segment": "HoReCa", "need": "Свіжий продукт до ранкової зміни й однаковий калібр для стандартів кухні.", "message": "Яйця ранкового збору на вашій кухні ще до початку сервісу."},
+    {"segment": "Ретейл і покупець", "need": "Свіжість, зрозуміле маркування та іспанське походження на полиці.", "message": "Середземноморський ранок у кожній коробці."}
+  ],
+  "personality": ["свіжий", "спокійний", "надійний", "відкритий", "сонячний"],
+  "tone": {
+    "principles": [
+      {"name": "Світло", "text": "Говоримо просто й позитивно, як ясний ранок: без важких зворотів і канцеляриту."},
+      {"name": "Точно", "text": "Кожна обіцянка підкріплена фактом — часом збору, графіком, категорією."},
+      {"name": "Спокійно", "text": "Не кричимо й не тиснемо: впевненість чути в тоні, а не в знаках оклику."}
+    ],
+    "do": [
+      "Recogidos esta mañana, en su cocina antes del servicio.",
+      "Su pedido sale cada martes y jueves, sin falta.",
+      "Frescura del Mediterráneo, calibre a calibre."
+    ],
+    "dont": [
+      "¡¡LOS HUEVOS MÁS BARATOS DEL MERCADO!!",
+      "Sujeto a disponibilidad según condiciones vigentes del proveedor.",
+      "Huevos premium revolucionarios para foodies exigentes."
+    ]
+  },
+  "taglines": {
+    "es": "Frescura que llega cada mañana.",
+    "en": "Freshness that arrives every morning.",
+    "ru": "Свіжість, що приходить щоранку."
+  },
+  "headlines_es": [
+    "Del amanecer a su cocina",
+    "Cada mañana, puntuales como el sol",
+    "El Mediterráneo, en cada huevo"
+  ],
+  "web": {
+    "hero_title": "Frescos de esta mañana",
+    "hero_text": "Huevos y ovoproductos para hostelería, distribución y tiendas en toda España, con entregas puntuales cada semana.",
+    "cta": "Hacer pedido",
+    "nav": ["Productos", "HoReCa", "Distribución", "Nosotros", "Contacto"]
+  },
+  "pattern": {
+    "name": "Лінія обрію",
+    "text": "Сонце-жовток, що сідає за три смуги моря, — мініверсія знака, повторена в шаховому ритмі. Застосовується на обичайці лотка, тлі сайту, крафтових пакетах порошку та уніформі."
+  },
+  "color_proportions": [
+    {"hex": "#FAF7F2", "pct": 40},
+    {"hex": "#1D5FA8", "pct": 30},
+    {"hex": "#0D2B4E", "pct": 15},
+    {"hex": "#F6BD3B", "pct": 10},
+    {"hex": "#4F8FD6", "pct": 5}
+  ],
+  "photo": {
+    "principles": [
+      "М’яке ранкове світло з теплим боковим променем, без різких тіней і спалаху.",
+      "Багато повітря й неба: світлі тла, сині та піщані тони, продукт великим планом.",
+      "Справжні люди й кухні Іспанії — ферма, склад, кухар за роботою, без постановного глянцю."
+    ],
+    "scenes": [
+      {"title": "Ферма на світанку", "hint": "Кошик свіжих яєць на тлі неба, що світлішає й низького сонця над пагорбами."},
+      {"title": "Ранкова зміна", "hint": "Кухар у ресторані біля моря розбиває яйце в миску, за вікном синій ранок."},
+      {"title": "Рейс за графіком", "hint": "Синій фургон виїжджає зі складу, на палеті лотки Primeegg, раннє сонце."}
+    ]
+  },
+  "products": {
+    "carton": {"title": "Huevos frescos", "subtitle": "Categoría A · Talla L", "badge": "Del día"},
+    "powder": {"title": "Huevo entero en polvo", "subtitle": "Ovoproducto pasteurizado"},
+    "horeca": {"title": "Huevos para hostelería", "subtitle": "Bandeja 30 uds · Talla M-L"}
+  },
+  "contacts": {
+    "web": "primeegg.es",
+    "email": "pedidos@primeegg.es",
+    "phone": "+34 900 000 000",
+    "address": "Polígono Industrial, Nave 12 · 28000 Madrid"
+  }
+}

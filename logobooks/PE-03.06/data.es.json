@@ -1,0 +1,101 @@
+{
+  "code": "PE-03.06",
+  "name": "Sello",
+  "name_en": "Sello",
+  "tagline": "Un sello mediterráneo de calidad: cerámica, sol y un huevo de granja honesto.",
+  "story": [
+    "El símbolo es un sello-medallón redondo en azul cobalto con orla de cuentas, como la decoración de un plato de cerámica española. En el centro, un huevo terracota con yema azafrán; encima, una cinta terracota con el nombre PRIMEEGG en DM Serif Display; en arco, «HUEVOS DE GRANJA» y «ESPAÑA · 2026» en la geométrica Josefin Sans. El símbolo independiente es el mismo medallón con el huevo y sin texto: la orla, las cuentas y la yema mantienen el reconocimiento hasta los 16 px.",
+    "El sello se lee al instante como un certificado: para el comprador de HoReCa y el mayorista es señal de origen verificado y calidad estable; para el consumidor en tienda, un cálido carácter mediterráneo sin folclore recargado. El medallón se adapta con naturalidad a la tapa del estuche de huevos, al saco de huevo en polvo y a la pegatina de lacre; la cinta con el nombre funciona por separado como logotipo en etiquetas y rótulos. La versión a una tinta se construye con calados y se imprime con sello sobre cartón."
+  ],
+  "elements": [
+    {
+      "element": "Medallón cobalto con cuentas",
+      "meaning": "la cerámica española y el sello de calidad"
+    },
+    {
+      "element": "Huevo terracota con yema",
+      "meaning": "el producto y la frescura; el azafrán es el sol del Mediterráneo"
+    },
+    {
+      "element": "Cinta con el nombre",
+      "meaning": "distintivo, «galardón» de calidad; se usa por separado como logotipo"
+    },
+    {
+      "element": "Textos en arco",
+      "meaning": "el origen de granja y España como garantía"
+    }
+  ],
+  "palette": [
+    {
+      "role": "Principal",
+      "name": "Cobalto azulejo",
+      "hex": "#1F4E9C",
+      "rgb": "31 78 156",
+      "cmyk": "95 70 0 0",
+      "pantone": "≈ 7686 C"
+    },
+    {
+      "role": "Principal",
+      "name": "Terracota",
+      "hex": "#C8553D",
+      "rgb": "200 85 61",
+      "cmyk": "10 75 80 5",
+      "pantone": "≈ 7618 C"
+    },
+    {
+      "role": "Acento",
+      "name": "Azafrán",
+      "hex": "#F2A541",
+      "rgb": "242 165 65",
+      "cmyk": "0 38 80 0",
+      "pantone": "≈ 1365 C"
+    },
+    {
+      "role": "Neutro oscuro",
+      "name": "Índigo nocturno",
+      "hex": "#0E2140",
+      "rgb": "14 33 64",
+      "cmyk": "100 85 40 50",
+      "pantone": "≈ 2767 C"
+    },
+    {
+      "role": "Neutro claro",
+      "name": "Cal",
+      "hex": "#F4ECDC",
+      "rgb": "244 236 220",
+      "cmyk": "3 6 13 0",
+      "pantone": "≈ 7527 C (tinte 30%)"
+    }
+  ],
+  "dark_bg": "#0E2140",
+  "brand_bg": "#1F4E9C",
+  "fonts": [
+    {
+      "role": "Logotipo",
+      "family": "DM Serif Display",
+      "weights": "400",
+      "note": "nombre PRIMEEGG en la cinta; textos en arco en Josefin Sans 700"
+    },
+    {
+      "role": "Titulares",
+      "family": "DM Serif Display",
+      "weights": "400",
+      "note": "serif de alto contraste para titulares y envases"
+    },
+    {
+      "role": "Texto",
+      "family": "Josefin Sans",
+      "weights": "400, 600",
+      "note": "sans serif geométrica para texto, pies y líneas de servicio en mayúsculas"
+    }
+  ],
+  "clear_space": {
+    "unit_name": "ancho de la orla de cuentas (x)",
+    "unit": 22
+  },
+  "min_size": {
+    "print_mm": 22,
+    "screen_px": 96,
+    "mark_px": 16
+  }
+}

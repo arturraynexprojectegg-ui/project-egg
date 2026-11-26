@@ -1,0 +1,33 @@
+{
+  "code": "PE-06.05",
+  "name": "Sello adhesivo",
+  "name_en": "Seal Sticker",
+  "tagline": "Un sello de calidad que dan ganas de pegar en cada estuche.",
+  "story": [
+    "El símbolo es una pegatina-sello festoneada: borde dentado azul, círculo crema con un «pespunte» punteado y un huevo dorado en el centro. Es el lenguaje de los sellos de calidad y las etiquetas de granja, llevado a un tono comercial cercano; la Lobster manuscrita aporta calidez, y las versalitas espaciadas de DISTRIBUTION, solidez profesional.",
+    "El emblema nace como un objeto para el envase: se coloca en la tapa del estuche de huevos, en la etiqueta del saco de huevo en polvo y como pegatina en la caja HoReCa, igual que un sello. Para documentos B2B y la web funciona la versión horizontal; para estampar e imprimir en cartón, la versión a una tinta, donde el círculo crema queda en reserva. El símbolo aislado (sello con huevo) se reconoce incluso a 16 px."
+  ],
+  "elements": [
+    {"element": "Borde festoneado", "meaning": "pegatina, sello, señal de calidad verificada"},
+    {"element": "Pespunte punteado", "meaning": "trabajo artesanal, envase de granja, atención al detalle"},
+    {"element": "Huevo dorado", "meaning": "producto, frescura, calidad «prime»"},
+    {"element": "Lettering en Lobster", "meaning": "carácter cercano y cálido de la marca en el lineal"}
+  ],
+  "palette": [
+    {"role": "Principal", "name": "Azul cielo", "hex": "#4FB3E8", "rgb": "79 179 232", "cmyk": "63 13 0 0", "pantone": "≈ 298 C"},
+    {"role": "Principal", "name": "Coral", "hex": "#FF6B5B", "rgb": "255 107 91", "cmyk": "0 70 62 0", "pantone": "≈ 178 C"},
+    {"role": "Acento", "name": "Yema", "hex": "#FFC530", "rgb": "255 197 48", "cmyk": "0 24 85 0", "pantone": "≈ 123 C"},
+    {"role": "Neutro oscuro", "name": "Azul noche", "hex": "#22304D", "rgb": "34 48 77", "cmyk": "87 74 40 35", "pantone": "≈ 534 C"},
+    {"role": "Neutro claro", "name": "Crema", "hex": "#FFF6E0", "rgb": "255 246 224", "cmyk": "0 3 13 0", "pantone": "≈ 9224 C"}
+  ],
+  "dark_bg": "#1A2540",
+  "brand_bg": "#4FB3E8",
+  "fonts": [
+    {"role": "Logotipo", "family": "Lobster", "weights": "400", "note": "lettering «Primeegg»; solo para el logotipo y rótulos breves de display"},
+    {"role": "Logotipo", "family": "Nunito", "weights": "800", "note": "descriptor DISTRIBUTION, espaciado 0.27 em"},
+    {"role": "Titulares", "family": "Fredoka", "weights": "500, 600", "note": "titulares suaves y redondeados, a juego con la pegatina"},
+    {"role": "Texto", "family": "Nunito", "weights": "400, 600", "note": "texto general, tablas, etiquetas y documentos"}
+  ],
+  "clear_space": {"unit_name": "ancho del huevo (x)", "unit": 30},
+  "min_size": {"print_mm": 20, "screen_px": 72, "mark_px": 16}
+}

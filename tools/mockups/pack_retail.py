@@ -147,7 +147,7 @@ def _carton6(k, defs, x0, yb, W=380):
     sy = 0.72
     LH = LHs / sy
     g = [f'<g transform="translate({bx:.1f},{yback + 10:.1f}) scale(1,{sy})">']
-    g.append(k.pattern_rect(0, LH - 52, LW, 52, scale=0.45, opacity=0.18, color=k.primary))
+    g.append(k.pattern_rect(0, 0, LW, LH, scale=0.45, opacity=0.06, color=k.primary))
     g.append(k.logo("primary", 18, 10, LW * .52, LH - 84))
     tx = LW * .52 + 30
     tw = LW - tx - 14
@@ -261,9 +261,9 @@ def _carton12(k, defs, g, x0, yb, W=600):
     on = k.on(band)
     out.append(f'<rect x="{x0 + 60:.1f}" y="{ytop - 6:.1f}" width="{W - 120:.1f}" height="40" fill="{band}"/>')
     out.append(f'<rect x="{x0 + 60:.1f}" y="{ytop + 28:.1f}" width="{W - 120:.1f}" height="6" fill="#000" opacity="0.10"/>')
-    out.append(k.logo("mono", x0 + 72, ytop - 3, 150, 34, color=on, align="left"))
+    out.append(k.logo("mono", x0 + 68, ytop - 6, 150, 40, color=on, align="left"))
     out.append(_txt(x0 + W - 76, ytop + 19, "12 HUEVOS · " + k.t("products.carton.subtitle", "Categoría A · Talla L"),
-                    12.5, on, k.text_font, 700, "end", 1.2, maxw=W - 120 - 190))
+                    12.5, on, k.text_font, 700, "end", 1.2, maxw=W - 120 - 200))
     for i in range(n):
         m = x0 + 4 + (i + .5) * (W - 8) / n
         out.append(f'<ellipse cx="{m - 14:.1f}" cy="{yb - 14:.1f}" rx="11" ry="6" fill="#FFFFFF" opacity="0.2"/>')
@@ -274,7 +274,7 @@ def _carton12(k, defs, g, x0, yb, W=600):
 def _stamp(k, cx, cy, w, rot, ink):
     s = w / 120
     out = [f'<g transform="translate({cx:.1f},{cy:.1f}) rotate({rot}) scale({s:.3f})" opacity="0.86">']
-    out.append(k.logo("mono", -32, -50, 64, 44, color=ink))
+    out.append(k.logo("mono", -40, -60, 80, 60, color=ink))
     out.append(_txt(0, 8, EGG_CODE, 15, ink, "Courier New, monospace", 700, "middle", 0.4))
     out.append(_txt(0, 23, "C.P. 28/12", 9.5, ink, "Courier New, monospace", 700, "middle", 0.6, op=0.9))
     out.append("</g>")
@@ -305,7 +305,7 @@ def render(k, W=1680, H=700):
     defs = []
     g = _shell_grads(defs, k)
     body = []
-    yb = 600
+    yb = 568
     sx, sy = W / 1680, H / 700
     s = min(sx, sy)
     body.append(f'<g transform="translate({(W - 1680 * s) / 2:.1f},{(H - 700 * s) / 2:.1f}) scale({s:.4f})">')

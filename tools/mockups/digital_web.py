@@ -280,8 +280,9 @@ def desktop(k, X, Y, W, H, tx):
         for j, ln in enumerate(l1):
             out += T(tx1, yy + j * s1 * 1.18, ln, s1, k.ink, k.head_font, 700)
         yy += (len(l1) - 1) * s1 * 1.18 + 22
-        for j, ln in enumerate(wrap(t2, 12.5, tw, fw(k.text_font))[:2]):
-            out += T(tx1, yy + j * 17, ln, 12.5, k.ink, k.text_font, 400, op=0.65)
+        s2, l2 = fit(t2, 12.5, tw, fw(k.text_font), 2 if len(l1) == 1 else 1, 10.5)
+        for j, ln in enumerate(l2):
+            out += T(tx1, yy + j * 17, ln, s2, k.ink, k.text_font, 400, op=0.65)
         out += T(tx1, cyy + ch - 20, "Ver más  →", 13, lc, k.text_font, 700)
     out += "</g>"
     out += f'<rect x="{X}" y="{Y}" width="{W}" height="{H}" rx="12" fill="none" stroke="#000" stroke-opacity="0.08"/>'
@@ -354,7 +355,8 @@ def mobile(k, X, Y, W, H, tx):
         for j, ln in enumerate(l1):
             out += T(tx0 + 86, yy + j * 15, ln, s1, k.ink, k.head_font, 700)
         yy += (len(l1) - 1) * 15 + 17
-        out += T(tx0 + 86, yy, wrap(t2, 11, sw - 136, fw(k.text_font))[0], 11, k.ink, k.text_font, 400, op=0.65)
+        s2, l2 = fit(t2, 11, sw - 136, fw(k.text_font), 1, 9)
+        out += T(tx0 + 86, yy, l2[0], s2, k.ink, k.text_font, 400, op=0.65)
         out += T(tx0 + 86, cy + 72, "Ver más →", 11, lc, k.text_font, 700)
     out += f'<rect x="{sx+sw/2-60:.1f}" y="{sy+sh-12}" width="120" height="4.5" rx="2.25" fill="#111" opacity="0.85"/>'
     out += "</g>"

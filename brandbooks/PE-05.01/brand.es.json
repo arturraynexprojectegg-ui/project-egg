@@ -1,0 +1,165 @@
+{
+  "code": "PE-05.01",
+  "essence": "Justo a su destino",
+  "mission": "Hacemos previsible el suministro de huevos y ovoproductos: el producto adecuado, en el momento adecuado, en la dirección adecuada. Siempre.",
+  "vision": "Ser el eslabón logístico más fiable entre las granjas y las cocinas de España.",
+  "positioning": "Distribuidor B2B de huevos y ovoproductos para mayoristas, HoReCa e industria alimentaria en España. No competimos por el precio de la docena, sino por la precisión: ventanas de entrega cumplidas, seguimiento del pedido y una cadena de frío sin interrupciones.",
+  "values": [
+    {
+      "name": "Precisión",
+      "text": "La ventana de entrega es una promesa, y la cumplimos."
+    },
+    {
+      "name": "Frescura",
+      "text": "Rutas cortas y control de temperatura desde la granja hasta la puerta del cliente."
+    },
+    {
+      "name": "Transparencia",
+      "text": "El cliente siempre sabe dónde está su pedido y cuándo llegará."
+    },
+    {
+      "name": "Fiabilidad",
+      "text": "Capacidad de reserva y rutas alternativas para que ninguna entrega falle."
+    }
+  ],
+  "audience": [
+    {
+      "segment": "Mayoristas",
+      "need": "Grandes volúmenes según calendario, precios estables y documentación clara.",
+      "message": "Su calendario es nuestra ruta: los volúmenes llegan justo a tiempo."
+    },
+    {
+      "segment": "HoReCa",
+      "need": "Entrega antes del servicio, pedidos flexibles y cero roturas de stock.",
+      "message": "Pida antes de las 18:00 y lo tendrá en su cocina antes de abrir."
+    },
+    {
+      "segment": "Retail y consumidor",
+      "need": "Huevos siempre frescos en el lineal y un envase reconocible.",
+      "message": "Huevos frescos, siempre en su sitio."
+    }
+  ],
+  "personality": [
+    "fiable",
+    "preciso",
+    "enérgico",
+    "abierto",
+    "profesional"
+  ],
+  "tone": {
+    "principles": [
+      {
+        "name": "Breve",
+        "text": "Una idea, una frase, como en un aviso de entrega."
+      },
+      {
+        "name": "Concreto",
+        "text": "Cifras, plazos y direcciones en lugar de promesas genéricas."
+      },
+      {
+        "name": "Seguro",
+        "text": "Decimos «lo entregamos», no «intentaremos entregarlo»."
+      }
+    ],
+    "do": [
+      "Pedido confirmado. Llega mañana a las 7:00.",
+      "Su ruta, nuestro compromiso.",
+      "Frescos hoy, en su puerta mañana."
+    ],
+    "dont": [
+      "Intentaremos entregar lo antes posible.",
+      "Plazo de entrega: entre 3 y 10 días aprox.",
+      "Somos los mejores huevos del universo."
+    ]
+  },
+  "taglines": {
+    "es": "Siempre llega a su destino",
+    "en": "Always on target",
+    "ru": "Siempre llega a su destino"
+  },
+  "headlines_es": [
+    "Del corral a su cocina, a tiempo",
+    "Su pedido, en el punto exacto",
+    "Cada ruta cuenta"
+  ],
+  "web": {
+    "hero_title": "Huevos frescos, siempre a tiempo",
+    "hero_text": "Distribución de huevos y ovoproductos para hostelería, mayoristas e industria en toda España, con entrega puntual.",
+    "cta": "Pedir ahora",
+    "nav": [
+      "Productos",
+      "HoReCa",
+      "Distribución",
+      "Nosotros",
+      "Contacto"
+    ]
+  },
+  "pattern": {
+    "name": "Ruta de pines",
+    "text": "Pines-huevo del símbolo con la yema calada, dispuestos al tresbolillo entre líneas discontinuas de ruta. Se aplica en laterales de camiones, cajas y bandejas, albaranes, la app de pedidos, el fondo web y los uniformes."
+  },
+  "color_proportions": [
+    {
+      "hex": "#0B3C5D",
+      "pct": 50
+    },
+    {
+      "hex": "#FAF7F2",
+      "pct": 30
+    },
+    {
+      "hex": "#F2B705",
+      "pct": 12
+    },
+    {
+      "hex": "#0A2A40",
+      "pct": 5
+    },
+    {
+      "hex": "#D9A000",
+      "pct": 3
+    }
+  ],
+  "photo": {
+    "principles": [
+      "Dinamismo y movimiento: personas trabajando, transporte, procesos.",
+      "Luz limpia y brillante, fondo azul frío con acentos cálidos de yema.",
+      "Verdad documental: almacenes, rutas y cocinas reales, sin brillo impostado."
+    ],
+    "scenes": [
+      {
+        "title": "Ruta al amanecer",
+        "hint": "Una furgoneta azul de Primeegg sale del almacén con los primeros rayos de sol, carretera vacía."
+      },
+      {
+        "title": "Entrega en cocina",
+        "hint": "Un repartidor entrega bandejas a un cocinero en la puerta de servicio del restaurante, tableta con la entrega confirmada."
+      },
+      {
+        "title": "Almacén en marcha",
+        "hint": "Palés con cajas, escáner de códigos de barras, empleados con uniforme azul."
+      }
+    ]
+  },
+  "products": {
+    "carton": {
+      "title": "Huevos frescos",
+      "subtitle": "Categoría A · Talla L",
+      "badge": "Entrega 24 h"
+    },
+    "powder": {
+      "title": "Huevo entero en polvo",
+      "subtitle": "Ovoproducto pasteurizado"
+    },
+    "horeca": {
+      "title": "Huevos para hostelería",
+      "subtitle": "Bandeja 30 uds · Talla M-L"
+    }
+  },
+  "contacts": {
+    "web": "primeegg.es",
+    "email": "pedidos@primeegg.es",
+    "phone": "+34 900 000 000",
+    "address": "Polígono Industrial, Nave 12 · 28000 Madrid"
+  }
+}

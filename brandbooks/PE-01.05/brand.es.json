@@ -1,0 +1,86 @@
+{
+  "code": "PE-01.05",
+  "essence": "La frescura de la mañana mediterránea",
+  "mission": "Llevar cada mañana huevos frescos y ovoproductos a cocinas y tiendas de España con la misma puntualidad con la que sale el sol sobre el mar.",
+  "vision": "Ser, para la hostelería y la distribución española, el eslabón más tranquilo y fiable entre la granja y la mesa.",
+  "positioning": "Para mayoristas, restaurantes e industria alimentaria en España que necesitan suministros estables y sin sorpresas. A Primeegg la distingue el ritmo: recogida matinal, calendario claro y la misma calidad en cada lote.",
+  "values": [
+    {"name": "Frescura", "text": "El huevo llega al cliente en el menor tiempo posible desde la recogida: es nuestra métrica principal."},
+    {"name": "Ritmo", "text": "Las entregas llegan según lo previsto, como la marea: el cliente planifica su menú, no espera al camión."},
+    {"name": "Claridad", "text": "Precios, plazos, categorías y origen de cada lote, claros sin llamadas ni consultas."},
+    {"name": "Calidez del sur", "text": "Trabajamos con la apertura del Mediterráneo: siempre localizables, con una sonrisa y sin burocracia."}
+  ],
+  "audience": [
+    {"segment": "Mayoristas", "need": "Volúmenes estables, precio transparente y cumplimiento del calendario de envíos.", "message": "Su calendario es nuestro ritmo: mismo volumen y misma calidad cada semana."},
+    {"segment": "HoReCa", "need": "Producto fresco para el turno de mañana y calibre uniforme para los estándares de cocina.", "message": "Huevos recogidos esta mañana, en su cocina antes del servicio."},
+    {"segment": "Retail y consumidor", "need": "Frescura, etiquetado claro y origen español en el lineal.", "message": "La mañana mediterránea en cada estuche."}
+  ],
+  "personality": ["fresca", "serena", "fiable", "abierta", "luminosa"],
+  "tone": {
+    "principles": [
+      {"name": "Luminoso", "text": "Hablamos de forma sencilla y positiva, como una mañana despejada: sin frases pesadas ni jerga administrativa."},
+      {"name": "Preciso", "text": "Cada promesa se apoya en un dato: hora de recogida, calendario, categoría."},
+      {"name": "Sereno", "text": "No gritamos ni presionamos: la seguridad se nota en el tono, no en los signos de exclamación."}
+    ],
+    "do": [
+      "Recogidos esta mañana, en su cocina antes del servicio.",
+      "Su pedido sale cada martes y jueves, sin falta.",
+      "Frescura del Mediterráneo, calibre a calibre."
+    ],
+    "dont": [
+      "¡¡LOS HUEVOS MÁS BARATOS DEL MERCADO!!",
+      "Sujeto a disponibilidad según condiciones vigentes del proveedor.",
+      "Huevos premium revolucionarios para foodies exigentes."
+    ]
+  },
+  "taglines": {
+    "es": "Frescura que llega cada mañana.",
+    "en": "Freshness that arrives every morning.",
+    "ru": "Frescura que llega cada mañana."
+  },
+  "headlines_es": [
+    "Del amanecer a su cocina",
+    "Cada mañana, puntuales como el sol",
+    "El Mediterráneo, en cada huevo"
+  ],
+  "web": {
+    "hero_title": "Frescos de esta mañana",
+    "hero_text": "Huevos y ovoproductos para hostelería, distribución y tiendas en toda España, con entregas puntuales cada semana.",
+    "cta": "Hacer pedido",
+    "nav": ["Productos", "HoReCa", "Distribución", "Nosotros", "Contacto"]
+  },
+  "pattern": {
+    "name": "Línea del horizonte",
+    "text": "El sol-yema que se pone tras tres franjas de mar, versión mini del símbolo, repetida en ritmo de damero. Se aplica en la faja de la bandeja, el fondo web, las bolsas kraft de huevo en polvo y los uniformes."
+  },
+  "color_proportions": [
+    {"hex": "#FAF7F2", "pct": 40},
+    {"hex": "#1D5FA8", "pct": 30},
+    {"hex": "#0D2B4E", "pct": 15},
+    {"hex": "#F6BD3B", "pct": 10},
+    {"hex": "#4F8FD6", "pct": 5}
+  ],
+  "photo": {
+    "principles": [
+      "Luz suave de mañana con un rayo lateral cálido, sin sombras duras ni flash.",
+      "Mucho aire y cielo: fondos claros, tonos azules y arena, producto en primer plano.",
+      "Personas y cocinas reales de España: granja, almacén, cocinero trabajando, sin brillo de estudio."
+    ],
+    "scenes": [
+      {"title": "Granja al amanecer", "hint": "Una cesta de huevos frescos ante un cielo que clarea y un sol bajo sobre las colinas."},
+      {"title": "Turno de mañana", "hint": "Un cocinero de un restaurante junto al mar casca un huevo en un bol; tras la ventana, una mañana azul."},
+      {"title": "Ruta puntual", "hint": "Una furgoneta azul sale del almacén con bandejas Primeegg en el palé, bajo el primer sol."}
+    ]
+  },
+  "products": {
+    "carton": {"title": "Huevos frescos", "subtitle": "Categoría A · Talla L", "badge": "Del día"},
+    "powder": {"title": "Huevo entero en polvo", "subtitle": "Ovoproducto pasteurizado"},
+    "horeca": {"title": "Huevos para hostelería", "subtitle": "Bandeja 30 uds · Talla M-L"}
+  },
+  "contacts": {
+    "web": "primeegg.es",
+    "email": "pedidos@primeegg.es",
+    "phone": "+34 900 000 000",
+    "address": "Polígono Industrial, Nave 12 · 28000 Madrid"
+  }
+}

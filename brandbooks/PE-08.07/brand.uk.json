@@ -1,0 +1,78 @@
+{
+  "code": "PE-08.07",
+  "essence": "Природа без посередників",
+  "mission": "Доставляти яйця та яєчні продукти з місцевих ферм так, щоб між природою і кухнею не лишалося нічого зайвого: ні зайвих днів, ні зайвих добавок, ні зайвих слів.",
+  "vision": "Зробити чесне фермерське яйце нормою для іспанських кухонь і полиць — зрозумілою, доступною та простежуваною.",
+  "positioning": "Для HoReCa, виробництв і ритейлу, які обирають натуральне: Primeegg — дистриб’ютор яєць і яєчних продуктів із прозорим ланцюжком «ферма — кухня», місцевими постачальниками та спокійною, чесною подачею замість гучних обіцянок.",
+  "values": [
+    {"name": "Природність", "text": "Ми не покращуємо природу, а дбайливо доносимо те, що вона вже створила."},
+    {"name": "Прозорість", "text": "Кожна партія має ферму, регіон і дату — і ми їх показуємо."},
+    {"name": "Місцевість", "text": "Працюємо з іспанськими фермами поблизу, скорочуючи шлях і слід продукту."},
+    {"name": "Турбота", "text": "Бережемо птахів, землю й час клієнта — у цьому немає суперечності."}
+  ],
+  "audience": [
+    {"segment": "Оптові покупці", "need": "Підтверджене походження, сертифікати й стабільність постачань натурального продукту.", "message": "Місцеві ферми, простежуваність кожної партії та обсяг, на який можна покластися."},
+    {"segment": "HoReCa", "need": "Продукт, про який можна чесно розповісти гостеві в меню.", "message": "Напишіть у меню, звідки ваші яйця, — ми дамо вам цю історію."},
+    {"segment": "Ритейл і покупець", "need": "Натуральний продукт без маркетингових хитрощів, зрозуміла екологічна упаковка.", "message": "Просто добрі яйця з найближчих ферм. Без зайвого."}
+  ],
+  "personality": ["природний", "спокійний", "чесний", "привітний", "дбайливий"],
+  "tone": {
+    "principles": [
+      {"name": "Просто", "text": "Пишемо простими словами, як фермер розповідає про своє господарство."},
+      {"name": "Спокійно", "text": "Без знаків оклику й найвищих ступенів — природа не кричить."},
+      {"name": "Конкретно", "text": "Замість «еко» і «натурально» називаємо ферму, регіон і спосіб утримання."}
+    ],
+    "do": [
+      "Estos huevos vienen de una granja a 40 km de tu cocina.",
+      "Gallinas al aire libre, pienso vegetal y nada más.",
+      "Puesto el martes, en tu mesa el miércoles."
+    ],
+    "dont": [
+      "¡Huevos 100% eco-friendly superfood revolucionarios!",
+      "Producto de origen natural con propiedades únicas garantizadas.",
+      "La opción más sostenible del planeta."
+    ]
+  },
+  "taglines": {"es": "De la naturaleza, sin rodeos.", "en": "Straight from nature.", "ru": "Просто з природи."},
+  "headlines_es": [
+    "Crecen en el campo, no en catálogo",
+    "De granjas cercanas a tu mesa",
+    "Natural, local y sin más"
+  ],
+  "web": {
+    "hero_title": "De la naturaleza, sin rodeos",
+    "hero_text": "Huevos y ovoproductos de granjas locales, con origen trazable en cada lote. Para hostelería, industria y tiendas.",
+    "cta": "Conoce las granjas",
+    "nav": ["Productos", "HoReCa", "Distribución", "Nosotros", "Contacto"]
+  },
+  "pattern": {
+    "name": "Листопад",
+    "text": "Контурні яйця-листки зі знака з жилками й черешком, розвернуті назустріч одне одному, і розсип дрібних «насінин». Застосовується на крафтових коробках, мішках порошку, обичайці лотка, фартухах і тлі сайту; одноколірний варіант підходить для штампа та друку на картоні."
+  },
+  "color_proportions": [
+    {"hex": "#F3EAD3", "pct": 40},
+    {"hex": "#2F5D3A", "pct": 30},
+    {"hex": "#8A9A5B", "pct": 15},
+    {"hex": "#A3B46C", "pct": 8},
+    {"hex": "#1C2E22", "pct": 7}
+  ],
+  "photo": {
+    "principles": [
+      "Лише природне світло: ранок, хмарний день, м’яка тінь листя.",
+      "Природні фактури — крафт, дерево, льон, трава, солома — і жодного пластику в кадрі.",
+      "Справжні ферми й люди, без постановного глянцю та ретуші продукту."
+    ],
+    "scenes": [
+      {"title": "Ферма на світанку", "hint": "кури на вигулі в траві, роса, м’яке ранкове світло"},
+      {"title": "Руки фермера", "hint": "великий план рук, що дбайливо збирають яйця в плетений кошик із соломою"},
+      {"title": "Дерев’яний стіл", "hint": "крафтова коробка Primeegg, кілька яєць, гілочка зелені, лляна серветка"}
+    ]
+  },
+  "products": {
+    "carton": {"title": "Huevos frescos", "subtitle": "Categoría A · Talla L", "badge": "Camperos"},
+    "powder": {"title": "Huevo entero en polvo", "subtitle": "Ovoproducto pasteurizado"},
+    "horeca": {"title": "Huevos para hostelería", "subtitle": "Bandeja 30 uds · Talla M-L"}
+  },
+  "contacts": {"web": "primeegg.es", "email": "pedidos@primeegg.es", "phone": "+34 900 000 000",
+               "address": "Polígono Industrial, Nave 12 · 28000 Madrid"}
+}

@@ -1,0 +1,101 @@
+{
+  "code": "PE-02.06",
+  "name": "Plantilla de caja",
+  "name_en": "Crate Stencil",
+  "tagline": "La marca que se estampa en la caja: categoría, origen y nombre del proveedor en un solo sello.",
+  "story": [
+    "El logotipo se construye como un sello de plantilla sobre una caja de madera o de cartón ondulado: doble marco con esquinas achaflanadas, el nombre PRIMEEGG en grande con la sans serif condensada Bebas Neue y dos líneas de servicio: «GRADE A · FARM FRESH» arriba y «DISTRIBUTION · ESPAÑA · EST. 2026» abajo. Todas las líneas se justifican al mismo ancho, como en una placa de marcaje; dos pequeños huevos a los lados de la línea superior son la única ilustración. El símbolo independiente es la misma caja con un huevo dentro: el marco y las esquinas achaflanadas proceden directamente del sello.",
+    "Para B2B es el lenguaje más práctico: así se marcan envases, palés y albaranes, por lo que el logotipo se percibe como garantía de categoría y de suministro, no como publicidad. El símbolo es monocromo por naturaleza: se imprime sin pérdidas en flexografía sobre cartón kraft, se estampa en sacos de huevo en polvo y se marca en la cáscara. En el lineal, la plantilla se lee como «auténtico producto de granja sin intermediarios»."
+  ],
+  "elements": [
+    {
+      "element": "Doble marco con esquinas achaflanadas",
+      "meaning": "caja, envase, suministro fiable; define la forma del símbolo"
+    },
+    {
+      "element": "PRIMEEGG en sans serif condensada",
+      "meaning": "marcaje de plantilla: grande, honesto, legible a distancia"
+    },
+    {
+      "element": "GRADE A · FARM FRESH",
+      "meaning": "categoría y frescura, lo que comprueba el comprador"
+    },
+    {
+      "element": "Huevo",
+      "meaning": "el producto; en el símbolo, un huevo dentro de la caja, la esencia de la distribución"
+    }
+  ],
+  "palette": [
+    {
+      "role": "Principal",
+      "name": "Verde caja",
+      "hex": "#24402A",
+      "rgb": "36 64 42",
+      "cmyk": "75 40 80 55",
+      "pantone": "≈ 553 C"
+    },
+    {
+      "role": "Fondo de envase",
+      "name": "Cartón kraft",
+      "hex": "#C9A574",
+      "rgb": "201 165 116",
+      "cmyk": "20 35 60 5",
+      "pantone": "≈ 7503 C"
+    },
+    {
+      "role": "Acento",
+      "name": "Yema",
+      "hex": "#E3A23B",
+      "rgb": "227 162 59",
+      "cmyk": "8 40 85 0",
+      "pantone": "≈ 7409 C"
+    },
+    {
+      "role": "Neutro oscuro",
+      "name": "Hollín",
+      "hex": "#1E2420",
+      "rgb": "30 36 32",
+      "cmyk": "75 60 70 80",
+      "pantone": "≈ Black 7 C"
+    },
+    {
+      "role": "Neutro claro",
+      "name": "Papel",
+      "hex": "#F5EFE3",
+      "rgb": "245 239 227",
+      "cmyk": "3 5 11 0",
+      "pantone": "≈ 9224 C"
+    }
+  ],
+  "dark_bg": "#16281A",
+  "brand_bg": "#24402A",
+  "fonts": [
+    {
+      "role": "Logotipo",
+      "family": "Bebas Neue",
+      "weights": "400",
+      "note": "nombre PRIMEEGG; líneas de servicio en Oswald 500/600"
+    },
+    {
+      "role": "Titulares",
+      "family": "Oswald",
+      "weights": "500, 600",
+      "note": "sans serif condensada a juego con la plantilla; titulares en mayúsculas con tracking"
+    },
+    {
+      "role": "Texto",
+      "family": "Inter",
+      "weights": "400, 500",
+      "note": "texto neutro para catálogos, albaranes, etiquetas y web"
+    }
+  ],
+  "clear_space": {
+    "unit_name": "altura del huevo de la línea superior (x)",
+    "unit": 16
+  },
+  "min_size": {
+    "print_mm": 25,
+    "screen_px": 120,
+    "mark_px": 16
+  }
+}

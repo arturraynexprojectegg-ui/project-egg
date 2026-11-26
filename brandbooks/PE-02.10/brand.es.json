@@ -1,0 +1,86 @@
+{
+  "code": "PE-02.10",
+  "essence": "El sello de calidad de la granja",
+  "mission": "Seleccionar en granja los mejores huevos y ponerles nuestro sello solo cuando estamos dispuestos a responder por cada caja.",
+  "vision": "Hacer del sello Primeegg en España una marca de confianza como lo fueron en su día los hierros de las antiguas granjas.",
+  "positioning": "Para restaurantes, obradores, tiendas gourmet y mayoristas que valoran la garantía de origen. Primeegg es un distribuidor con enfoque artesanal: cada lote pasa una selección y recibe un sello de calidad.",
+  "values": [
+    {"name": "Garantía", "text": "Nuestro sello en la caja es un compromiso personal con la calidad del lote."},
+    {"name": "Selección", "text": "Trabajamos solo con granjas verificadas y controlamos cada una con regularidad."},
+    {"name": "Oficio", "text": "Valoramos la tradición de granja y el cuidado en el trato del producto."},
+    {"name": "Continuidad", "text": "Desde 2026 construimos una historia de la que estar orgullosos durante décadas."}
+  ],
+  "audience": [
+    {"segment": "Mayoristas", "need": "Calidad acreditada y documentación de origen de cada lote.", "message": "Cada lote, con sello y certificado de granja."},
+    {"segment": "HoReCa", "need": "Un producto del que el chef pueda presumir y que pueda citar en la carta.", "message": "Huevos que da gusto nombrar en la carta."},
+    {"segment": "Retail y consumidor", "need": "Un distintivo de calidad claro y una historia cálida del producto en el lineal.", "message": "Un sello de granja en el que confiar."}
+  ],
+  "personality": ["sólida", "cálida", "artesanal", "segura", "hospitalaria"],
+  "tone": {
+    "principles": [
+      {"name": "Con dignidad", "text": "Hablamos sin prisa y con peso, como un maestro habla de su oficio."},
+      {"name": "Con historia", "text": "Detrás de cada afirmación hay una granja, una persona o una tradición con nombre."},
+      {"name": "Con garantía", "text": "Solo prometemos aquello que estamos dispuestos a sellar con nuestro nombre."}
+    ],
+    "do": [
+      "Seleccionados en granja, sellados con nuestro nombre.",
+      "Cada caja lleva el sello de quien responde por ella.",
+      "Huevos de granja, como se han hecho siempre."
+    ],
+    "dont": [
+      "Huevos low cost para todos los bolsillos.",
+      "Ofertón: llévate 3 y paga 2.",
+      "Producto industrial optimizado para máxima rotación."
+    ]
+  },
+  "taglines": {
+    "es": "Calidad con sello de granja.",
+    "en": "Quality sealed at the farm.",
+    "ru": "Calidad con sello de granja."
+  },
+  "headlines_es": [
+    "Nuestro sello, nuestra palabra",
+    "Seleccionados uno a uno en granja",
+    "La calidad se firma"
+  ],
+  "web": {
+    "hero_title": "Huevos con sello de granja",
+    "hero_text": "Seleccionamos huevos y ovoproductos en granjas verificadas para hostelería, obradores y tiendas de toda España.",
+    "cta": "Ver productos",
+    "nav": ["Productos", "HoReCa", "Distribución", "Nosotros", "Contacto"]
+  },
+  "pattern": {
+    "name": "Campo de sellos",
+    "text": "Pequeñas rosetas dentadas con un huevo en el centro, como estampaciones de sello, alternan con estrellas «prime» de cuatro puntas. Se aplica en papel de envolver, tapas de caja, etiquetas, fondo web y cinta corporativa."
+  },
+  "color_proportions": [
+    {"hex": "#F6EEDC", "pct": 40},
+    {"hex": "#9E2B25", "pct": 30},
+    {"hex": "#2B1D19", "pct": 15},
+    {"hex": "#C4A27A", "pct": 10},
+    {"hex": "#B8392F", "pct": 5}
+  ],
+  "photo": {
+    "principles": [
+      "Luz cálida, algo tenue, como en una vieja cocina de granja o una despensa.",
+      "Materiales naturales en el encuadre: madera, lino, cerámica, kraft, lacre.",
+      "Atención a los detalles y a las manos: selección, envasado, sellado; el proceso como oficio."
+    ],
+    "scenes": [
+      {"title": "Selección a mano", "hint": "Las manos de un granjero escogen huevos en una caja de madera bajo una luz cálida."},
+      {"title": "Sello en la caja", "hint": "Una pegatina-sello Primeegg rojo lacre sobre una tapa kraft, junto a un cordel."},
+      {"title": "Cocina del chef", "hint": "Un pastelero casca un huevo sobre un bol de cobre; en la mesa, una caja con el sello."}
+    ]
+  },
+  "products": {
+    "carton": {"title": "Huevos frescos de granja", "subtitle": "Categoría A · Talla L", "badge": "Sello de granja"},
+    "powder": {"title": "Huevo entero en polvo", "subtitle": "Ovoproducto pasteurizado"},
+    "horeca": {"title": "Huevos para hostelería", "subtitle": "Bandeja 30 uds · Talla M-L"}
+  },
+  "contacts": {
+    "web": "primeegg.es",
+    "email": "pedidos@primeegg.es",
+    "phone": "+34 900 000 000",
+    "address": "Polígono Industrial, Nave 12 · 28000 Madrid"
+  }
+}

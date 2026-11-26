@@ -1,0 +1,77 @@
+{
+  "code": "PE-07.07",
+  "essence": "Свіжість. Крапка.",
+  "mission": "Знімати з клієнта всі питання щодо свіжості й постачань: ми робимо свою справу так, щоб про яйця можна було більше не думати.",
+  "vision": "Стати для бізнесу в Іспанії брендом-гарантією, чиє ім’я в накладній ставить крапку в будь-якій суперечці про якість.",
+  "positioning": "Для оптовиків, виробництв і HoReCa, яким потрібна визначеність: Primeegg — дистриб’ютор яєць і яєчних продуктів із зрозумілими стандартами, точними термінами й середземноморським характером, помітним на тлі звичної червоно-жовтої полиці.",
+  "values": [
+    {"name": "Визначеність", "text": "Ми обіцяємо лише те, що виконаємо, і виконуємо точно в строк."},
+    {"name": "Свіжість", "text": "Дата збору на кожній партії — наш головний аргумент, а не слова."},
+    {"name": "Ясність", "text": "Прозорі ціни, зрозумілі специфікації, один контакт для всіх питань."},
+    {"name": "Характер", "text": "Середземноморський стиль і почуття гумору — навіть у прайс-листі."}
+  ],
+  "audience": [
+    {"segment": "Оптові покупці", "need": "Гарантований обсяг, стабільна ціна й чисті документи.", "message": "Замовили — отримали. Обсяг, ціна й дата без застережень."},
+    {"segment": "HoReCa", "need": "Надійний постачальник, який не підведе в п’ятницю ввечері.", "message": "Ваша кухня не чекає — і ми теж. Постачання в узгоджене вікно, крапка."},
+    {"segment": "Ритейл і покупець", "need": "Зрозумілий вибір на полиці та впевненість у продукті.", "message": "Свіжі яйця без зайвих слів: усе головне — на коробці."}
+  ],
+  "personality": ["упевнений", "точний", "лаконічний", "дотепний", "середземноморський"],
+  "tone": {
+    "principles": [
+      {"name": "Коротко", "text": "Фраза закінчується, щойно сказано головне, — крапкою."},
+      {"name": "Ствердно", "text": "Говоримо фактами й обіцянками, без «можливо» та «постараємося»."},
+      {"name": "З усмішкою", "text": "Легка гра слів довкола крапки доречна, канцелярит — ні."}
+    ],
+    "do": [
+      "Huevos de hoy. Entrega mañana. Punto.",
+      "Tu pedido sale a las 6:00. Llega antes de abrir.",
+      "Sin letra pequeña. Sin sorpresas."
+    ],
+    "dont": [
+      "Intentaremos hacer lo posible para cumplir los plazos.",
+      "Quizás nuestros huevos sean de los más frescos del mercado.",
+      "Ofrecemos una amplia gama de soluciones adaptadas a sus necesidades."
+    ]
+  },
+  "taglines": {"es": "Frescura. Punto.", "en": "Freshness. Full stop.", "ru": "Свіжість. Крапка."},
+  "headlines_es": [
+    "Frescos de verdad. Punto.",
+    "Puntuales como un huevo de granja",
+    "La última palabra en frescura"
+  ],
+  "web": {
+    "hero_title": "Frescura. Punto.",
+    "hero_text": "Huevos y ovoproductos para mayoristas, industria y hostelería. Fecha de puesta en cada lote, entrega en tu franja.",
+    "cta": "Pide precio",
+    "nav": ["Productos", "HoReCa", "Distribución", "Nosotros", "Contacto"]
+  },
+  "pattern": {
+    "name": "Розчерк із крапкою",
+    "text": "Ритм бірюзового розчерку-підкреслення та бурштинового яйця-крапки, укладений цегляною кладкою. Працює на обичайці лотка, палетній плівці, бланках, тлі сайту; на бірюзовому тлі лишається стрій бурштинових крапок."
+  },
+  "color_proportions": [
+    {"hex": "#F7EFDF", "pct": 45},
+    {"hex": "#0F6E6E", "pct": 35},
+    {"hex": "#E39B2D", "pct": 12},
+    {"hex": "#0A3A3A", "pct": 8}
+  ],
+  "photo": {
+    "principles": [
+      "Один чіткий герой у кадрі й багато повітря — кадр теж закінчується крапкою.",
+      "Чисте денне світло, прохолодні бірюзові тіні й теплий бурштин жовтка.",
+      "Порядок і ритм: рівні ряди лотків, палети, акуратні руки професіоналів."
+    ],
+    "scenes": [
+      {"title": "Яйце на плитці", "hint": "одне яйце на бірюзовій середземноморській плитці, жорстке світло, довга тінь"},
+      {"title": "Склад о 6 ранку", "hint": "рівні ряди лотків, палети в плівці, завантаження у фургон"},
+      {"title": "Кухня перед сервісом", "hint": "шеф розбиває яйце в миску, бурштиновий жовток, сталева стільниця"}
+    ]
+  },
+  "products": {
+    "carton": {"title": "Huevos frescos", "subtitle": "Categoría A · Talla L", "badge": "Del día"},
+    "powder": {"title": "Huevo entero en polvo", "subtitle": "Ovoproducto pasteurizado"},
+    "horeca": {"title": "Huevos para hostelería", "subtitle": "Bandeja 30 uds · Talla M-L"}
+  },
+  "contacts": {"web": "primeegg.es", "email": "pedidos@primeegg.es", "phone": "+34 900 000 000",
+               "address": "Polígono Industrial, Nave 12 · 28000 Madrid"}
+}

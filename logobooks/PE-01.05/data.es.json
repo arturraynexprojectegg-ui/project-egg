@@ -1,0 +1,32 @@
+{
+  "code": "PE-01.05",
+  "name": "Horizonte mediterráneo",
+  "name_en": "Mediterranean Horizon",
+  "tagline": "La frescura de la mañana mediterránea en cada entrega.",
+  "story": [
+    "El símbolo es un huevo en cuyo interior un sol-yema se pone tras la línea del mar. Tres franjas de agua se recortan de la forma con espacio negativo, de modo que el huevo y el paisaje se leen a la vez: el producto, el amanecer y la costa de España en una sola silueta. La sobria sans serif Inter, con «egg» destacado, prolonga la geometría del símbolo y mantiene el nombre como una sola palabra.",
+    "Para B2B y HoReCa, el símbolo transmite calma y fiabilidad: la sobria paleta de azul celeste y azul marino habla de una logística ordenada, y el sol amarillo aporta calidez y frescura. La silueta, sin detalles pequeños, resiste a 16 px, en el sello sobre la cáscara y en flexografía a una tinta sobre cartón; en el envase retail, la yema brillante funciona como acento en el lineal."
+  ],
+  "elements": [
+    {"element": "Huevo", "meaning": "el producto y la forma de la marca, contorno de todo el símbolo"},
+    {"element": "Sol-yema", "meaning": "frescura de la recogida matinal, calidad «prime», calidez del sur"},
+    {"element": "Tres franjas de mar", "meaning": "el Mediterráneo y España; el ritmo de entregas regulares"},
+    {"element": "Acento «egg» en el nombre", "meaning": "vincula el nombre con el producto sin romper la palabra"}
+  ],
+  "palette": [
+    {"role": "Principal", "name": "Azul mediterráneo", "hex": "#1D5FA8", "rgb": "29 95 168", "cmyk": "90 60 0 0", "pantone": "≈ 7684 C"},
+    {"role": "Acento", "name": "Yema de sol", "hex": "#F6BD3B", "rgb": "246 189 59", "cmyk": "0 27 85 0", "pantone": "≈ 136 C"},
+    {"role": "Oscuro (texto)", "name": "Mar profundo", "hex": "#0D2B4E", "rgb": "13 43 78", "cmyk": "100 80 30 40", "pantone": "≈ 2767 C"},
+    {"role": "Complementario (fondo oscuro)", "name": "Azul claro", "hex": "#4F8FD6", "rgb": "79 143 214", "cmyk": "65 30 0 0", "pantone": "≈ 2727 C"},
+    {"role": "Fondo claro", "name": "Espuma de mar", "hex": "#FAF7F2", "rgb": "250 247 242", "cmyk": "1 2 4 0", "pantone": "— (color del soporte)"}
+  ],
+  "dark_bg": "#0F2A4A",
+  "brand_bg": "#1D5FA8",
+  "fonts": [
+    {"role": "Logotipo", "family": "Inter", "weights": "800, 600", "note": "nombre Primeegg (800) y descriptor ESPAÑA · DISTRIBUTION (600, con tracking)"},
+    {"role": "Titulares", "family": "Manrope", "weights": "700, 800", "note": "sans serif geométrica de formas suaves, afín al símbolo; para titulares y cifras"},
+    {"role": "Texto", "family": "Inter", "weights": "400, 500", "note": "texto general, tablas, tarifas y etiquetas; muy legible en cuerpos pequeños"}
+  ],
+  "clear_space": {"unit_name": "altura de la «e» minúscula de Primeegg (x)", "unit": 21},
+  "min_size": {"print_mm": 20, "screen_px": 80, "mark_px": 16}
+}

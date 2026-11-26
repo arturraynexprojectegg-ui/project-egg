@@ -1,0 +1,105 @@
+{
+  "code": "PE-04.10",
+  "name": "Lata Casa",
+  "name_en": "Casa Tin Label",
+  "tagline": "La casa de un producto con carácter: una etiqueta sobria con capitular para cajas, embalajes y lineal.",
+  "story": [
+    "El logotipo se inspira en las etiquetas de las latas de té y de confitería: un doble marco rectangular —verde oscuro por fuera y dorado por dentro— con un rombo-capitular P encastrado en el borde superior. En su interior, «CASA FUNDADA EN 2026», el nombre PRIMEEGG en Playfair Display, un filete dorado con estrella, «Distribution» en cursiva y «ESPAÑA». El rombo con la capitular es un símbolo autónomo listo para usar: funciona como sello, favicon y estampación.",
+    "El marco horizontal encaja de forma natural en el lateral de la caja, el embalaje, el saco de polvo y la etiqueta de transporte: allí donde Primeegg se encuentra con mayoristas y HoReCa. El verde profundo habla de granja y frescura; el oro, de calidad «prime», y el tono de «casa fundada en 2026» transmite la idea de un proveedor fiable y con tradición. En la versión monocolor el rombo se mantiene macizo, con la capitular y la línea interior caladas: el símbolo se imprime limpiamente a una tinta."
+  ],
+  "elements": [
+    {
+      "element": "Rombo-capitular P",
+      "meaning": "sello de la casa y símbolo autónomo; P de Primeegg y de «prime»"
+    },
+    {
+      "element": "Doble marco con encastre",
+      "meaning": "etiqueta de lata: buen envasado, conservación, orden"
+    },
+    {
+      "element": "CASA FUNDADA EN 2026",
+      "meaning": "casa con historia, origen español, continuidad"
+    },
+    {
+      "element": "Filete con estrella",
+      "meaning": "sello de calidad selecta, tipografía clásica"
+    }
+  ],
+  "palette": [
+    {
+      "role": "Principal",
+      "name": "Verde Casa",
+      "hex": "#1F3D2B",
+      "rgb": "31 61 43",
+      "cmyk": "80 45 80 50",
+      "pantone": "≈ 3435 C"
+    },
+    {
+      "role": "Acento",
+      "name": "Oro viejo",
+      "hex": "#B8924A",
+      "rgb": "184 146 74",
+      "cmyk": "25 40 80 5",
+      "pantone": "≈ 7562 C"
+    },
+    {
+      "role": "Neutro claro",
+      "name": "Crema",
+      "hex": "#F1EADB",
+      "rgb": "241 234 219",
+      "cmyk": "4 6 14 0",
+      "pantone": "≈ 9224 C"
+    },
+    {
+      "role": "Neutro oscuro",
+      "name": "Pino",
+      "hex": "#12261A",
+      "rgb": "18 38 26",
+      "cmyk": "85 55 85 70",
+      "pantone": "≈ 5535 C"
+    }
+  ],
+  "dark_bg": "#12261A",
+  "brand_bg": "#1F3D2B",
+  "fonts": [
+    {
+      "role": "Logotipo",
+      "family": "Playfair Display",
+      "weights": "700",
+      "note": "nombre PRIMEEGG en el logotipo"
+    },
+    {
+      "role": "Capitular",
+      "family": "DM Serif Display",
+      "weights": "400",
+      "note": "capitular P en el rombo-símbolo"
+    },
+    {
+      "role": "Descriptores",
+      "family": "Josefin Sans",
+      "weights": "400",
+      "note": "CASA FUNDADA EN 2026 y ESPAÑA en mayúsculas espaciadas; pies y navegación"
+    },
+    {
+      "role": "Titulares",
+      "family": "Cormorant Garamond",
+      "weights": "500, 600, 500 italic",
+      "note": "la cursiva retoma la firma «Distribution»"
+    },
+    {
+      "role": "Texto",
+      "family": "Lora",
+      "weights": "400, 500",
+      "note": "texto de catálogos, fichas técnicas y web"
+    }
+  ],
+  "clear_space": {
+    "unit_name": "semidiagonal del rombo (x)",
+    "unit": 24
+  },
+  "min_size": {
+    "print_mm": 30,
+    "screen_px": 120,
+    "mark_px": 16
+  }
+}

@@ -9,6 +9,7 @@ from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
+from i18n_ui import L
 from chrome_util import chrome_eval, bake_for_figma, fonts_href, used_families
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -66,8 +67,12 @@ def para(x, y, text, width, size=24, lh=1.5, **kw):
 
 class Book:
     def __init__(self, folder: Path):
+        from brandkit import load_lang, cyr
+        import i18n_ui
+        self.lang = i18n_ui.LANG
         self.dir = folder
-        self.d = json.loads((folder / "data.json").read_text())
+        self.d_ru = json.loads((folder / "data.json").read_text())
+        self.d = load_lang(folder / "data.json", self.lang)
         self.code = self.d["code"]
         self.comp = {}
         for k in VB:
@@ -85,9 +90,10 @@ class Book:
         self.muted = mix(self.ink, self.paper, 0.45)
         self.line = mix(self.ink, self.paper, 0.85)
         self.tint = mix(self.accent, "#FFFFFF", 0.9)
-        f = self.d.get("fonts", [])
+        f = self.d_ru.get("fonts", [])
         from brandkit import pick_font
-        self.head_font = pick_font(f, "заголов", 1, "Fraunces") + ", Georgia, serif"
+        hf = pick_font(f, "заголов", 1, "Fraunces")
+        self.head_font = (cyr(hf) if self.lang == "uk" else hf) + ", Georgia, serif"
         self.measure = {}
 
     # вставка компонента в бокс с сохранением пропорций
@@ -113,7 +119,7 @@ class Book:
         bg = bg or self.paper
         ink = "#FFFFFF" if dark else self.ink
         mut = mix(bg, "#FFFFFF", 0.55) if dark else self.muted
-        head = (T(M, 92, f"PRIMEEGG · {getattr(self, 'kind', 'ЛОГОБУК')} · {self.code}", 18, 600, mut, ls=3) +
+        head = (T(M, 92, L(f"PRIMEEGG · {getattr(self, 'kind', 'ЛОГОБУК')} · {self.code}"), 18, 600, mut, ls=3) +
                 T(W - M, 92, f"{n:02d} / {total:02d}", 18, 600, mut, anchor="end", ls=2) +
                 (T(M, 196, title, 60, 600, ink, self.head_font) if title else "") +
                 T(M, H - 64, self.d["name"], 18, 500, mut) +
@@ -127,7 +133,7 @@ class Book:
         c += f'<rect x="{W*0.52:.0f}" y="0" width="6" height="{H}" fill="{self.accent}"/>'
         logo, _ = self.place("primary", W * 0.52 + 80, 200, W * 0.48 - 160, H - 400)
         c += logo
-        c += T(M, 300, "ЛОГОБУК", 22, 700, self.accent, ls=6)
+        c += T(M, 300, L("ЛОГОБУК"), 22, 700, self.accent, ls=6)
         tl = wrap(d["name"], 780, 72, 0.62)
         for j, l in enumerate(tl[:2]):
             c += T(M, 400 + j * 84, l, 72, 600, self.ink, self.head_font)
@@ -137,7 +143,7 @@ class Book:
         c += p
         c += f'<line x1="{M}" y1="{H-210}" x2="{W*0.52-M:.0f}" y2="{H-210}" stroke="{self.line}" stroke-width="2"/>'
         c += T(M, H - 160, "Primeegg Distribution SL", 24, 600, self.ink)
-        c += T(M, H - 124, f"Концепт {self.code} · версия 1.0 · {TODAY}", 22, 400, self.muted)
+        c += T(M, H - 124, L(f"Концепт {self.code} · версия 1.0 · {TODAY}"), 22, 400, self.muted)
         return c
 
     def s_concept(self):
@@ -152,7 +158,7 @@ class Book:
         logo, _ = self.place("mark", bx + 40, 275, W - M - bx - 80, 270)
         c += logo
         ey = 630
-        c += T(bx, ey, "ЭЛЕМЕНТЫ ЗНАКА", 18, 700, self.accent, ls=3)
+        c += T(bx, ey, L("ЭЛЕМЕНТЫ ЗНАКА"), 18, 700, self.accent, ls=3)
         ey += 46
         nw, mw = 250, W - M - bx - 270
         for e in d.get("elements", [])[:4]:
@@ -163,21 +169,21 @@ class Book:
             for j, l in enumerate(ml):
                 c += T(bx + 270, ey + j * 30, l, 21, 400, self.muted)
             ey += max(len(nl), len(ml)) * 30 + 22
-        return self.frame(2, self.total, "Концепция", c)
+        return self.frame(2, self.total, L("Концепция"), c)
 
     def s_primary(self):
         c = f'<rect x="{M}" y="250" width="{W-2*M}" height="640" rx="16" fill="#FFFFFF" stroke="{self.line}"/>'
         logo, _ = self.place("primary", M + 200, 280, W - 2 * M - 400, 580)
         c += logo
-        c += T(M, 950, "Основная версия логотипа. Используется по умолчанию на всех носителях, где позволяет место и фон.",
+        c += T(M, 950, L("Основная версия логотипа. Используется по умолчанию на всех носителях, где позволяет место и фон."),
                24, 400, self.muted)
-        return self.frame(3, self.total, "Основной логотип", c)
+        return self.frame(3, self.total, L("Основной логотип"), c)
 
     def s_versions(self):
-        tiles = [("horizontal", "Горизонтальная", "Шапка сайта, накладные, борт фургона"),
-                 ("vertical", "Вертикальная", "Упаковка, стенды, квадратные форматы"),
-                 ("mark", "Знак", "Иконка, фавикон, штамп на яйце, соцсети"),
-                 ("wordmark", "Надпись", "Узкие форматы, текстовые упоминания")]
+        tiles = [("horizontal", L("Горизонтальная"), L("Шапка сайта, накладные, борт фургона")),
+                 ("vertical", L("Вертикальная"), L("Упаковка, стенды, квадратные форматы")),
+                 ("mark", L("Знак"), L("Иконка, фавикон, штамп на яйце, соцсети")),
+                 ("wordmark", L("Надпись"), L("Узкие форматы, текстовые упоминания"))]
         c, gap = "", 40
         tw, th = (W - 2 * M - gap) / 2, 250
         for i, (k, name, use) in enumerate(tiles):
@@ -187,7 +193,7 @@ class Book:
             logo, _ = self.place(k, x + 40, y + 24, tw - 80, th - 48)
             c += logo
             c += T(x, y + th + 40, name, 26, 600, self.ink) + T(x + 260, y + th + 40, use, 21, 400, self.muted)
-        return self.frame(4, self.total, "Версии логотипа", c)
+        return self.frame(4, self.total, L("Версии логотипа"), c)
 
     def s_clear(self):
         mb = self.measure.get("primary")
@@ -215,19 +221,17 @@ class Book:
             c += f'<rect x="{cx:.1f}" y="{cy:.1f}" width="{us:.1f}" height="{us:.1f}" fill="{self.accent}" fill-opacity="0.18" stroke="{self.accent}" stroke-width="1.5"/>'
             c += T(cx + us / 2, cy + us / 2 + min(26, us * 0.45) * 0.36, "x", min(26, us * 0.45), 600, self.accent, anchor="middle")
         rx = 1260
-        c += T(rx, 300, "ОХРАННОЕ ПОЛЕ", 18, 700, self.accent, ls=3)
-        p, y = para(rx, 350, f"Минимальное свободное пространство вокруг логотипа равно 1x, где x — "
-                              f"{self.d.get('clear_space', {}).get('unit_name', 'модуль')}.", W - M - rx, 26, 1.5, fill=self.ink)
+        c += T(rx, 300, L("ОХРАННОЕ ПОЛЕ"), 18, 700, self.accent, ls=3)
+        p, y = para(rx, 350, L(f"Минимальное свободное пространство вокруг логотипа равно 1x, где x — {self.d.get('clear_space', {}).get('unit_name', 'модуль')}."), W - M - rx, 26, 1.5, fill=self.ink)
         c += p
-        p, y = para(rx, y + 24, "В охранное поле не заходят текст, края носителя, другие логотипы и активные элементы фона. "
-                                "При увеличении логотипа поле масштабируется пропорционально.", W - M - rx, 22, 1.5, fill=self.muted)
+        p, y = para(rx, y + 24, L("В охранное поле не заходят текст, края носителя, другие логотипы и активные элементы фона. При увеличении логотипа поле масштабируется пропорционально."), W - M - rx, 22, 1.5, fill=self.muted)
         c += p
-        return self.frame(5, self.total, "Охранное поле", c)
+        return self.frame(5, self.total, L("Охранное поле"), c)
 
     def s_minsize(self):
         ms = self.d.get("min_size", {})
         c = f'<rect x="{M}" y="250" width="1000" height="660" rx="16" fill="#FFFFFF" stroke="{self.line}"/>'
-        c += T(M + 48, 310, "ОСНОВНОЙ ЛОГОТИП", 18, 700, self.accent, ls=3)
+        c += T(M + 48, 310, L("ОСНОВНОЙ ЛОГОТИП"), 18, 700, self.accent, ls=3)
         mn = ms.get("screen_px", 80)
         k = min(1.0, max(0.0, ((1000 - 96 - 120) / mn - 4) / 5.6))
         sizes = [mn * (1 + k * f) for f in (2.6, 1.8, 1.2)] + [mn]
@@ -236,22 +240,22 @@ class Book:
             hpx = wpx * 0.75
             logo, _ = self.place("primary", x, 560 - hpx / 2, wpx, hpx)
             c += logo
-            c += T(x + wpx / 2, 790, f"{int(wpx)} px" if i < 3 else f"мин. {int(wpx)} px", 20, 600 if i == 3 else 400,
+            c += T(x + wpx / 2, 790, f"{int(wpx)} px" if i < 3 else L(f"мин. {int(wpx)} px"), 20, 600 if i == 3 else 400,
                    self.ink if i == 3 else self.muted, anchor="middle")
             x += wpx + 40
-        c += T(M + 48, 860, f"Печать: ширина не менее {ms.get('print_mm', 20)} мм. Экран: не менее {ms.get('screen_px', 80)} px.",
+        c += T(M + 48, 860, L(f"Печать: ширина не менее {ms.get('print_mm', 20)} мм. Экран: не менее {ms.get('screen_px', 80)} px."),
                22, 500, self.ink)
         rx = 1180
         c += f'<rect x="{rx}" y="250" width="{W-M-rx}" height="660" rx="16" fill="#FFFFFF" stroke="{self.line}"/>'
-        c += T(rx + 48, 310, "ЗНАК", 18, 700, self.accent, ls=3)
+        c += T(rx + 48, 310, L("ЗНАК"), 18, 700, self.accent, ls=3)
         x = rx + 48
         for px in (128, 64, 32, 24, 16):
             logo, _ = self.place("mark", x, 560 - px / 2, px, px)
             c += logo
             c += T(x + px / 2, 790, f"{px}", 20, 400, self.muted, anchor="middle")
             x += px + 36
-        c += T(rx + 48, 860, f"Минимум для знака: {ms.get('mark_px', 16)} px (фавикон).", 22, 500, self.ink)
-        return self.frame(6, self.total, "Минимальный размер", c)
+        c += T(rx + 48, 860, L(f"Минимум для знака: {ms.get('mark_px', 16)} px (фавикон)."), 22, 500, self.ink)
+        return self.frame(6, self.total, L("Минимальный размер"), c)
 
     def s_palette(self):
         pal = self.d["palette"][:5]
@@ -273,18 +277,18 @@ class Book:
             for lab, key in (("HEX", "hex"), ("RGB", "rgb"), ("CMYK", "cmyk"), ("PANTONE", "pantone")):
                 c += T(x, y, lab, 16, 600, self.muted, ls=1.5) + T(x + 104, y, p.get(key, "—"), 19, 500, self.ink)
                 y += 32
-        return self.frame(7, self.total, "Фирменные цвета", c)
+        return self.frame(7, self.total, L("Фирменные цвета"), c)
 
     def s_colorways(self):
         a = self.d["palette"][0]["hex"]
         dark = self.d.get("dark_bg", "#151515")
         brand = self.d.get("brand_bg", a)
-        tiles = [("primary", "#FFFFFF", None, "Цветная на светлом фоне"),
-                 ("inverse", dark, None, "Цветная на тёмном фоне"),
-                 ("mono", "#FFFFFF", "#111111", "Одноцветная чёрная"),
-                 ("mono", dark, "#FFFFFF", "Одноцветная белая на тёмном"),
-                 ("mono", brand, "#FFFFFF", "Белая на фирменном цвете"),
-                 ("mono", mix(a, "#FFFFFF", 0.88), a, "Фирменный цвет на светлом")]
+        tiles = [("primary", "#FFFFFF", None, L("Цветная на светлом фоне")),
+                 ("inverse", dark, None, L("Цветная на тёмном фоне")),
+                 ("mono", "#FFFFFF", "#111111", L("Одноцветная чёрная")),
+                 ("mono", dark, "#FFFFFF", L("Одноцветная белая на тёмном")),
+                 ("mono", brand, "#FFFFFF", L("Белая на фирменном цвете")),
+                 ("mono", mix(a, "#FFFFFF", 0.88), a, L("Фирменный цвет на светлом"))]
         tw, th, gx, gy = (W - 2 * M - 2 * 32) / 3, 270, 32, 82
         c = ""
         for i, (k, bg, col, lab) in enumerate(tiles):
@@ -294,7 +298,7 @@ class Book:
             logo, _ = self.place(k, x + 30, y + 20, tw - 60, th - 40, color=col)
             c += logo
             c += T(x, y + th + 38, lab, 22, 500, self.ink)
-        return self.frame(8, self.total, "Цветовые версии", c)
+        return self.frame(8, self.total, L("Цветовые версии"), c)
 
     def s_type(self):
         fonts = self.d.get("fonts", [])[:3]
@@ -311,24 +315,29 @@ class Book:
             c += T(x + 40, 310, f.get("role", "").upper(), 18, 700, self.accent, ls=3)
             c += T(x + 40, 520, "Aa", 190, w0, self.ink, fam)
             c += T(x + 40, 610, f["family"], 40, w0, self.ink, fam)
-            c += T(x + 40, 656, "Начертания: " + str(f.get("weights", "")), 20, 500, self.muted)
+            c += T(x + 40, 656, L("Начертания: ") + str(f.get("weights", "")), 20, 500, self.muted)
             c += T(x + 40, 730, "Huevos frescos de granja", 28, wt[0] if wt else 400, self.ink, fam)
             c += T(x + 40, 772, "ABCDEFGHIJ abcdefghij 0123456789", 22, wt[0] if wt else 400, self.muted, fam)
             p, _ = para(x + 40, 840, f.get("note", ""), cw - 80, 19, 1.45, fill=self.muted)
             c += p
-        return self.frame(9, self.total, "Типографика", c)
+        if self.lang == "uk":
+            from brandkit import cyr
+            subs = sorted({f"{q['family']} → {cyr(q['family'])}" for q in self.d_ru.get("fonts", []) if cyr(q["family"]) != q["family"]})
+            if subs:
+                c += T(M, 960, L("Для кириллицы: ") + ", ".join(subs), 20, 500, self.accent)
+        return self.frame(9, self.total, L("Типографика"), c)
 
     def s_misuse(self):
         a = self.d["palette"][0]["hex"]
         tw, th, gx, gy = (W - 2 * M - 2 * 32) / 3, 270, 32, 82
         items = []
         # 1 растяжение
-        items.append(("Не растягивать и не сжимать", "#FFFFFF", ("primary", None, "stretch")))
-        items.append(("Не поворачивать", "#FFFFFF", ("primary", None, "rotate")))
-        items.append(("Не перекрашивать в чужие цвета", "#FFFFFF", ("mono", "#C13BD6", None)))
-        items.append(("Не ставить на фон с низким контрастом", mix(a, "#FFFFFF", 0.25), ("mono", mix(a, "#FFFFFF", 0.05), None)))
-        items.append(("Не размещать на пёстром фоне", "busy", ("primary", None, None)))
-        items.append(("Не обрезать и не выводить за край", "#FFFFFF", ("primary", None, "crop")))
+        items.append((L("Не растягивать и не сжимать"), "#FFFFFF", ("primary", None, "stretch")))
+        items.append((L("Не поворачивать"), "#FFFFFF", ("primary", None, "rotate")))
+        items.append((L("Не перекрашивать в чужие цвета"), "#FFFFFF", ("mono", "#C13BD6", None)))
+        items.append((L("Не ставить на фон с низким контрастом"), mix(a, "#FFFFFF", 0.25), ("mono", mix(a, "#FFFFFF", 0.05), None)))
+        items.append((L("Не размещать на пёстром фоне"), "busy", ("primary", None, None)))
+        items.append((L("Не обрезать и не выводить за край"), "#FFFFFF", ("primary", None, "crop")))
         c = ""
         for i, (lab, bg, (k, col, tf)) in enumerate(items):
             x = M + (i % 3) * (tw + gx)
@@ -365,30 +374,30 @@ class Book:
             c += (f'<circle cx="{cx:.1f}" cy="{cy}" r="18" fill="#D93025"/>'
                   f'<path d="M{cx-7:.1f} {cy-7} L{cx+7:.1f} {cy+7} M{cx+7:.1f} {cy-7} L{cx-7:.1f} {cy+7}" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>')
             c += T(x, y + th + 38, lab, 22, 500, self.ink)
-        return self.frame(10, self.total, "Недопустимое использование", c)
+        return self.frame(10, self.total, L("Недопустимое использование"), c)
 
     def s_icons(self):
         c = ""
         # иконка приложения
         x0 = M
-        c += T(x0, 290, "ИКОНКА ПРИЛОЖЕНИЯ", 18, 700, self.accent, ls=3)
+        c += T(x0, 290, L("ИКОНКА ПРИЛОЖЕНИЯ"), 18, 700, self.accent, ls=3)
         c += f'<rect x="{x0}" y="330" width="300" height="300" rx="66" fill="#FFFFFF" stroke="{self.line}" stroke-width="2"/>'
         logo, _ = self.place("mark", x0 + 40, 370, 220, 220)
         c += logo
         c += f'<rect x="{x0+340}" y="430" width="200" height="200" rx="44" fill="#FFFFFF" stroke="{self.line}" stroke-width="2"/>'
         logo, _ = self.place("mark", x0 + 366, 456, 148, 148)
         c += logo
-        c += T(x0, 690, "Скругление 22% от стороны, знак занимает ~75% площади.", 21, 400, self.muted)
+        c += T(x0, 690, L("Скругление 22% от стороны, знак занимает ~75% площади."), 21, 400, self.muted)
         # аватар
         x1 = 820
-        c += T(x1, 290, "АВАТАР СОЦСЕТЕЙ", 18, 700, self.accent, ls=3)
+        c += T(x1, 290, L("АВАТАР СОЦСЕТЕЙ"), 18, 700, self.accent, ls=3)
         c += f'<circle cx="{x1+150}" cy="480" r="150" fill="#FFFFFF" stroke="{self.line}" stroke-width="2"/>'
         logo, _ = self.place("mark", x1 + 45, 375, 210, 210)
         c += logo
-        c += T(x1, 690, "Круглая маска: знак вписан с полем 15%.", 21, 400, self.muted)
+        c += T(x1, 690, L("Круглая маска: знак вписан с полем 15%."), 21, 400, self.muted)
         # фавикон во вкладке
         x2 = 1260
-        c += T(x2, 290, "ФАВИКОН", 18, 700, self.accent, ls=3)
+        c += T(x2, 290, L("ФАВИКОН"), 18, 700, self.accent, ls=3)
         c += f'<rect x="{x2}" y="330" width="540" height="64" rx="14" fill="#E9E6E0"/>'
         c += f'<rect x="{x2+12}" y="342" width="300" height="52" rx="10" fill="#FFFFFF"/>'
         logo, _ = self.place("mark", x2 + 26, 356, 24, 24)
@@ -402,10 +411,9 @@ class Book:
             c += T(xx + 55, 590, f"{px}×{px}", 18, 500, self.muted, anchor="middle")
         c += T(x2, 690, "SVG + PNG 16, 32, 48, 180 (apple-touch), 512 px.", 21, 400, self.muted)
         c += f'<line x1="{M}" y1="780" x2="{W-M}" y2="780" stroke="{self.line}" stroke-width="2"/>'
-        p, _ = para(M, 840, "Знак работает самостоятельно там, где название уже прочитано из контекста: иконки, фавиконы, "
-                            "штамп на скорлупе, пломбы и наклейки на таре. В остальных случаях используется полный логотип.",
+        p, _ = para(M, 840, L("Знак работает самостоятельно там, где название уже прочитано из контекста: иконки, фавиконы, штамп на скорлупе, пломбы и наклейки на таре. В остальных случаях используется полный логотип."),
                     W - 2 * M, 24, 1.5, fill=self.ink)
-        return self.frame(11, self.total, "Знак в цифровой среде", c + p)
+        return self.frame(11, self.total, L("Знак в цифровой среде"), c + p)
 
     def s_end(self):
         dark = self.d.get("dark_bg", "#151515")
@@ -413,16 +421,16 @@ class Book:
         logo, _ = self.place("inverse", W / 2 - 420, 240, 840, 520)
         c += logo
         c += T(W / 2, 860, "Primeegg Distribution SL", 28, 600, "#FFFFFF", anchor="middle")
-        c += T(W / 2, 904, f"Логобук {self.code} · {self.d['name']} · версия 1.0 · {TODAY}", 20, 400,
+        c += T(W / 2, 904, L(f"Логобук {self.code} · {self.d['name']} · версия 1.0 · {TODAY}"), 20, 400,
                mix(dark, "#FFFFFF", 0.6), anchor="middle")
         return c
 
     def slides(self):
-        fns = [("01 Обложка", self.s_cover), ("02 Концепция", self.s_concept), ("03 Основной логотип", self.s_primary),
-               ("04 Версии", self.s_versions), ("05 Охранное поле", self.s_clear), ("06 Минимальный размер", self.s_minsize),
-               ("07 Цвета", self.s_palette), ("08 Цветовые версии", self.s_colorways), ("09 Типографика", self.s_type),
-               ("10 Недопустимое использование", self.s_misuse), ("11 Знак в цифровой среде", self.s_icons),
-               ("12 Финал", self.s_end)]
+        fns = [(L("01 Обложка"), self.s_cover), (L("02 Концепция"), self.s_concept), (L("03 Основной логотип"), self.s_primary),
+               (L("04 Версии"), self.s_versions), (L("05 Охранное поле"), self.s_clear), (L("06 Минимальный размер"), self.s_minsize),
+               (L("07 Цвета"), self.s_palette), (L("08 Цветовые версии"), self.s_colorways), (L("09 Типографика"), self.s_type),
+               (L("10 Недопустимое использование"), self.s_misuse), (L("11 Знак в цифровой среде"), self.s_icons),
+               (L("12 Финал"), self.s_end)]
         self.total = len(fns)
         out = []
         for name, fn in fns:
@@ -448,14 +456,25 @@ def measure(books):
 
 
 # ---------------------------------------------------------------- вывод
-def html_page(b, slides):
+LANGS = ("uk", "es")
+SUFFIX = {"uk": "UA", "es": "ES"}
+UI = {"uk": {"lb": "логобук", "bb": "брендбук", "all_lb": "Усі логобуки", "all_bb": "Усі брендбуки"},
+      "es": {"lb": "manual de logotipo", "bb": "manual de marca", "all_lb": "Todos los manuales", "all_bb": "Todos los manuales"}}
+
+
+def html_page(b, slides, kind="lb"):
+    import i18n_ui
+    lang = i18n_ui.LANG
     fam = used_families("".join(s for _, s in slides) + " Inter")
+    base = f"{b.code}_{'Logobook' if kind == 'lb' else 'Brandbook'}"
+    switch = "".join(f'<a class="lang{" on" if l == lang else ""}" href="{base}_{SUFFIX[l]}.html" hreflang="{l}">{SUFFIX[l]}</a>'
+                     for l in LANGS)
     nav = "".join(f'<a href="#s{i+1:02d}">{esc(n[3:])}</a>' for i, (n, _) in enumerate(slides))
     secs = "".join(f'<section id="s{i+1:02d}" aria-label="{esc(n)}"><svg xmlns="http://www.w3.org/2000/svg" '
                    f'viewBox="0 0 {W} {H}" role="img">{body}</svg></section>' for i, (n, body) in enumerate(slides))
-    return f'''<!doctype html><html lang="ru"><head><meta charset="utf-8">
+    return f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>{esc(b.d["name"])} — логобук</title>
+<title>{esc(b.d["name"])} — {UI[lang][kind]}</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{fonts_href(fam)}">
@@ -470,6 +489,9 @@ header{{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:va
   padding-block:10px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
   display:flex;gap:16px;align-items:center}}
 header .home{{white-space:nowrap;font-size:13px;color:var(--muted);text-decoration:none}}
+.langs{{display:flex;gap:4px;margin-left:auto}}
+.lang{{font-size:12px;font-weight:700;letter-spacing:.08em;color:var(--muted);text-decoration:none;padding:5px 8px;border:1px solid var(--line);border-radius:8px}}
+.lang.on{{color:var(--bg);background:var(--ink);border-color:var(--ink)}}
 header b{{white-space:nowrap;font-size:14px}} header b span{{color:var(--acc)}}
 nav{{display:flex;gap:6px;overflow-x:auto;min-width:0}}
 nav a{{white-space:nowrap;color:var(--ink);text-decoration:none;font-size:13px;padding:5px 10px;border:1px solid var(--line);border-radius:99px}}
@@ -479,7 +501,7 @@ main{{max-width:1600px;margin:auto;padding-block:24px 64px;padding-left:max(16px
 section{{scroll-margin-top:72px}}
 section svg{{display:block;width:100%;height:auto;max-width:100%;border-radius:10px;box-shadow:0 1px 3px #0002}}
 </style></head><body>
-<header><a class="home" href="../index.html">← Все логобуки</a><b><span>{esc(b.code)}</span> {esc(b.d["name"])}</b><nav>{nav}</nav></header>
+<header><a class="home" href="../index.html">← {UI[lang]["all_" + kind]}</a><b><span>{esc(b.code)}</span> {esc(b.d["name"])}</b><nav>{nav}</nav><div class="langs">{switch}</div></header>
 <main>{secs}</main></body></html>'''
 
 
@@ -489,7 +511,7 @@ def figma_svg(b, slides):
     BW = cols * W + (cols - 1) * GAPY + 2 * GAPY
     BH = rows * H + (rows - 1) * GAPY + 2 * GAPY + 160
     g = []
-    g.append(T(GAPY, 110, f"PRIMEEGG · ЛОГОБУК {b.code} · {b.d['name']}", 48, 600, "#1C1B19", "Inter, sans-serif"))
+    g.append(T(GAPY, 110, L(f"PRIMEEGG · ЛОГОБУК {b.code} · {b.d['name']}"), 48, 600, "#1C1B19", "Inter, sans-serif"))
     for i, (n, body) in enumerate(slides):
         x = GAPY + (i % cols) * (W + GAPY)
         y = GAPY + 160 + (i // cols) * (H + GAPY)
@@ -500,22 +522,31 @@ def figma_svg(b, slides):
 
 
 def main():
+    import i18n_ui
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     figma = "--no-figma" not in sys.argv
     dirs = [LB / a for a in args] if args else sorted(p for p in LB.glob("PE-*") if (p / "data.json").exists())
-    books = []
-    for d in dirs:
-        try:
-            books.append(Book(d))
-        except Exception as e:
-            print("SKIP", d.name, e)
-    measure(books)
-    for b in books:
-        slides = b.slides()
-        (b.dir / f"{b.code}_Logobook.html").write_text(html_page(b, slides))
-        if figma:
-            (b.dir / f"{b.code}_Logobook_Figma.svg").write_text(bake_for_figma(figma_svg(b, slides)))
-        print("OK", b.code, b.d["name"])
+    for lang in LANGS:
+        i18n_ui.set_lang(lang)
+        books = []
+        for d in dirs:
+            try:
+                books.append(Book(d))
+            except Exception as e:
+                print("SKIP", d.name, e)
+        measure(books)
+        for b in books:
+            slides = b.slides()
+            sfx = SUFFIX[lang]
+            (b.dir / f"{b.code}_Logobook_{sfx}.html").write_text(html_page(b, slides))
+            if figma:
+                (b.dir / f"{b.code}_Logobook_Figma_{sfx}.svg").write_text(bake_for_figma(figma_svg(b, slides)))
+            print("OK", lang, b.code, b.d["name"])
+    for d in dirs:                                   # старые русские версии больше не нужны
+        for old in (d / f"{d.name}_Logobook.html", d / f"{d.name}_Logobook_Figma.svg"):
+            old.unlink(missing_ok=True)
+    if i18n_ui.MISSING:
+        print("НЕ ПЕРЕВЕДЕНО:", *sorted(i18n_ui.MISSING), sep="\n  ")
 
 
 if __name__ == "__main__":

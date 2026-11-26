@@ -1,0 +1,165 @@
+{
+  "code": "PE-06.10",
+  "essence": "Siempre al habla",
+  "mission": "Responder rápido a cada pedido y entregar huevos y ovoproductos justo a tiempo. Eliminamos de la cadena de suministro la espera y la incertidumbre.",
+  "vision": "Ser el distribuidor de huevos más ágil de España, al que los clientes escriben primero.",
+  "positioning": "Para HoReCa, mayoristas e industria alimentaria que valoran la rapidez de respuesta y una logística previsible. Primeegg es el distribuidor con el que un pedido se cierra en un solo mensaje y la entrega llega a tiempo.",
+  "values": [
+    {
+      "name": "Capacidad de respuesta",
+      "text": "Respondemos rápido, por mensajería, teléfono o correo, sin colas ni contestadores."
+    },
+    {
+      "name": "Precisión",
+      "text": "Entregamos en la franja acordada lo que se ha pedido, y en la cantidad necesaria."
+    },
+    {
+      "name": "Frescura",
+      "text": "Cadena corta de la granja a la cocina: el producto no se queda parado en el almacén."
+    },
+    {
+      "name": "Colaboración",
+      "text": "Conocemos a nuestros clientes por su nombre y nos adaptamos al ritmo de su cocina y su producción."
+    }
+  ],
+  "audience": [
+    {
+      "segment": "Mayoristas",
+      "need": "Confirmación rápida del pedido y estado de la entrega transparente.",
+      "message": "Escríbenos el volumen: confirmamos precio y fecha en minutos y te mantenemos informado hasta la descarga."
+    },
+    {
+      "segment": "HoReCa",
+      "need": "Reposiciones urgentes y entrega antes de empezar el turno.",
+      "message": "¿Sin huevos antes del brunch? Escríbenos y ya estamos en camino."
+    },
+    {
+      "segment": "Retail y consumidor",
+      "need": "Disponibilidad constante en el lineal y contacto sencillo con el proveedor.",
+      "message": "Huevos frescos siempre en el lineal, porque tu tienda y Primeegg están en la misma onda."
+    }
+  ],
+  "personality": [
+    "atento",
+    "rápido",
+    "organizado",
+    "cercano",
+    "fiable"
+  ],
+  "tone": {
+    "principles": [
+      {
+        "name": "Como en un chat",
+        "text": "Escribimos con frases cortas y vivas, como en una conversación con un buen socio."
+      },
+      {
+        "name": "Con respuesta",
+        "text": "Cada mensaje incluye datos concretos: plazo, cantidad, siguiente paso."
+      },
+      {
+        "name": "Con calma",
+        "text": "Incluso en situaciones urgentes sonamos seguros y sin alarmismo."
+      }
+    ],
+    "do": [
+      "Recibido. Mañana a las 7:00 en tu cocina.",
+      "¿Te falta algo? Escríbenos.",
+      "Pedido confirmado: 60 bandejas, talla L."
+    ],
+    "dont": [
+      "Su solicitud será atendida en un plazo de 5 a 7 días hábiles.",
+      "No es posible modificar el pedido.",
+      "Consulte nuestras condiciones generales."
+    ]
+  },
+  "taglines": {
+    "es": "Tú escribes, nosotros llegamos.",
+    "en": "You message, we deliver.",
+    "ru": "Tú escribes, nosotros llegamos."
+  },
+  "headlines_es": [
+    "Tu pedido, a un mensaje",
+    "Escribe hoy, cocina mañana",
+    "Siempre al otro lado"
+  ],
+  "web": {
+    "hero_title": "Tu pedido, a un mensaje",
+    "hero_text": "Huevos frescos y ovoproductos para hostelería y mayoristas. Pides por chat y llegamos a tiempo.",
+    "cta": "Escríbenos",
+    "nav": [
+      "Productos",
+      "HoReCa",
+      "Distribución",
+      "Nosotros",
+      "Contacto"
+    ]
+  },
+  "pattern": {
+    "name": "Conversación",
+    "text": "Huevos-burbuja en contorno con su pico se alternan con «puntos suspensivos» de tres huevos, el último de ellos en yema. Se aplica en el fondo de la web y la app, la faja de la bandeja, la cinta para cajas y el uniforme de los repartidores."
+  },
+  "color_proportions": [
+    {
+      "hex": "#4FB3E8",
+      "pct": 40
+    },
+    {
+      "hex": "#1F8FD0",
+      "pct": 20
+    },
+    {
+      "hex": "#22304D",
+      "pct": 20
+    },
+    {
+      "hex": "#FFC530",
+      "pct": 10
+    },
+    {
+      "hex": "#FF6B5B",
+      "pct": 10
+    }
+  ],
+  "photo": {
+    "principles": [
+      "Momentos reales de comunicación: el móvil en la mano, una sonrisa, un apretón de manos en la descarga.",
+      "Dinamismo y movimiento: carretera, furgoneta, cocina en plena actividad; se admite un ligero barrido.",
+      "Luz urbana limpia y acentos azules, con el producto siempre enfocado."
+    ],
+    "scenes": [
+      {
+        "title": "Pedido por mensajería",
+        "hint": "Un chef escribe en la cocina; en pantalla, la burbuja-huevo de Primeegg con la respuesta «Recibido»."
+      },
+      {
+        "title": "Furgoneta en ruta",
+        "hint": "Furgoneta rotulada en una carretera al amanecer entre los campos de Castilla."
+      },
+      {
+        "title": "Descarga en el restaurante",
+        "hint": "El repartidor entrega bandejas de huevos al cocinero en la puerta de servicio."
+      }
+    ]
+  },
+  "products": {
+    "carton": {
+      "title": "Huevos frescos",
+      "subtitle": "Categoría A · Talla L",
+      "badge": "Entrega 24 h"
+    },
+    "powder": {
+      "title": "Huevo entero en polvo",
+      "subtitle": "Ovoproducto pasteurizado"
+    },
+    "horeca": {
+      "title": "Huevos para hostelería",
+      "subtitle": "Bandeja 30 uds · Talla M-L"
+    }
+  },
+  "contacts": {
+    "web": "primeegg.es",
+    "email": "pedidos@primeegg.es",
+    "phone": "+34 900 000 000",
+    "address": "Polígono Industrial, Nave 12 · 28000 Madrid"
+  }
+}

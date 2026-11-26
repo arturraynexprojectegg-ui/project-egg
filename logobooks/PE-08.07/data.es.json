@@ -1,0 +1,32 @@
+{
+  "code": "PE-08.07",
+  "name": "Huevo hoja",
+  "name_en": "Egg Leaf",
+  "tagline": "Un huevo que nace de la naturaleza: producto de granja, sin más palabras.",
+  "story": [
+    "El símbolo es la silueta de un huevo que se lee a la vez como una hoja: el nervio central, cinco laterales y un pecíolo corto convierten la forma del producto en la imagen de una planta viva. Huevo y hoja se funden en una sola figura sin concesiones: ninguna de las dos imágenes se pierde.",
+    "El relleno sólido y la tipografía suave y redondeada hacen que el logotipo resulte cálido y honesto, nada «de farmacia». En B2B y HoReCa transmite origen natural y una cadena transparente «de la granja a la cocina»; en el lineal de retail destaca por su paleta serena y natural. La silueta se mantiene en el sello sobre cartón y en el favicon de 16 px, y en la versión monocroma los nervios se resuelven calados: el símbolo no necesita un segundo color."
+  ],
+  "elements": [
+    {"element": "Silueta de huevo", "meaning": "el producto principal, la forma de la marca Primeegg"},
+    {"element": "Nervios de la hoja", "meaning": "naturaleza viva, origen de granja y ecológico"},
+    {"element": "Pecíolo", "meaning": "vínculo con la tierra y el lugar de producción, «recién cogido»: frescura"},
+    {"element": "Minúsculas redondeadas", "meaning": "cercanía, apertura, sencillez sin grandilocuencia"}
+  ],
+  "palette": [
+    {"role": "Principal", "name": "Verde bosque", "hex": "#2F5D3A", "rgb": "47 93 58", "cmyk": "78 35 85 30", "pantone": "≈ 7734 C"},
+    {"role": "Principal", "name": "Salvia", "hex": "#8A9A5B", "rgb": "138 154 91", "cmyk": "45 25 75 10", "pantone": "≈ 7495 C"},
+    {"role": "Acento", "name": "Hoja tierna", "hex": "#A3B46C", "rgb": "163 180 108", "cmyk": "38 15 70 0", "pantone": "≈ 7494 C"},
+    {"role": "Neutro claro", "name": "Cáscara", "hex": "#F3EAD3", "rgb": "243 234 211", "cmyk": "3 6 18 0", "pantone": "≈ 7527 C"},
+    {"role": "Neutro oscuro", "name": "Bosque profundo", "hex": "#1C2E22", "rgb": "28 46 34", "cmyk": "80 50 75 65", "pantone": "≈ 5535 C"}
+  ],
+  "dark_bg": "#1C2E22",
+  "brand_bg": "#2F5D3A",
+  "fonts": [
+    {"role": "Logotipo", "family": "Nunito", "weights": "800, 600", "note": "nombre primeegg (800) y descriptor (600) en el logotipo"},
+    {"role": "Titulares", "family": "Fraunces", "weights": "600, 700", "note": "serif suave y orgánica que refuerza el carácter natural del símbolo"},
+    {"role": "Texto", "family": "Nunito", "weights": "400, 600", "note": "texto corrido, interfaces, etiquetas; coherente con el logotipo"}
+  ],
+  "clear_space": {"unit_name": "altura de las minúsculas (x)", "unit": 22},
+  "min_size": {"print_mm": 25, "screen_px": 120, "mark_px": 16}
+}
