@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><g transform="translate(0.00,0.00) scale(1.0000)">
+<defs><path id="PE0306c1-arcTop" d="M120 150 A80 80 0 0 1 280 150"/><path id="PE0306c1-arcBot" d="M112 150 A88 88 0 0 0 288 150"/></defs>
+<circle cx="200" cy="150" r="118" fill="#1F4E9C"/>
+<circle cx="307" cy="150" r="2.2" fill="#F4ECDC"/>
+<circle cx="305.37" cy="168.58" r="2.2" fill="#F4ECDC"/>
+<circle cx="300.55" cy="186.6" r="2.2" fill="#F4ECDC"/>
+<circle cx="292.66" cy="203.5" r="2.2" fill="#F4ECDC"/>
+<circle cx="281.97" cy="218.78" r="2.2" fill="#F4ECDC"/>
+<circle cx="268.78" cy="231.97" r="2.2" fill="#F4ECDC"/>
+<circle cx="253.5" cy="242.66" r="2.2" fill="#F4ECDC"/>
+<circle cx="236.6" cy="250.55" r="2.2" fill="#F4ECDC"/>
+<circle cx="218.58" cy="255.37" r="2.2" fill="#F4ECDC"/>
+<circle cx="200" cy="257" r="2.2" fill="#F4ECDC"/>
+<circle cx="181.42" cy="255.37" r="2.2" fill="#F4ECDC"/>
+<circle cx="163.4" cy="250.55" r="2.2" fill="#F4ECDC"/>
+<circle cx="146.5" cy="242.66" r="2.2" fill="#F4ECDC"/>
+<circle cx="131.22" cy="231.97" r="2.2" fill="#F4ECDC"/>
+<circle cx="118.03" cy="218.78" r="2.2" fill="#F4ECDC"/>
+<circle cx="107.34" cy="203.5" r="2.2" fill="#F4ECDC"/>
+<circle cx="99.45" cy="186.6" r="2.2" fill="#F4ECDC"/>
+<circle cx="94.63" cy="168.58" r="2.2" fill="#F4ECDC"/>
+<circle cx="93" cy="150" r="2.2" fill="#F4ECDC"/>
+<circle cx="94.63" cy="131.42" r="2.2" fill="#F4ECDC"/>
+<circle cx="99.45" cy="113.4" r="2.2" fill="#F4ECDC"/>
+<circle cx="107.34" cy="96.5" r="2.2" fill="#F4ECDC"/>
+<circle cx="118.03" cy="81.22" r="2.2" fill="#F4ECDC"/>
+<circle cx="131.22" cy="68.03" r="2.2" fill="#F4ECDC"/>
+<circle cx="146.5" cy="57.34" r="2.2" fill="#F4ECDC"/>
+<circle cx="163.4" cy="49.45" r="2.2" fill="#F4ECDC"/>
+<circle cx="181.42" cy="44.63" r="2.2" fill="#F4ECDC"/>
+<circle cx="200" cy="43" r="2.2" fill="#F4ECDC"/>
+<circle cx="218.58" cy="44.63" r="2.2" fill="#F4ECDC"/>
+<circle cx="236.6" cy="49.45" r="2.2" fill="#F4ECDC"/>
+<circle cx="253.5" cy="57.34" r="2.2" fill="#F4ECDC"/>
+<circle cx="268.78" cy="68.03" r="2.2" fill="#F4ECDC"/>
+<circle cx="281.97" cy="81.22" r="2.2" fill="#F4ECDC"/>
+<circle cx="292.66" cy="96.5" r="2.2" fill="#F4ECDC"/>
+<circle cx="300.55" cy="113.4" r="2.2" fill="#F4ECDC"/>
+<circle cx="305.37" cy="131.42" r="2.2" fill="#F4ECDC"/>
+<circle cx="200" cy="150" r="96" fill="#F4ECDC"/>
+<path d="M 200 91 C 215.08 91 226.92 115.23 226.92 134.08 C 226.92 150.23 215.08 161 200 161 C 184.92 161 173.08 150.23 173.08 134.08 C 173.08 115.23 184.92 91 200 91 Z" fill="#C8553D"/>
+<circle cx="200" cy="137.2" r="9.5" fill="#F2A541"/>
+<path d="M62 167 H338 L328 185 L338 203 H62 L72 185 Z" fill="#C8553D"/>
+<text x="201.5" y="194.9" font-family="DM Serif Display, serif" font-size="30" font-weight="400" letter-spacing="3" fill="#F4ECDC" text-anchor="middle">PRIMEEGG</text>
+<text font-family="Josefin Sans, sans-serif" font-size="10" font-weight="700" letter-spacing="1.5" fill="#1F4E9C"><textPath href="#PE0306c1-arcTop" startOffset="50%" text-anchor="middle">HUEVOS DE GRANJA</textPath></text>
+<text font-family="Josefin Sans, sans-serif" font-size="10" font-weight="700" letter-spacing="2" fill="#1F4E9C"><textPath href="#PE0306c1-arcBot" startOffset="50%" text-anchor="middle">ESPAÑA · 2026</textPath></text>
+</g></svg>

@@ -1,0 +1,91 @@
+<title>Primeegg сайты</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="artifact-thumbnail" href="thumbs/PE-05.01-es.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+/* Витрина пяти вариантов сайта: крупные превью-«экраны», тёплая нейтральная подложка */
+:root{color-scheme:light;--bg:#EFECE6;--card:#FFFFFF;--ink:#1C1B19;--muted:#6B665D;--line:#DAD5CC;--acc:#7A5300;
+  --display:"Playfair Display",Georgia,serif;--text:Inter,system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#161512;--card:#211F1B;--ink:#F1EDE6;--muted:#A39C90;--line:#34302A;--acc:#E0A100;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#161512;--card:#211F1B;--ink:#F1EDE6;--muted:#A39C90;--line:#34302A;--acc:#E0A100;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 var(--text)}
+.wrap{max-width:1320px;margin:auto;padding-block:24px 80px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.switch{display:flex;justify-content:flex-end;gap:6px;margin-bottom:12px}
+.switch button{font:700 13px/1 var(--text);letter-spacing:.06em;padding:9px 14px;border-radius:10px;border:1px solid var(--line);background:transparent;color:var(--ink);cursor:pointer}
+.switch button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.switch button:focus-visible,.site a:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--acc)}
+h1{font:600 clamp(32px,5vw,56px)/1.05 var(--display);margin:8px 0 12px;text-wrap:balance}
+.lead{color:var(--muted);max-width:68ch;margin:0 0 36px}
+.list{display:grid;gap:28px}
+.site{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:28px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px}
+.shot{display:block;border-radius:10px;overflow:hidden;border:1px solid var(--line);aspect-ratio:16/10;max-width:100%}
+.shot img{display:block;width:100%;height:100%;object-fit:cover;object-position:top}
+.meta{display:flex;flex-direction:column;gap:10px;min-width:0}
+.code{font-size:12px;font-weight:700;letter-spacing:.14em;color:var(--acc)}
+h2{font:600 30px/1.15 var(--display);margin:0}
+.meta p{margin:0;color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0}
+.tags span{font-size:12px;font-weight:600;padding:4px 10px;border-radius:99px;border:1px solid var(--line)}
+.btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.btns a{font-weight:600;font-size:14px;text-decoration:none;padding:10px 16px;border-radius:10px;border:1px solid var(--line);color:var(--ink)}
+.btns a.main{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+@media (max-width:820px){.site{grid-template-columns:minmax(0,1fr);padding:14px}h2{font-size:25px}}
+</style>
+<div class="wrap">
+  <div class="switch" role="group" aria-label="Idioma / Мова">
+    <button type="button" data-l="es" aria-pressed="true">ES · Español</button>
+    <button type="button" data-l="uk" aria-pressed="false">UA · Українська</button>
+  </div>
+  <div class="eyebrow" data-t="eyebrow">Primeegg Distribution SL · fase 04</div>
+  <h1 data-t="h1">Cinco propuestas de sitio web</h1>
+  <p class="lead" data-t="lead">Cinco webs basadas en los manuales de marca, cada una con su propio carácter. Todas incluyen catálogo, sección para hostelería, logística con mapa de España, calidad y trazabilidad, formulario B2B de presupuesto, preguntas frecuentes y versión en español y en ucraniano.</p>
+  <div class="list" id="list"></div>
+</div>
+<script>
+(function(){
+  const T={
+    es:{eyebrow:"Primeegg Distribution SL · fase 04",h1:"Cinco propuestas de sitio web",
+        lead:"Cinco webs basadas en los manuales de marca, cada una con su propio carácter. Todas incluyen catálogo, sección para hostelería, logística con mapa de España, calidad y trazabilidad, formulario B2B de presupuesto, preguntas frecuentes y versión en español y en ucraniano.",
+        open:"Abrir la web",other:"Versión UA",title:"Primeegg · webs"},
+    uk:{eyebrow:"Primeegg Distribution SL · етап 04",h1:"П’ять варіантів сайту",
+        lead:"П’ять сайтів на основі брендбуків, кожен зі своїм характером. У всіх є каталог, розділ для HoReCa, логістика з картою Іспанії, якість і простежуваність, B2B-форма запиту ціни, FAQ та версії іспанською й українською.",
+        open:"Відкрити сайт",other:"Versión ES",title:"Primeegg · сайти"}
+  };
+  const S=[
+    {c:"PE-04.05",es:["Etiqueta Maison","Proveedor de casa selecta para la alta cocina: maquetación editorial, mucho aire, serif grande y filetes dorados.",["Premium","Editorial","Burdeos y oro"]],
+                 uk:["Етикетка Maison","Постачальник рівня винного дому для високої кухні: редакційна верстка, багато повітря, велика антиква й золоті лінії.",["Преміум","Редакційний","Бордо й золото"]]},
+    {c:"PE-05.01",es:["Pin de entrega","Portal B2B denso en datos: KPI de entrega, mapa interactivo de zonas por provincia y demo de seguimiento «¿Dónde está mi pedido?».",["B2B","Logística","Seguimiento"]],
+                 uk:["Пін доставки","Щільний B2B-портал: KPI доставки, інтерактивна мапа зон за провінціями та демо-трекінг «Де моє замовлення?».",["B2B","Логістика","Трекінг"]]},
+    {c:"PE-03.06",es:["Sello","Origen español con garantía: planos de color, retícula de azulejos, regiones de España y platos para hostelería.",["Mediterráneo","Azulejo","Regiones"]],
+                 uk:["Сельо","Іспанське походження з гарантією: кольорові площини, сітка-азулежу, регіони Іспанії та страви для HoReCa.",["Середземномор’я","Азулежу","Регіони"]]},
+    {c:"PE-06.03",es:["Yema de sol","Marca soleada y cercana para el lineal: formas redondas, microinteracciones y buscador demo «Dónde comprar».",["Retail","Cercano","Dónde comprar"]],
+                 uk:["Жовток-сонце","Сонячний дружній бренд для полиці: округлі форми, мікровзаємодії та демо-пошук «Де купити».",["Ретейл","Дружній","Де купити"]]},
+    {c:"PE-08.07",es:["Huevo hoja","Naturaleza sin rodeos: calma, ilustración botánica de línea y el recorrido «De la granja a tu cocina».",["Eco","Ilustración","Trazabilidad"]],
+                 uk:["Яйце-листок","Природа без зайвого: спокій, лінійна ботанічна ілюстрація та шлях «Від ферми до вашої кухні».",["Еко","Ілюстрація","Простежуваність"]]}
+  ];
+  const list=document.getElementById('list');
+  function render(l){
+    const t=T[l]; list.innerHTML="";
+    S.forEach(s=>{
+      const [name,desc,tags]=s[l]; const page=s.c+"/"+(l==="es"?"index.html":"uk.html"), other=s.c+"/"+(l==="es"?"uk.html":"index.html");
+      const el=document.createElement('article'); el.className="site";
+      el.innerHTML=`<a class="shot" href="${page}"><img src="thumbs/${s.c}-${l}.jpg" alt="${name}" loading="lazy" width="960" height="600"></a>
+        <div class="meta"><span class="code">${s.c}</span><h2>${name}</h2><p>${desc}</p>
+        <div class="tags">${tags.map(x=>`<span>${x}</span>`).join("")}</div>
+        <div class="btns"><a class="main" href="${page}">${t.open}</a><a href="${other}" hreflang="${l==="es"?"uk":"es"}">${t.other}</a></div></div>`;
+      list.appendChild(el);
+    });
+    document.querySelectorAll('[data-t]').forEach(e=>e.textContent=t[e.dataset.t]);
+    document.querySelectorAll('.switch button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.l===l));
+    document.documentElement.lang=l; document.title=t.title;
+    try{localStorage.setItem('pe-sites-lang',l)}catch(e){}
+  }
+  document.querySelectorAll('.switch button').forEach(b=>b.addEventListener('click',()=>render(b.dataset.l)));
+  let l=location.hash==="#uk"?"uk":location.hash==="#es"?"es":null;
+  if(!l){try{l=localStorage.getItem('pe-sites-lang')}catch(e){}}
+  render(l==="uk"?"uk":"es");
+})();
+</script>
